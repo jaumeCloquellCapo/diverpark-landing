@@ -27,27 +27,33 @@
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
-          <NuxtLink to="/" class="mr-3">
-            <a class="inline-block py-2 px-4 text-black font-bold no-underline">
-              {{ $t('common.home') }}</a
-            >
-          </NuxtLink>
-
-          <NuxtLink to="/search" class="mr-3">
-            <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-            >
-              {{ $t('common.gallery') }}</a
-            >
-          </NuxtLink>
-
-          <NuxtLink to="/contact" class="mr-3">
-            <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-            >
-              {{ $t('common.contact') }}</a
-            >
-          </NuxtLink>
+          <li class="mr-3">
+            <NuxtLink to="/">
+              <a
+                class="inline-block py-2 px-4 text-black font-bold no-underline"
+              >
+                {{ $t('common.home') }}</a
+              >
+            </NuxtLink>
+          </li>
+          <li class="mr-3">
+            <NuxtLink to="/search">
+              <a
+                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              >
+                {{ $t('common.gallery') }}</a
+              >
+            </NuxtLink>
+          </li>
+          <li class="mr-3">
+            <NuxtLink to="/contact">
+              <a
+                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              >
+                {{ $t('common.contact') }}</a
+              >
+            </NuxtLink>
+          </li>
         </ul>
         <button
           :class="navActionClassList"
