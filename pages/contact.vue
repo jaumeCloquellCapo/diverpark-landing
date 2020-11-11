@@ -91,6 +91,25 @@ export default {
     VueRecaptcha,
     subHeader: SubHeader
   },
-  methods: {}
+  head() {
+    const i18nSeo = this.$nuxtI18nSeo()
+    return {
+      title: 'Castillos hinchablesmallorca',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Mallorca Big Party es una empresa dedicada al alquiler de castillos hinchables en Mallorca y a la animación infantil en Mallorca entre otros servicios, ofreciendo calidad, compromiso y los mejores servicios para entretener a los niños y que estos se diviertan de forma saludable.'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content: 'Mallorca Diverpark es una empresa dedicada al alquiler de castillos hinchables en Mallorca y a la animación infantil en Mallorca entre otros servicios, ofreciendo calidad, compromiso y los mejores servicios para entretener a los niños y que estos se diviertan de forma saludable.'
+        },
+        ...i18nSeo.meta
+      ],
+      link: [...i18nSeo.link]
+    }
+  },
 }
 </script>
