@@ -20,7 +20,8 @@ export default () => {
         "castillosAgua": "Castillos de agua",
         "castillosGrandes": "Castillos grandes",
         "castillosMedianos": "Castillos medianos",
-        "castillosPequenos": "Castillos pequeños"
+        "castillosPequenos": "Castillos pequeños",
+        "call": "Llamanos"
       },
       features: {
         "title": "Quienes somos",
@@ -39,7 +40,7 @@ export default () => {
       },
       contact: {
         "title": "¡Hablemos de todo!",
-        "subtitle": "¿ Odias los formularios ? Envíenos un correo electrónico en su lugar",
+        "subtitle": "¿ Odias los formularios ? Envíenos un correo electrónico o llámanos directamente en su lugar",
       }
     })
   })

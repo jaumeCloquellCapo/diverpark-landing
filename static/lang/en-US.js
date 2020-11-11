@@ -19,7 +19,8 @@ export default () => {
         "castillosAgua": "Castillos de agua",
         "castillosGrandes": "Castillos grandes",
         "castillosMedianos": "Castillos medianos",
-        "castillosPequenos": "Castillos pequeños"
+        "castillosPequenos": "Castillos pequeños",
+        "call": "Call"
       },
       features: {
         "title": "Who we are",
