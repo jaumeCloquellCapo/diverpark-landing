@@ -13,7 +13,13 @@ export default () => {
         "name":"Name",
         "email": "Email",
         "message": "Message",
-        "send_email": "Send email"
+        "send_email": "Send email",
+        "animaciones": "Animacione infantiles",
+        "toromecanico": "Toro mecánico",
+        "castillosAgua": "Castillos de agua",
+        "castillosGrandes": "Castillos grandes",
+        "castillosMedianos": "Castillos medianos",
+        "castillosPequenos": "Castillos pequeños"
       },
       features: {
         "title": "Who we are",

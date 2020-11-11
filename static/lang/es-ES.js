@@ -14,7 +14,13 @@ export default () => {
         "email": "Correo electrónico",
         "message": "Mensaje",
         "send_email": "Enviar correo",
-        "terms": "Térmimos y condiciones"
+        "terms": "Térmimos y condiciones",
+        "animaciones": "Animacione infantiles",
+        "toromecanico": "Toro mecánico",
+        "castillosAgua": "Castillos de agua",
+        "castillosGrandes": "Castillos grandes",
+        "castillosMedianos": "Castillos medianos",
+        "castillosPequenos": "Castillos pequeños"
       },
       features: {
         "title": "Quienes somos",

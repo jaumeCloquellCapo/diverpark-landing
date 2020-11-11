@@ -46,37 +46,37 @@
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-pequeños')"
                   >
-                    Pequeños
+                     {{ $t('common.castillosPequenos') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-medianos')"
                   >
-                    Medianos
+                     {{ $t('common.castillosMedianos') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-grandes')"
                   >
-                    Grandes
+                          {{ $t('common.castillosGrandes') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-agua')"
                   >
-                    Agua
+                        {{ $t('common.castillosAgua') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('animaciones')"
                   >
-                    Animaciones
+                     {{ $t('common.animaciones') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('toro-mecanico')"
                   >
-                    Toro mecánico
+                     {{ $t('common.toromecanico') }}
                   </button>
                 </div>
               </nav>
