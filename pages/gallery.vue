@@ -86,8 +86,8 @@
             v-for="(imatge, i) in imatges"
             :key="i"
           >
-            <a href="#">
-              <img class="hover:grow hover:shadow-lg" :src="imatge.url" />
+            <a>
+              <img class="object-scale-down  w-full hover:grow hover:shadow-lg" :src="imatge.url" />
               <div class="pt-3 flex items-center justify-between">
                 <p class="">Product Name</p>
                 <svg
@@ -100,7 +100,7 @@
                   />
                 </svg>
               </div>
-              <p class="pt-1 text-gray-900">£9.99</p>
+              <!--p class="pt-1 text-gray-900">£9.99</p-->
             </a>
           </div>
         </div>
