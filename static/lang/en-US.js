@@ -33,7 +33,7 @@ export default () => {
         }
       },
       callToAction: {
-        "title": "Plan your perfect party with DIVERPARK",
+        "title": "Plan your perfect party with",
         "subtitle": "Contact with us",
       },
       contact: {

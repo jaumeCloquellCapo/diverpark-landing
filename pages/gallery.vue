@@ -1,6 +1,6 @@
 <template>
   <div>
-    <search />
+    <subHeader />
     <div
       class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal"
     >
@@ -113,11 +113,11 @@
 </template>
 
 <script>
-import Search from '@/components/Search'
+import SubHeader from '@/components/SubHeader'
 export default {
   name: 'SearchPage',
   components: {
-    search: Search
+    subHeader: SubHeader
   },
   data: () => {
     return {
@@ -140,7 +140,7 @@ export default {
       localStorage.setItem(key, JSON.stringify(item))
     },
     getWithExpiry(key) {
-      console.log(key)
+  
 
       const itemStr = localStorage.getItem(key)
 

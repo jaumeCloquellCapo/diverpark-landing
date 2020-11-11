@@ -34,7 +34,7 @@ export default () => {
         }
       },
       callToAction: {
-        "title": "Planifica tu fiesta perfecta con DIVERPARK",
+        "title": "Planifica tu fiesta perfecta con",
         "subtitle": "Contacta con nosotros",
       },
       contact: {

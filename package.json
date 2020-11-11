@@ -21,7 +21,8 @@
     "firebase": "^8.0.1",
     "nuxt": "^2.14.3",
     "nuxt-i18n": "^6.15.4",
-    "nuxt-svg-loader": "^1.2.0"
+    "nuxt-svg-loader": "^1.2.0",
+    "vue-recaptcha": "^1.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
