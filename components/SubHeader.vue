@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-24">
+  <div class="pt-24  lg:pt-4">
     <div class="relative -mt-1 lg:-mt-6">
       <svg
         viewBox="0 0 1428 174"
