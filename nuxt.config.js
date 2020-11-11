@@ -57,11 +57,11 @@ export default {
         vueI18n: {
           fallbackLocale: 'es'
         },
-        detectBrowserLanguage: {
-          useCookie: true,
-          cookieKey: 'i18n_redirected',
-          alwaysRedirect: true
-        },
+        //detectBrowserLanguage: {
+        //  useCookie: true,
+        //  cookieKey: 'i18n_redirected',
+        //  alwaysRedirect: true
+        //},
         langDir: 'static/lang/'
       }
     ]
