@@ -1,35 +1,17 @@
 <template>
-  <div
-    :class="classList"
-    class="w-full p-6 flex flex-col flex-grow flex-shrink"
-  >
-    <div
-      class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
-    >
-      <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-        <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-          <slot name="overline" />
-        </p>
-        <div class="w-full font-bold text-xl text-gray-800 px-6">
-          <slot name="headline" />
+  <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <img class="w-full" src="~/assets/img/hero.png"  alt="Sunset in the mountains" />
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2 text-gray-700 ">
+        <slot name="headline" />
         </div>
-        <p class="text-gray-800 text-base px-6 mb-5">
-          <slot name="content" />
-        </p>
-      </a>
+      <p class="text-gray-700 text-base truncate_c">
+        <slot name="content" />
+      </p>
     </div>
-    <div
-      v-if="renderAction"
-      class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"
-    >
-      <div class="flex items-center justify-end">
-        <button
-          class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-          @click.prevent="onClick"
-        >
-          {{ action }}
-        </button>
-      </div>
+    <div class="px-6 pt-4 pb-2">
+        <slot name="hashtag" />
+   
     </div>
   </div>
 </template>
@@ -66,3 +48,12 @@ export default {
   }
 }
 </script>
+<style scoped>
+.truncate_c {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+</style>

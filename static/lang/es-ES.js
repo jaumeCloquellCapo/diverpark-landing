@@ -27,7 +27,7 @@ export default () => {
         "title": "Quienes somos",
         "left": {
           "title": "Líderes en diversión",
-          "subtitle": "Fieles a nuestra filosofía de trabajo, fruto de muchos años de experiencia dedicados al sector. Nuestro objetivo es ofrecer el mejor producto a nuestros clientes."
+          "subtitle": 'Somos una empresa dedicada principalmente al alquiler de Castillos Hinchables en Mallorca. Aunque esta no es nuestra única actividad. Conozca más sobre nosotros y sobre nuestros servicios en el apartado de "Atracciones".'
         },
         "right": {
           "title": "Seguridad garantizada",
