@@ -1,4 +1,8 @@
 <template>
+  <div
+    :class="classList"
+    class="w-full p-6 flex flex-col flex-grow flex-shrink"
+  >
   <div class="max-w-sm rounded overflow-hidden shadow-lg">
     <div class="w-full">
     <slot name="svg"  />
@@ -17,6 +21,7 @@
         <slot name="hashtag" />
    
     </div>
+  </div>
   </div>
 </template>
 
