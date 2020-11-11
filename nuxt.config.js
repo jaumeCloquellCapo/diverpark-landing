@@ -48,7 +48,7 @@ export default {
         // Options
         //to make it seo friendly remove below line and add baseUrl option to production domain
         seo: true,
-        // baseUrl: 'https://my-nuxt-app.com',
+        baseUrl: 'https://diverpark.net',
         lazy: true,
         locales: languages,
         defaultLocale: 'es',
