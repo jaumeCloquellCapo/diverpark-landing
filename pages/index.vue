@@ -1,30 +1,28 @@
 <template>
   <div>
-    <LazyHydrate when-visible>
-      <hero />
-    </LazyHydrate>
-    <LazyHydrate when-visible>
-      <features />
-    </LazyHydrate>
-    <LazyHydrate when-visible>
-      <teasers />
-    </LazyHydrate>
-    <LazyHydrate when-visible>
-      <call-to-action />
-    </LazyHydrate>
+    <hero />
+    <features />
+    <teasers />
+    <call-to-action />
   </div>
 </template>
 
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
+import {
+  hydrateOnInteraction,
+  hydrateNever,
+  hydrateWhenIdle,
+  hydrateWhenVisible
+} from 'vue-lazy-hydration'
 export default {
   name: 'LandingPage',
   components: {
     LazyHydrate,
-    hero: () => import('@/components/Hero'),
-    features: () => import('@/components/Features'),
-    teasers: () => import('@/components/Teasers'),
-    'call-to-action': () => import('@/components/CallToAction')
+    hero: hydrateWhenVisible(() => import('@/components/Hero')),
+    features: hydrateWhenVisible(() => import('@/components/Features')),
+    teasers: hydrateWhenVisible(() => import('@/components/Teasers')),
+    'call-to-action': hydrateWhenVisible(() => import('@/components/CallToAction'))
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
