@@ -1,6 +1,10 @@
 <template>
   <div class="max-w-sm rounded overflow-hidden shadow-lg">
-    <img class="w-full" src="~/assets/img/hero.png"  alt="Sunset in the mountains" />
+    <div class="w-full">
+    <slot name="svg"  />
+    </div>
+  
+    <!--img class="w-full" src="~/assets/img/hero.png"  alt="Sunset in the mountains" /-->
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2 text-gray-700 ">
         <slot name="headline" />

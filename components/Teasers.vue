@@ -12,6 +12,12 @@
         ></div>
       </div>
       <teaser-column :rows="3" action="Action">
+        <img
+          class="w-full"
+          src="~/assets/background/castillo-agua.jpg"
+          alt
+          slot="svg"
+        />
         <template v-slot:headline>{{
           $t('teaser.castillosAgua.title')
         }}</template>
@@ -34,6 +40,12 @@
         </template>
       </teaser-column>
       <teaser-column :rows="3" action="Action">
+          <img
+          class="w-full"
+          src="~/assets/background/avion.jpg"
+          alt
+          slot="svg"
+        />
         <template v-slot:headline>{{ $t('teaser.castillos.title') }}</template>
         <template v-slot:content>{{
           $t('teaser.castillos.description')
@@ -54,6 +66,12 @@
         </template>
       </teaser-column>
       <teaser-column :rows="3" action="Action">
+              <img
+          class="w-full"
+          src="~/assets/background/espuma.jpg"
+          alt
+          slot="svg"
+        />
         <template v-slot:headline>{{ $t('teaser.espuma.title') }}</template>
         <template v-slot:content>{{
           $t('teaser.espuma.description')
