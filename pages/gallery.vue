@@ -223,6 +223,21 @@ export default {
   name: 'SearchPage',
   components: {
     search: Search
+  },
+  methods: {
+    loadImatges(categoria) {
+      PortofolioService.getAtracciones(categoria).then(function(data) {
+        angular.forEach(data.data.Atracciones, function(value, key) {
+          value.url = './images/' + categoria + '/' + value.url + '.jpg'
+        })
+        vm.nombreCategoria = data.data.categoria[0].nombre
+        vm.descripcionCategoria = data.data.categoria[0].descripcion
+        vm.backgroundCategoria =
+          './images/background/' + data.data.categoria[0].background + '.jpg'
+        vm.listaAtracciones = data.data.Atracciones
+        vm.finish = true
+      })
+    }
   }
 }
 </script>
