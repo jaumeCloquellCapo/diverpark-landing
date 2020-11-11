@@ -62,6 +62,7 @@ export default {
     vueI18n: {
       fallbackLocale: 'es'
     },
+    detectBrowserLanguage: false,
     //detectBrowserLanguage: {
     //  useCookie: true,
     //  cookieKey: 'i18n_redirected',
