@@ -74,7 +74,7 @@ export default {
   },
   computed: {
     isSticky() {
-      return this.scrollY > 10
+      return this.scrollY > 10 & $nuxt.$route.name === 'index___es'
     },
     headerClassList() {
       return this.isSticky ? 'bg-white shadow' : ''
