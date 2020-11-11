@@ -21,12 +21,6 @@
           </svg>
         </button>
       </div>
-
-        <div class="flex justify-center mr-2">
-          <nuxt-link :to="switchLocalePath('es')" class="border rounded-l-md pl-4 pr-2 bg-gray-100 text-gray-700 text-sm font-bold shadow">ES</nuxt-link>
-          <nuxt-link :to="switchLocalePath('en')" class="border rounded-r-md pr-4 pl-2 bg-blue-600 text-gray-200 text-sm font-bold shadow">EN</nuxt-link>
-        </div>
-
     </div>
       <div
         :class="navContentClassList"
@@ -41,13 +35,13 @@
             </NuxtLink>
           </li>
           <li class="mr-3">
-            <NuxtLink to="/search" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
+            <NuxtLink :to="localePath('gallery')" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
       
                 {{ $t('common.gallery') }}
             </NuxtLink>
           </li>
           <li class="mr-3">
-            <NuxtLink to="/contact"  class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
+            <NuxtLink :to="localePath('contact')"  class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
                 {{ $t('common.contact') }}
             </NuxtLink>
           </li>
@@ -59,19 +53,7 @@
           {{ $t('common.booking') }}
         </button>
         
-      <div class="flex justify-center mr-2">
-        <nuxt-link
-          :to="switchLocalePath('es')"
-          class="border rounded-l-md pl-4 pr-2 bg-gray-100 text-gray-700 text-sm font-bold shadow"
-          >ES</nuxt-link
-        >
-        <nuxt-link
-          :to="switchLocalePath('en')"
-          class="border rounded-r-md pr-4 pl-2 bg-blue-600 text-gray-200 text-sm font-bold shadow"
-          >EN</nuxt-link
-        >
-      </div>
-      </div>
+      
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
   </nav>
