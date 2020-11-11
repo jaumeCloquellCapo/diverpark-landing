@@ -1,6 +1,7 @@
 import languages from './static/lang/languages'
 
 export default {
+  components: true,
   mode: 'universal',
   /*
    ** Headers of the page
