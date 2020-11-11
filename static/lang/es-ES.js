@@ -35,7 +35,8 @@ export default () => {
         "castillosGrandes": "Castillos grandes",
         "castillosMedianos": "Castillos medianos",
         "castillosPequenos": "Castillos pequeños",
-        "call": "Llamanos"
+        "call": "Llamanos",
+        "aboutus": "Sobre nosotros"
       },
       features: {
         "title": "Quienes somos",
@@ -45,7 +46,7 @@ export default () => {
         },
         "right": {
           "title": "Seguridad garantizada",
-          "subtitle": "Todos nuestras actividades cuentan con seguro de responsabilidad civil, además de estar homologados y con los certificados cumpliendo la normativa UNE14960, con las revisiones al día."
+          "subtitle": "Para Mallorca DiverPark no hay nada más importante que la seguridad, especialmente por trabajar con niños y menores, con lo que todos nuestros castillos cuentan con seguros de responsabilidad civil, normas para la seguridad y bienestar de los niños, y sometemos nuestros castillos a estrictas revisiones para garantizar la calidad y seguridad. Todos nuestras actividades cuentan con seguro de responsabilidad civil, además de estar homologados y con los certificados cumpliendo la normativa UNE14960, con las revisiones al día."
         }
       },
       callToAction: {
@@ -55,7 +56,15 @@ export default () => {
       contact: {
         "title": "¡Hablemos de todo!",
         "subtitle": "¿ Odias los formularios ? Envíenos un correo electrónico o llámanos directamente en su lugar",
+      },
+      aboutus: {
+        "title": "Sobre nosotros",
+        "src": "Seguro de responsabilidad civil y revisiones continuas.",
+        "description_2": " Para Mallorca DiverPark no hay nada más importante que la seguridad, especialmente por trabajar con niños y menores, con lo que todos nuestros castillos cuentan con seguros de responsabilidad civil, normas para la seguridad y bienestar de los niños, y sometemos nuestros castillos a estrictas revisiones para garantizar la calidad y seguridad. Además contamos con experiencia en el cuidado y control de niños, siendo un elemento de seguridad para evitar cualquier daño o problema que pueda surgir mientras los niños juegan con los castillos.",
+        "description": " Somos una empresa dedicada principalmente al alquiler de Castillos Hinchables en Mallorca. Aunque esta no es nuestra única actividad. También disponemos a parte de los castillos hinchables un equipo especializado en espectáculos de entretenimiento para los mas pequeños. Desde animación con disfraces de sus personajes de dibujos animados favoritos, hasta sesión de pinta caras donde se lo pasarán en grande tanto los pequeños como los mayores. Procuramos seriedad y profesionalidad en nuestros servicios, para que la diversión siempre valla de la mano de la seguridad. Nuestro principal objetivo es ofrecer a nuestros clientes el mejor servicio, con precios muy competitivos. Nos desplazamos a toda la isla.",
       }
     })
   })
 }
+
+

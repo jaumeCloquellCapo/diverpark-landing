@@ -6,7 +6,7 @@
         <div class="mx-auto relative">
           <div class="px-4  :px-0 text-center ">
             <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
-              Sobre nosotros
+           {{$t('aboutus.title')}}
             </h2>
             <a
               class="py-2 text-green-700 inline-flex items-center justify-center mb-2 "
@@ -28,37 +28,21 @@
             class="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full "
           >
              <h2 class="text-2xl text-gray-800 font-semibold mb-4 mt-4">
-              Diver Park
+              DIVERPARK
             </h2>
             <p class="pb-6">
-              Somos una empresa dedicada principalmente al alquiler de Castillos
-              Hinchables en Mallorca. Aunque esta no es nuestra única actividad.
-              También disponemos a parte de los castillos hinchables un equipo
-              especializado en espectáculos de entretenimiento para los mas
-              pequeños. Desde animación con disfraces de sus personajes de
-              dibujos animados favoritos, hasta sesión de pinta caras donde se
-              lo pasarán en grande tanto los pequeños como los mayores.
-              Procuramos seriedad y profesionalidad en nuestros servicios, para
-              que la diversión siempre valla de la mano de la seguridad. Nuestro
-              principal objetivo es ofrecer a nuestros clientes el mejor
-              servicio, con precios muy competitivos. Nos desplazamos a toda la
-              isla.
+                 {{$t('aboutus.description')}}
+        
             </p>
 
             <h2 class="text-2xl text-gray-800 font-semibold mb-4 mt-4">
-              Seguro de responsabilidad civil y revisiones continuas.
+                    {{$t('aboutus.src')}}
+   
             </h2>
 
             <p class="pb-6">
-              Para Mallorca DiverPark no hay nada más importante que la
-              seguridad, especialmente por trabajar con niños y menores, con lo
-              que todos nuestros castillos cuentan con seguros de
-              responsabilidad civil, normas para la seguridad y bienestar de los
-              niños, y sometemos nuestros castillos a estrictas revisiones para
-              garantizar la calidad y seguridad. Además contamos con experiencia
-              en el cuidado y control de niños, siendo un elemento de seguridad
-              para evitar cualquier daño o problema que pueda surgir mientras
-              los niños juegan con los castillos.
+                   {{$t('aboutus.description_2')}}
+         
             </p>
           </div>
         </div>
