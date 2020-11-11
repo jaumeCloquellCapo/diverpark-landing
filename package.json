@@ -17,6 +17,8 @@
     "test:dev": "jest --watch"
   },
   "dependencies": {
+    "@nuxtjs/firebase": "^7.1.0",
+    "firebase": "^8.0.1",
     "nuxt": "^2.14.3",
     "nuxt-i18n": "^6.15.4",
     "nuxt-svg-loader": "^1.2.0"
