@@ -36,11 +36,9 @@
           <p class="uppercase text-gray-500 md:mb-6">Legal</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Terms</a
-              >
+                  <NuxtLink to="/terms"    class="no-underline hover:underline text-gray-800 hover:text-orange-500">
+                {{ $t('common.terms') }}
+            </NuxtLink>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -56,23 +54,9 @@
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="#"
+                href="https://www.facebook.com/people/Diverpark-Diverpark/100007428406595"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >Facebook</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Linkedin</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Twitter</a
               >
             </li>
           </ul>
@@ -84,22 +68,15 @@
               <a
                 href="#"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Official Blog</a
-              >
-            </li>
-            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
                 >About Us</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Contact</a
-              >
+                <NuxtLink to="/contact"    class="no-underline hover:underline text-gray-800 hover:text-orange-500">
+                {{ $t('common.contact') }}
+            </NuxtLink>
+
+
             </li>
           </ul>
         </div>

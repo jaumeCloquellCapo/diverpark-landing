@@ -4,7 +4,7 @@ export default () => {
       common: {
         "title": "DIVERPARK",
         "subtitle": "Empresa lider en animaciones infantiles en Mallorca",
-        "contact": "Donde estamos",
+        "contact": "Contacto",
         "gallery": "Atracciones",
         "home": "Home",
         "booking": "Reserva",
@@ -13,6 +13,8 @@ export default () => {
         "name":"Nombre",
         "email": "Correo electrónico",
         "message": "Mensaje",
+        "send_email": "Enviar correo",
+        "terms": "Térmimos y condiciones"
       },
       features: {
         "title": "Quienes somos",

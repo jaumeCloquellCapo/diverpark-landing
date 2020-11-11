@@ -28,30 +28,21 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
-            <NuxtLink to="/">
-              <a
-                class="inline-block py-2 px-4 text-black font-bold no-underline"
-              >
-                {{ $t('common.home') }}</a
-              >
+            <NuxtLink to="/"  class="inline-block py-2 px-4 text-black font-bold no-underline">
+             
+                {{ $t('common.home') }}
+              
             </NuxtLink>
           </li>
           <li class="mr-3">
-            <NuxtLink to="/search">
-              <a
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              >
-                {{ $t('common.gallery') }}</a
-              >
+            <NuxtLink to="/search" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
+      
+                {{ $t('common.gallery') }}
             </NuxtLink>
           </li>
           <li class="mr-3">
-            <NuxtLink to="/contact">
-              <a
-                class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              >
-                {{ $t('common.contact') }}</a
-              >
+            <NuxtLink to="/contact"  class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
+                {{ $t('common.contact') }}
             </NuxtLink>
           </li>
         </ul>

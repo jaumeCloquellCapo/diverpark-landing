@@ -13,6 +13,7 @@ export default () => {
         "name":"Nombre",
         "email": "Correo electrónico",
         "message": "Mensaje",
+        "send_email": "Send Mail"
       },
       features: {
         "title": "Quienes somos",
