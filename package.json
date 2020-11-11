@@ -27,6 +27,7 @@
     "vue-recaptcha": "^1.3.0"
   },
   "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.3.0",
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",
     "@nuxtjs/tailwindcss": "^1.4.1",
@@ -35,6 +36,9 @@
     "babel-jest": "^24.9.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.1",
+    "imagemin-svgo": "^8.0.0",
     "jest": "^24.9.0",
     "jest-serializer-vue": "^2.0.2",
     "prettier": "^1.19.1",

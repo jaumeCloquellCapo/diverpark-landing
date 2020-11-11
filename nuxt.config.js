@@ -45,8 +45,12 @@ export default {
     '@nuxtjs/firebase',
     'nuxt-svg-loader',
     'nuxt-i18n',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@aceforth/nuxt-optimized-images',
   ],
+  optimizedImages: {
+    optimizeImages: true
+  },
   i18n: {
     // Options
     //to make it seo friendly remove below line and add baseUrl option to production domain
