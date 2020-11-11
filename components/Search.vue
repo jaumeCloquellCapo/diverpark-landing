@@ -1,6 +1,6 @@
 <template>
   <div class="pt-24">
-    <div class="lg:px-64 xs:py-64">
+    <!--div class="lg:px-64 xs:py-64">
     <div class="bg-white flex items-center rounded-full shadow-xl">
       <input
         class="rounded-l-full w-full py-4 px-6 text-gray-700 leading-tight focus:outline-none"
@@ -17,7 +17,7 @@
         </button>
       </div>
     </div>
-    </div>
+    </div-->
     <div class="relative -mt-1 lg:-mt-6">
       <svg
         viewBox="0 0 1428 174"

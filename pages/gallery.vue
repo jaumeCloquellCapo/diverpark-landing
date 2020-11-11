@@ -14,13 +14,13 @@
                 class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl "
                 href="#"
               >
-                Store
+                Castillos hinchables
               </a>
 
               <div class="flex items-center" id="store-nav-content">
-                <a
+                <button
                   class="pl-3 inline-block no-underline hover:text-black"
-                  href="#"
+                  v-on:click="openFilters"
                 >
                   <svg
                     class="fill-current hover:text-black"
@@ -31,11 +31,51 @@
                   >
                     <path d="M7 11H17V13H7zM4 7H20V9H4zM10 15H14V17H10z" />
                   </svg>
-                </a>
+                </button>
               </div>
             </div>
           </nav>
-
+          <div class="container mx-auto px-6 py-3">
+            <transition name="fade" appear mode="out-in">
+              <nav
+                v-if="showFilters"
+                class="sm:flex sm:justify-center sm:items-center mt-4"
+              >
+                <div class="flex flex-col sm:flex-row">
+                  <button
+                    class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                 v-on:click="filterBy('castillos-pequeños')"
+                    >Pequeños</button
+                  >
+                  <button
+                    class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                    v-on:click="filterBy('castillos-medianos')"
+                    >Medianos</button
+                  >
+                  <button
+                    class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                    v-on:click="filterBy('castillos-grandes')"
+                    >Grandes</button
+                  >
+                  <button
+                    class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                     v-on:click="filterBy('castillos-agua')"
+                    >Agua</button
+                  >
+                  <button
+                    class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                     v-on:click="filterBy('animaciones')"
+                    >Animaciones</button
+                  >
+                  <button
+                    class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
+                    v-on:click="filterBy('toro-mecánico')"
+                    >Toro mecánico</button
+                  >
+                </div>
+              </nav>
+            </transition>
+          </div>
           <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
             <a href="#">
               <img
@@ -224,19 +264,18 @@ export default {
   components: {
     search: Search
   },
+  data: () => {
+    return {
+      showFilters: true
+    }
+  },
   methods: {
-    loadImatges(categoria) {
-      PortofolioService.getAtracciones(categoria).then(function(data) {
-        angular.forEach(data.data.Atracciones, function(value, key) {
-          value.url = './images/' + categoria + '/' + value.url + '.jpg'
-        })
-        vm.nombreCategoria = data.data.categoria[0].nombre
-        vm.descripcionCategoria = data.data.categoria[0].descripcion
-        vm.backgroundCategoria =
-          './images/background/' + data.data.categoria[0].background + '.jpg'
-        vm.listaAtracciones = data.data.Atracciones
-        vm.finish = true
-      })
+    openFilters(value) {
+      this.showFilters = !this.showFilters
+    },
+    filterBy(category) {
+      let query = this.$route.query
+      this.$router.push({path: this.$route.path, query: { category: category }})
     }
   }
 }
