@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="mt-8 text-center">
-            <img src="~assets/img/contact.svg?inline" alt slot="svg" />
+            <img async src="~assets/img/contact.svg?inline" alt slot="svg" />
           </div>
         </div>
         <div class="">

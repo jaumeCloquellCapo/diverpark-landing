@@ -13,6 +13,7 @@
       </div>
       <teaser-column :rows="3" action="Action">
         <img
+        async
           class="w-full"
           src="~/assets/background/castillo-agua.jpg"
           alt
@@ -41,6 +42,7 @@
       </teaser-column>
       <teaser-column :rows="3" action="Action">
           <img
+          async 
           class="w-full"
           src="~/assets/background/avion.jpg"
           alt
@@ -66,7 +68,7 @@
         </template>
       </teaser-column>
       <teaser-column :rows="3" action="Action">
-              <img
+              <img async 
           class="w-full"
           src="~/assets/background/espuma.jpg"
           alt

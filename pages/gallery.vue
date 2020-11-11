@@ -87,7 +87,7 @@
             :key="i"
           >
             <a>
-              <img
+              <img async
                 class="object-scale-down  w-full hover:grow hover:shadow-lg"
                 :src="imatge.url"
               />

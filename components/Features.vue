@@ -15,13 +15,13 @@
         :headline="$t('features.left.title')"
         :content="$t('features.left.subtitle')"
       >
-        <img src="~/assets/background/toroBackground.jpg" alt slot="svg" />
+        <img      async src="~/assets/background/toroBackground.jpg" alt slot="svg" />
       </feature-right>
       <feature-left
         :headline="$t('features.right.title')"
         :content="$t('features.right.subtitle')"
       >
-        <img src="~/assets/background/espumaBackground.jpg" alt slot="svg" />
+        <img      async src="~/assets/background/espumaBackground.jpg" alt slot="svg" />
       </feature-left>
     </div>
   </section>

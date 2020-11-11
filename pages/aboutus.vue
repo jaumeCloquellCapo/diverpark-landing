@@ -16,6 +16,7 @@
           </div>
 
           <img
+          async 
             class="w-full object-cover lg:rounded"
             style="height: 28em;"
             src="~/assets/background/diverPark.jpg"
