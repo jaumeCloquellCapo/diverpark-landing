@@ -22,6 +22,12 @@
         </button>
       </div>
 
+        <div class="flex justify-center mr-2">
+          <nuxt-link :to="switchLocalePath('es')" class="border rounded-l-md pl-4 pr-2 bg-gray-100 text-gray-700 text-sm font-bold shadow">ES</nuxt-link>
+          <nuxt-link :to="switchLocalePath('en')" class="border rounded-r-md pr-4 pl-2 bg-blue-600 text-gray-200 text-sm font-bold shadow">EN</nuxt-link>
+        </div>
+
+    </div>
       <div
         :class="navContentClassList"
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
@@ -52,6 +58,19 @@
         >
           {{ $t('common.booking') }}
         </button>
+        
+      <div class="flex justify-center mr-2">
+        <nuxt-link
+          :to="switchLocalePath('es')"
+          class="border rounded-l-md pl-4 pr-2 bg-gray-100 text-gray-700 text-sm font-bold shadow"
+          >ES</nuxt-link
+        >
+        <nuxt-link
+          :to="switchLocalePath('en')"
+          class="border rounded-r-md pr-4 pl-2 bg-blue-600 text-gray-200 text-sm font-bold shadow"
+          >EN</nuxt-link
+        >
+      </div>
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
