@@ -41,42 +41,41 @@
                 class="sm:flex sm:justify-center sm:items-center mt-4"
               >
                 <div class="flex flex-col sm:flex-row">
-                  
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-pequeños')"
                   >
-                     {{ $t('common.castillosPequenos') }}
+                    {{ $t('common.castillosPequenos') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-medianos')"
                   >
-                     {{ $t('common.castillosMedianos') }}
+                    {{ $t('common.castillosMedianos') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-grandes')"
                   >
-                          {{ $t('common.castillosGrandes') }}
+                    {{ $t('common.castillosGrandes') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('castillos-agua')"
                   >
-                        {{ $t('common.castillosAgua') }}
+                    {{ $t('common.castillosAgua') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('animaciones')"
                   >
-                     {{ $t('common.animaciones') }}
+                    {{ $t('common.animaciones') }}
                   </button>
                   <button
                     class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0"
                     v-on:click="filterBy('toro-mecanico')"
                   >
-                     {{ $t('common.toromecanico') }}
+                    {{ $t('common.toromecanico') }}
                   </button>
                 </div>
               </nav>
@@ -88,7 +87,10 @@
             :key="i"
           >
             <a>
-              <img class="object-scale-down  w-full hover:grow hover:shadow-lg" :src="imatge.url" />
+              <img
+                class="object-scale-down  w-full hover:grow hover:shadow-lg"
+                :src="imatge.url"
+              />
               <div class="pt-3 flex items-center justify-between">
                 <p class="">Product Name</p>
                 <svg
@@ -119,7 +121,7 @@ export default {
   },
   data: () => {
     return {
-      showFilters: false,
+      showFilters: true,
       categoryFilter: 'castillos-pequeños',
       imatges: []
     }
@@ -129,6 +131,32 @@ export default {
     this.filterBy(this.categoryFilter)
   },
   methods: {
+    setWithExpiry(key, value, ttl) {
+      const now = new Date()
+      const item = {
+        value: value,
+        expiry: now.getTime() + ttl
+      }
+      localStorage.setItem(key, JSON.stringify(item))
+    },
+    getWithExpiry(key) {
+      console.log(key)
+
+      const itemStr = localStorage.getItem(key)
+
+      // if the item doesn't exist, return null
+      if (!itemStr) {
+        return null
+      }
+      const item = JSON.parse(itemStr)
+      let now = new Date()
+      // compare the expiry time of the item with the current time
+      if (now.getTime() > item.expiry) {
+        localStorage.removeItem(key)
+        return null
+      }
+      return item.value
+    },
     openFilters(value) {
       this.showFilters = !this.showFilters
     },
@@ -149,16 +177,23 @@ export default {
       this.load(category)
     },
     async load(category) {
+      var result = this.getWithExpiry(category)
+      if (result) {
+        this.imatges = result
+        return
+      }
+
       var storageRef = this.$fire.storage.ref(category)
       var list = await storageRef.listAll()
       this.imatges = await Promise.all(
         list.items.map(async imageRef => {
           return {
-            data: imageRef,
+            //data: imageRef,
             url: await imageRef.getDownloadURL()
           }
         })
       )
+      this.setWithExpiry(category, this.imatges, 50000)
     }
   }
 }

@@ -1,13 +1,12 @@
 <template>
-  <a
-    :class="classList"
+  <NuxtLink
+   :class="classList"
+        :to="localePath('index')"
     class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-    href="#"
-  >
-    <!--Icon from: http://www.potlabicons.com/ -->
+      >
+          &nbsp;DIVERPARK
+      </NuxtLink>
 
-    &nbsp;DIVERPARK
-  </a>
 </template>
 
 <script>
