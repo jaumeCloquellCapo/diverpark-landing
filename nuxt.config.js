@@ -42,30 +42,39 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
+    '@nuxtjs/sitemap',
     '@nuxtjs/firebase',
     'nuxt-svg-loader',
-    [
-      'nuxt-i18n',
-      {
-        // Options
-        //to make it seo friendly remove below line and add baseUrl option to production domain
-        seo: true,
-        baseUrl: 'https://diverpark.net',
-        lazy: true,
-        locales: languages,
-        defaultLocale: 'es',
-        vueI18n: {
-          fallbackLocale: 'es'
-        },
-        //detectBrowserLanguage: {
-        //  useCookie: true,
-        //  cookieKey: 'i18n_redirected',
-        //  alwaysRedirect: true
-        //},
-        langDir: 'static/lang/'
-      }
-    ]
+    'nuxt-i18n'
   ],
+  i18n: {
+    // Options
+    //to make it seo friendly remove below line and add baseUrl option to production domain
+    seo: true,
+    baseUrl: 'https://diverpark.net',
+    lazy: true,
+    locales: languages,
+    defaultLocale: 'es',
+    vueI18n: {
+      fallbackLocale: 'es'
+    },
+    //detectBrowserLanguage: {
+    //  useCookie: true,
+    //  cookieKey: 'i18n_redirected',
+    //  alwaysRedirect: true
+    //},
+    langDir: 'static/lang/'
+  },
+  sitemap: {
+    hostname: 'https://diverpark.net',
+    // shortcut notation (basic)
+    i18n: true,
+    // nuxt-i18n notation (advanced)
+    i18n: {
+      locales: ['en', 'es'],
+      routesNameSeparator: '___'
+    }
+  },
   firebase: {
     config: {
       apiKey: 'AIzaSyDub0idsdL-ZRbaboLkwW8CF5BqDEuQXsI',
