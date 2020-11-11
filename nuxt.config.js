@@ -67,28 +67,28 @@ export default {
     ]
   ],
   firebase: {
-   config: {
-    apiKey: "AIzaSyDub0idsdL-ZRbaboLkwW8CF5BqDEuQXsI",
-    authDomain: "diverpark-836bc.firebaseapp.com",
-    databaseURL: "https://diverpark-836bc.firebaseio.com",
-    projectId: "diverpark-836bc",
-    storageBucket: "diverpark-836bc.appspot.com",
-    messagingSenderId: "1086733662855",
-    appId: "1:1086733662855:web:12f7cb7b9a109008ee1622",
-    measurementId: "G-6RG7EFH5WH"
-   },
-   services: {
-    auth: false,
-    firestore: false,
-    functions: false,
-    storage: true,
-    database: false,
-    messaging: false,
-    performance: false,
-    analytics: true,
-    remoteConfig: false
-  }
-},
+    config: {
+      apiKey: 'AIzaSyDub0idsdL-ZRbaboLkwW8CF5BqDEuQXsI',
+      authDomain: 'diverpark-836bc.firebaseapp.com',
+      databaseURL: 'https://diverpark-836bc.firebaseio.com',
+      projectId: 'diverpark-836bc',
+      storageBucket: 'diverpark-836bc.appspot.com',
+      messagingSenderId: '1086733662855',
+      appId: '1:1086733662855:web:12f7cb7b9a109008ee1622',
+      measurementId: 'G-6RG7EFH5WH'
+    },
+    services: {
+      auth: false,
+      firestore: false,
+      functions: false,
+      storage: true,
+      database: false,
+      messaging: false,
+      performance: false,
+      analytics: true,
+      remoteConfig: false
+    }
+  },
   purgeCSS: {
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
