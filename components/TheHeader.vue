@@ -28,29 +28,41 @@
       >
         <ul class="list-reset lg:flex justify-end flex-1 items-center">
           <li class="mr-3">
-            <NuxtLink :to="localePath('index')" class="inline-block py-2 px-4 text-black font-bold no-underline">
-             
-                {{ $t('common.home') }}
-              
+            <NuxtLink
+              :to="localePath('index')"
+              class="inline-block py-2 px-4 text-black font-bold no-underline"
+            >
+              {{ $t('common.home') }}
             </NuxtLink>
           </li>
           <li class="mr-3">
-            <NuxtLink :to="localePath('gallery')" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
-      
-                {{ $t('common.gallery') }}
+            <NuxtLink
+              :to="localePath('gallery')"
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+            >
+              {{ $t('common.gallery') }}
             </NuxtLink>
           </li>
+  
           <li class="mr-3">
-            <NuxtLink :to="localePath('contact')" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">
-                {{ $t('common.contact') }}
-            </NuxtLink>
+            <NuxtLink
+              v-for="locale in availableLocales"
+                            class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              :key="locale.code"
+              :to="switchLocalePath(locale.code)"
+              >
+              {{ $t('common.' + locale.code) }}
+              </NuxtLink
+            >
           </li>
         </ul>
         <button
           :class="navActionClassList"
           class="mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
         >
-          {{ $t('common.booking') }}
+          <NuxtLink :to="localePath('contact')">
+            {{ $t('common.booking') }}
+          </NuxtLink>
         </button>
       </div>
     </div>
@@ -73,6 +85,9 @@ export default {
     }
   },
   computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+    },
     isSticky() {
       return this.scrollY > 10
     },
