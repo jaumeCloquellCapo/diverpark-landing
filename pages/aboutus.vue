@@ -62,7 +62,7 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'DIVERPARK Mallorca',
+      title: 'alquiler animaciones mallorca',
       meta: [
         {
           hid: 'description',

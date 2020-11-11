@@ -24,7 +24,7 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'Castillos hinchablesmallorca',
+      title: 'Castillos hinchables mallorca',
       meta: [
         {
           hid: 'description',
