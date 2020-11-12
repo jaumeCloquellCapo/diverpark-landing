@@ -89,13 +89,13 @@ export default {
       return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
     },
     isSticky() {
-      return this.scrollY > 10
+      return this.scrollY > 15
     },
     headerClassList() {
       return this.isSticky ? 'bg-white shadow' : ''
     },
     navActionClassList() {
-      return this.isSticky ? 'gradient text-white' : 'bg-white text-gray-800'
+      return this.isSticky ? 'text-black' : 'bg-white text-gray-800'
     },
     navContentClassList() {
       let classList = this.isSticky ? 'bg-white' : 'bg-gray-100'

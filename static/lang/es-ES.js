@@ -17,7 +17,7 @@ export default () => {
       },
       common: {
         "title": "DIVERPARK",
-        "subtitle": "Empresa de castillos hinchables y animaciones infantiles lider en Mallorca",
+        "subtitle": "Empresa de castillos hinchables y animaciones infantiles líder en Palma de Mallorca",
         "contact": "Contacta con nosotros",
         "gallery": "Atracciones",
         "home": "Home",

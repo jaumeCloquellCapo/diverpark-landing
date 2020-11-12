@@ -24,7 +24,7 @@
       </div>
       
       <!--Right Col-->
-      <div class="w-full md:w-3/5 pb-10 text-center">
+      <div class="w-full md:w-3/5 text-center pb-10">
         <!--img
           async
           class="w-full md:w-4/5 z-50"
@@ -33,8 +33,8 @@
         /-->
         <img
           async
-          src="~/assets/background/toroBackground.jpg"
-               class="w-full md:w-4/5 z-50 object-center shadow-2xl"
+          src="~/assets/background/collage4.png"
+               class="object-center"
           alt="diverpark alquiler toro mecánico en mallorca barato" 
         />
       </div>

@@ -3,7 +3,6 @@
     <hero-content />
     <div class="relative -mt-12 lg:-mt-24">
       <svg
-        width="auto"
         viewBox="0 0 1428 174"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
