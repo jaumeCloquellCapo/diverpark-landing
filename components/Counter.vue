@@ -3,7 +3,7 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center">
-          Nuestra experiencia nos avala
+              {{$t('counter.title')}}
         </h1>
         <div class="w-full mb-4">
           <div
@@ -12,9 +12,7 @@
         </div>
 
         <p class="sm:text-2xl mx-auto leading-relaxed text-base">
-          Más de 15 años nos avalan abordando todo tipo de eventos infantiles,
-          ofreciendo nuestra amplia gama de castillos hinchables, acuáticos,
-          atracciones y animaciones infantiles para eventos.
+         {{$t('counter.subtitle')}}
         </p>
       </div>
       <div class="flex flex-wrap -m-4 text-center">
@@ -28,7 +26,7 @@
             />
 
             <h2 class="title-font font-medium text-3xl text-gray-800">+3000</h2>
-            <p class="leading-relaxed text-gray-600">Eventos</p>
+            <p class="leading-relaxed text-gray-600"> {{$t('counter.events')}}</p>
           </div>
         </div>
         <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
@@ -40,7 +38,7 @@
               alt="diverpark castillos hinchables alquiler baleares"
             />
             <h2 class="title-font font-medium text-3xl text-gray-800">+40</h2>
-            <p class="leading-relaxed text-gray-600">Castillos Hinchables</p>
+            <p class="leading-relaxed text-gray-600">{{$t('counter.castle')}}</p>
           </div>
         </div>
         <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
@@ -52,7 +50,7 @@
               alt="diverpark castillos hinchables palma de mallorca baleares"
             />
             <h2 class="title-font font-medium text-3xl text-gray-800">+200</h2>
-            <p class="leading-relaxed text-gray-600">Clientes</p>
+            <p class="leading-relaxed text-gray-600">{{$t('counter.clients')}}</p>
           </div>
         </div>
       </div>

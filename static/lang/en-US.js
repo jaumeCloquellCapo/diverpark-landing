@@ -61,6 +61,13 @@ export default () => {
         "src": "Guaranteed safety",
         "description_2": "For Mallorca DiverPark there is nothing more important than safety, especially for working with children and minors, so all our castles have liability insurance, rules for the safety and welfare of children, and we subject our castles to strict reviews to ensure quality and safety. In addition we have experience in the care and control of children, being a safety element to avoid any damage or problems that may arise while children play with the castles",
         "description": "We are a company dedicated mainly to the rental of inflatable castles in Mallorca. Although this is not our only activity. We also have, apart from the bouncy castles, a team specialized in entertainment shows for children. From animation with costumes of their favourite cartoon characters, to face painting sessions where both children and adults will have a great time. We try to be serious and professional in our services, so that the fun always goes hand in hand with security. Our main objective is to offer our customers the best service, with very competitive prices. We travel all over the island",
+      },
+      counter: {
+        "title":"Our experience support us",
+        "subtitle":"More than 15 years guarantee us approaching all type of infantile events, offering our ample range of inflatable castles, aquatic, attractions and infantile animations for events.",
+        "events": "Events",
+        "castle": "Bouncy castles",
+        "clients": "Clients"
       }
     })
   })

@@ -62,6 +62,13 @@ export default () => {
         "src": "Seguro de responsabilidad civil y revisiones continuas.",
         "description_2": " Para Mallorca DiverPark no hay nada más importante que la seguridad, especialmente por trabajar con niños y menores, con lo que todos nuestros castillos cuentan con seguros de responsabilidad civil, normas para la seguridad y bienestar de los niños, y sometemos nuestros castillos a estrictas revisiones para garantizar la calidad y seguridad. Además contamos con experiencia en el cuidado y control de niños, siendo un elemento de seguridad para evitar cualquier daño o problema que pueda surgir mientras los niños juegan con los castillos.",
         "description": " Somos una empresa dedicada principalmente al alquiler de Castillos Hinchables en Mallorca. Aunque esta no es nuestra única actividad. También disponemos a parte de los castillos hinchables un equipo especializado en espectáculos de entretenimiento para los mas pequeños. Desde animación con disfraces de sus personajes de dibujos animados favoritos, hasta sesión de pinta caras donde se lo pasarán en grande tanto los pequeños como los mayores. Procuramos seriedad y profesionalidad en nuestros servicios, para que la diversión siempre valla de la mano de la seguridad. Nuestro principal objetivo es ofrecer a nuestros clientes el mejor servicio, con precios muy competitivos. Nos desplazamos a toda la isla.",
+      },
+      counter: {
+        "title":"Nuestra experiencia nos avala",
+        "subtitle":"Más de 15 años nos avalan abordando todo tipo de eventos infantiles, ofreciendo nuestra amplia gama de castillos hinchables, acuáticos, atracciones y animaciones infantiles para eventos.",
+        "events": "Eventos",
+        "castle": "Castillos Hinchables",
+        "clients": "Clientes"
       }
     })
   })
