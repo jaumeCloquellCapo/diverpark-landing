@@ -55,7 +55,7 @@
             </p>
 
             <h2 class="text-2xl text-gray-800 font-semibold mb-4 mt-4">
-              ¿Qué es una fiesta de espuma?
+              ¿Qué es una fiesta de espuma con diverpark?
             </h2>
 
             <p class="pb-6">

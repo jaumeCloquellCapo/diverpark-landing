@@ -25,7 +25,7 @@
               alt="diverpark animaciones infantiles palma de mallorca baleares"
             />
 
-            <h2 class="title-font font-medium text-3xl text-gray-800">+10000</h2>
+            <p class="title-font font-medium text-3xl text-gray-800">+10000</p>
             <p class="leading-relaxed text-gray-600"> {{$t('counter.events')}}</p>
           </div>
         </div>
@@ -37,7 +37,7 @@
               class="text-blue-500 w-12 h-12 mb-3 inline-block"
               alt="diverpark castillos hinchables alquiler baleares"
             />
-            <h2 class="title-font font-medium text-3xl text-gray-800">+40</h2>
+            <p class="title-font font-medium text-3xl text-gray-800">+40</p>
             <p class="leading-relaxed text-gray-600">{{$t('counter.castle')}}</p>
           </div>
         </div>
@@ -49,7 +49,7 @@
               class="text-blue-500 w-12 h-12 mb-3 inline-block"
               alt="diverpark castillos hinchables palma de mallorca baleares"
             />
-            <h2 class="title-font font-medium text-3xl text-gray-800">+2500</h2>
+            <p class="title-font font-medium text-3xl text-gray-800">+2500</p>
             <p class="leading-relaxed text-gray-600">{{$t('counter.clients')}}</p>
           </div>
         </div>

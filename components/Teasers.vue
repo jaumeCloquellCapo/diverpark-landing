@@ -1,11 +1,11 @@
 <template>
   <section class="bg-gray-100 py-8">
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-      <h1
+      <p
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
       >
         Blog
-      </h1>
+      </p>
       <div class="w-full mb-4">
         <div
           class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
