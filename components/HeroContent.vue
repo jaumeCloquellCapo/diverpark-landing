@@ -12,9 +12,13 @@
           {{ $t('common.subtitle') }}
         </p-->
 
-            <vue-typed-js :strings="['Felicidad ', 'Diversión en estado puro']" :typeSpeed="100" :backSpeed="100">
+        <vue-typed-js
+          :strings="['Felicidad ', 'Diversión en estado puro']"
+          :typeSpeed="100"
+          :backSpeed="100"
+        >
           <p class="leading-normal text-2xl mb-8">
-           <span class="typing"></span>
+            <span class="typing"></span>
           </p>
         </vue-typed-js>
 
@@ -42,6 +46,6 @@
 
 <script>
 export default {
-  name: 'HeroContent'
+  name: 'HeroContent',
 }
 </script>
