@@ -71,13 +71,13 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Alquiler de Castillos Hinchables con tobogan en Mallorca, actuales y económicos Perfectos para comuniones y fiestas de cumpleaños ✓',
+            'Alquiler de Castillos Hinchables de agua para el verano en Mallorca, actuales y económicos Perfectos para comuniones y fiestas de cumpleaños',
         },
         {
           hid: 'og:description',
           name: 'og:description',
           content:
-            'Alquiler de Castillos Hinchables con tobogan  en Mallorca, actuales y económicos Perfectos para comuniones y fiestas de cumpleaños ✓',
+            'Alquiler de Castillos Hinchables de agua para el verano en Mallorca, actuales y económicos Perfectos para comuniones y fiestas de cumpleaños',
         },
         ...i18nSeo.meta,
       ],
