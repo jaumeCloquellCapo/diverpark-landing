@@ -1,7 +1,9 @@
 <template>
   <div>
     <hero />
+
     <features />
+        <counter/>
     <teasers />
     <call-to-action />
   </div>
@@ -20,6 +22,7 @@ export default {
   components: {
     LazyHydrate,
     hero: () => import('@/components/Hero'),
+        counter: hydrateWhenVisible(() => import('@/components/Counter')),
     features: hydrateWhenVisible(() => import('@/components/Features')),
     teasers: hydrateWhenVisible(() => import('@/components/Teasers')),
     'call-to-action': hydrateWhenVisible(() => import('@/components/CallToAction'))

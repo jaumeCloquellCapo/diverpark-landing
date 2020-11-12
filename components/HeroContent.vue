@@ -23,14 +23,6 @@
 
       <!--Right Col-->
       <div class="w-full md:w-3/5 text-center pb-10">
-        <!--img
-          async
-          class="w-full md:w-4/5 z-50"
-          src="~/assets/img/hero.png"
-          alt
-        /-->
-        
-
         <img
           async
           src="~/assets/background/collage4.png"

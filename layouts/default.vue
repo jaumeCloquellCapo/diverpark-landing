@@ -31,9 +31,11 @@ html {
   box-sizing: border-box;
 }
 
+
 .gradient {
   /*background: linear-gradient(180deg, #c8e3f7 0%, #ffffff 90%);  */
+background-color: #5dcefa;
+  /*background: linear-gradient(180deg, #83dcff 0%, #c8ebff 100%);*/
 
-  background: linear-gradient(180deg, #00b7ff 0%, #52bfff 100%);
 }
 </style>
