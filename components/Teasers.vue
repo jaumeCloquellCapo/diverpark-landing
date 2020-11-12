@@ -16,7 +16,7 @@
         async
           class="w-full"
           src="~/assets/background/castillo-agua.jpg"
-          alt
+        alt="diverpark alquiler castillos hinchables de agua para el verano en mallorca" 
           slot="svg"
         />
         <template v-slot:headline>{{
@@ -45,7 +45,7 @@
           async 
           class="w-full"
           src="~/assets/background/avion.jpg"
-          alt
+             alt="diverpark alquiler castillos hinchables con tobogan para comuniones fiestas o bautizos" 
           slot="svg"
         />
         <template v-slot:headline>{{ $t('teaser.castillos.title') }}</template>
@@ -71,7 +71,7 @@
               <img async 
           class="w-full"
           src="~/assets/background/espuma.jpg"
-          alt
+              alt="diverpark alquiler castillos hinchables y fiesta espuma  para comuniones fiestas o bautizos" 
           slot="svg"
         />
         <template v-slot:headline>{{ $t('teaser.espuma.title') }}</template>

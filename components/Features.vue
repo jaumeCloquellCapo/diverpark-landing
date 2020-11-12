@@ -15,13 +15,13 @@
         :headline="$t('features.left.title')"
         :content="$t('features.left.subtitle')"
       >
-        <img      async src="~/assets/background/toroBackground.jpg" class="w-auto" alt slot="svg" />
+        <img      async src="~/assets/background/toroBackground.jpg" class="w-auto" alt="diverpark alquiler toro mecánico mallorca palma baleares"  slot="svg" />
       </feature-right>
       <feature-left
         :headline="$t('features.right.title')"
         :content="$t('features.right.subtitle')"
       >
-        <img      async src="~/assets/background/espumaBackground.jpg" class="w-auto" alt slot="svg" />
+        <img      async src="~/assets/background/espumaBackground.jpg" class="w-auto" alt="diverpark alquiler fiesta espuma mallorca palma baleares"  slot="svg" />
       </feature-left>
     </div>
   </section>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img async src="~/assets/img/wave-top.svg?inline" class="w-auto" alt />
+    <img async src="~/assets/img/wave-top.svg?inline" class="w-auto" alt="diverpark castillos hinchables palma de mallorca baleares" />
     <section class="container mx-auto text-center py-6 mb-12">
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"

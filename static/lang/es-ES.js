@@ -17,7 +17,7 @@ export default () => {
       },
       common: {
         "title": "DIVERPARK",
-        "subtitle": "Empresa lider en animaciones infantiles en Mallorca",
+        "subtitle": "Empresa de castillos hinchables y animaciones infantiles lider en Mallorca",
         "contact": "Contacta con nosotros",
         "gallery": "Atracciones",
         "home": "Home",
@@ -27,15 +27,15 @@ export default () => {
         "name":"Nombre",
         "email": "Correo electrónico",
         "message": "Mensaje",
-        "send_email": "Enviar correo",
+        "send_email": "Envíanos un correo",
         "terms": "Térmimos y condiciones",
-        "animaciones": "Animacione infantiles",
+        "animaciones": "Animaciones infantiles",
         "toromecanico": "Toro mecánico",
         "castillosAgua": "Castillos de agua",
         "castillosGrandes": "Castillos grandes",
         "castillosMedianos": "Castillos medianos",
         "castillosPequenos": "Castillos pequeños",
-        "call": "Llamanos",
+        "call": "Llámanos",
         "aboutus": "Sobre nosotros"
       },
       features: {

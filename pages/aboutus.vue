@@ -20,7 +20,7 @@
             class="w-full object-cover lg:rounded"
             style="height: 28em;"
             src="~/assets/background/diverPark.jpg"
-            alt
+                        alt="diverpark alquiler castillos hinchables, toro mecánico fiesta espuma  para comuniones fiestas o bautizos en palma de mallorca" 
           />
         </div>
 

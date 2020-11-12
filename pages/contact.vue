@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="mt-8 text-center">
-            <img async src="~assets/img/contact.svg?inline" alt class="w-auto" slot="svg" />
+            <img async src="~assets/img/contact.svg?inline"   alt="diverpark baleaares alquiler animaciones infantiles, castillos hinchables toro mecánico fiesta espuma  para comuniones fiestas o bautizos en palma de mallorca"  class="w-auto" slot="svg" />
           </div>
         </div>
         <div class="">
