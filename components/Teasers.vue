@@ -48,7 +48,13 @@
              alt="diverpark alquiler castillos hinchables con tobogan para comuniones fiestas o bautizos" 
           slot="svg"
         />
-        <template v-slot:headline>{{ $t('teaser.castillos.title') }}</template>
+           
+
+        <template v-slot:headline>
+           <NuxtLink :to="localePath('castillostobogan')">
+         {{ $t('teaser.castillos.title') }}
+          </NuxtLink>
+        </template>
         <template v-slot:content>{{
           $t('teaser.castillos.description')
         }}</template>

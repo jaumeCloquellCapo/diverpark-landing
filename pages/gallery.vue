@@ -81,6 +81,7 @@
               </nav>
             </transition>
           </div>
+
           <div
             class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col"
             v-for="(imatge, i) in imatges"
@@ -117,7 +118,7 @@ import SubHeader from '@/components/SubHeader'
 export default {
   name: 'SearchPage',
   components: {
-    subHeader: SubHeader
+    subHeader: SubHeader,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()

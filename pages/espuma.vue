@@ -108,7 +108,7 @@ export default {
           hid: 'og:description',
           name: 'og:description',
           content:
-            'Alquiler de Cañón de Espuma capaz de crear una gran cantidad de espuma en muy poco tiempo elemente ideal en las fiestas de la espuma en Mallorca baleares',
+            'Fiesta de la espuma, Un cañón que convertirá todo a tu alrededor en un mundo nevado de espuma. Preparada para hasta 500 personas. Incluye monitor.',
         },
         ...i18nSeo.meta,
       ],
