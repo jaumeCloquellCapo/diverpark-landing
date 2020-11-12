@@ -3,7 +3,7 @@
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
       <!--Left Col-->
       <div
-        class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-center items-center sm:items-left md:items-left lg:items-left xl:items-left"
+        class="flex flex-col w-full md:w-5/5 justify-center items-start text-center md:text-center items-center sm:items-left md:items-left lg:items-center xl:items-left"
       >
         <h1 class="my-4 text-5xl font-bold leading-tight">
           {{ $t('common.title') }}
@@ -23,12 +23,12 @@
 
       <!--Right Col-->
       <div class="w-full md:w-3/5 text-center pb-10">
-        <img
+        <!--img
           async
           src="~/assets/background/collage4.png"
           class="object-center"
           alt="diverpark alquiler toro mecánico en mallorca barato"
-        />
+        /-->
       </div>
     </div>
   </div>
