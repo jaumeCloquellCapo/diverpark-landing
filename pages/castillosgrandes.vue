@@ -6,12 +6,12 @@
         <div class="mx-auto relative">
           <div class="px-4 :px-0 text-center">
             <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
-              Alquiler de Castillos Hinchables con tobogan en Mallorca
+              Alquiler de Castillos Hinchables grandes en Mallorca
             </h2>
             <a
               class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
             >
-              Alquiler castillos hinchables
+              Alquiler castillos hinchables grandes
             </a>
           </div>
 
@@ -65,7 +65,7 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'Castillos Hinchables con tobogan en Mallorca',
+      title: 'Castillos Hinchables grandes con tobogan en Palma de Mallorca',
       meta: [
         {
           hid: 'description',

@@ -19,9 +19,11 @@
         alt="diverpark alquiler castillos hinchables de agua para el verano en mallorca" 
           slot="svg"
         />
-        <template v-slot:headline>{{
-          $t('teaser.castillosAgua.title')
-        }}</template>
+        <template v-slot:headline>
+             <NuxtLink :to="localePath('castillosagua')">
+         {{ $t('teaser.castillosAgua.title') }}
+          </NuxtLink>
+        </template>
         <template v-slot:content>{{
           $t('teaser.castillosAgua.description')
         }}</template>
@@ -51,7 +53,7 @@
            
 
         <template v-slot:headline>
-           <NuxtLink :to="localePath('castillostobogan')">
+           <NuxtLink :to="localePath('castillosgrandes')">
          {{ $t('teaser.castillos.title') }}
           </NuxtLink>
         </template>
