@@ -35,6 +35,7 @@ export default () => {
         "castillosMedianos": "Medium bouncy castles",
         "castillosPequenos": "Litle bouncy castles",
         "call": "Call us",
+        "searcher": "Gallery",
         "aboutus": "About us"
       },
       features: {

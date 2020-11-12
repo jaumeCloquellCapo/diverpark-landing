@@ -36,6 +36,7 @@ export default () => {
         "castillosMedianos": "Castillos medianos",
         "castillosPequenos": "Castillos pequeños",
         "call": "Llámanos",
+        "searcher": "Galeria",
         "aboutus": "Sobre nosotros"
       },
       features: {

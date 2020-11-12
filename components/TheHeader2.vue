@@ -21,6 +21,14 @@
             {{ $t('common.' + locale.code) }}
           </NuxtLink>
         </li>
+             <li class="hover:bg-blue-800 hover:text-white">
+          <NuxtLink
+            :to="localePath('gallery')"
+            class="relative block py-6 px-2 lg:p-6 text-sm lg:text-base font-bold"
+          >
+            {{ $t('common.searcher') }}
+          </NuxtLink>
+        </li>
 
         <!--Toggleable Link-->
         <li class="toggleable hover:bg-blue-800 hover:text-white">
@@ -100,7 +108,6 @@
                 </li>
                 <li>
                   <a
-                    href="#"
                     class="block p-3 hover:bg-blue-600 text-gray-300 hover:text-white"
                     >Xop Park</a
                   >
@@ -122,7 +129,6 @@
                 </h3>
                 <li>
                   <a
-                    href="#"
                     class="block p-3 hover:bg-blue-600 text-gray-300 hover:text-white"
                     >Ponys</a
                   >
@@ -181,6 +187,11 @@ export default {
   },
   data() {
     return {}
+  },
+  computed: {
+    availableLocales() {
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+    },
   },
 }
 </script>
