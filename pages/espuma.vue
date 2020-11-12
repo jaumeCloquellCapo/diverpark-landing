@@ -6,12 +6,12 @@
         <div class="mx-auto relative">
           <div class="px-4 :px-0 text-center">
             <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
-           FIESTA ESPUMA MALLORCA
+              FIESTA ESPUMA MALLORCA
             </h2>
             <a
               class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
             >
-           Alquiler Cañón de Espuma
+              Alquiler Cañón de Espuma
             </a>
           </div>
 
@@ -28,7 +28,6 @@
           <div
             class="px-4 lg:px-0 mt-12 text-gray-700 text-lg leading-relaxed w-full"
           >
-
             <p class="pb-6">
               Da el golpe este año y opta por el alquiler del cañón de espuma de
               diverpark. La Fiesta de la Espuma es la reina de las fiestas del
@@ -82,6 +81,7 @@
           </div>
         </div>
       </div>
+      <gallery categoryFilter="castillos-agua" />
       <!-- main ends here -->
     </div>
   </div>
@@ -89,9 +89,11 @@
 
 <script>
 import SubHeader from '@/components/SubHeader'
+import Gallery from '@/components/PhotoGallery'
 export default {
   name: 'SearchPage',
   components: {
+    gallery: Gallery,
     subHeader: SubHeader,
   },
   head() {
@@ -102,7 +104,8 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content:'Alquiler de Cañón de Espuma capaz de crear una gran cantidad de espuma en muy poco tiempo elemente ideal en las fiestas de la espuma en Mallorca baleares',
+          content:
+            'Alquiler de Cañón de Espuma capaz de crear una gran cantidad de espuma en muy poco tiempo elemente ideal en las fiestas de la espuma en Mallorca baleares',
         },
         {
           hid: 'og:description',
