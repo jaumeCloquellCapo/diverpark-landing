@@ -99,7 +99,7 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'Fiesta espuma niños mallorca',
+         title: 'Diverpark | Fiesta espuma | Mallorca',
       meta: [
         {
           hid: 'description',

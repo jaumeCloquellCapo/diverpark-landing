@@ -94,7 +94,7 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'Castillos hinchables Palma de malllorca',
+      title: 'Diverpark | Castillos hinchables | Mallorca',
       meta: [
         {
           hid: 'description',

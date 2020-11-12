@@ -65,7 +65,7 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'Castillos Hinchables grandes con tobogan en Palma de Mallorca',
+      title: 'Diverpark | Castillos hinchables de agua | Mallorca',
       meta: [
         {
           hid: 'description',

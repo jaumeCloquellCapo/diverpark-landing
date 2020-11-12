@@ -30,13 +30,13 @@ export default {
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
     return {
-      title: 'Castillos hinchables mallorca',
+      title: 'Diverpark | Castillos hinchables | Mallorca',
       meta: [
         {
           hid: 'description',
           name: 'description',
           content:
-            'DIVERPARK es una empresa especializada en el Alquiler de Castillos hinchables en Mallorca y fiestas de espuma en Mallorca, además de otros muchos servicios como castillos hinchables acuáticos, servicios de animación infantil, espectáculos de magia y muchas más cosas para diversión de los niños'
+            'DIVERPARK es una empresa especializada en el alquiler de Castillos hinchables en Mallorca y fiestas de espuma en Mallorca, además de otros muchos servicios como castillos hinchables acuáticos, servicios de animación infantil, espectáculos de magia y muchas más cosas para diversión de los niños'
         },
         {
           hid: 'og:description',
