@@ -19,7 +19,7 @@ export default {
   name: 'LandingPage',
   components: {
     LazyHydrate,
-    hero: hydrateWhenVisible(() => import('@/components/Hero')),
+    hero: () => import('@/components/Hero'),
     features: hydrateWhenVisible(() => import('@/components/Features')),
     teasers: hydrateWhenVisible(() => import('@/components/Teasers')),
     'call-to-action': hydrateWhenVisible(() => import('@/components/CallToAction'))

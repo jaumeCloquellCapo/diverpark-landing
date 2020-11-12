@@ -22,6 +22,7 @@
           </button>
         </NuxtLink>
       </div>
+      
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center">
         <!--img
@@ -33,7 +34,7 @@
         <img
           async
           src="~/assets/background/toroBackground.jpg"
-               class="w-full md:w-4/5 z-50"
+               class="w-full md:w-4/5 z-50 object-center"
           alt
         />
       </div>
