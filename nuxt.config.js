@@ -107,17 +107,26 @@ export default {
    ** Build configuration
    */
   build: {
-    html: {
-      minify: {
-        collapseBooleanAttributes: true,
-        decodeEntities: true,
-        minifyCSS: true,
-        minifyJS: true,
-        processConditionalComments: true,
-        removeEmptyAttributes: true,
-        removeRedundantAttributes: true,
-        trimCustomFragments: true,
-        useShortDoctype: true
+    parallel: true,
+    terser: true,
+      
+    extend(config, ctx) {
+      if (process.env.NODE_ENV !== 'production') {
+        config.devtool = '#source-map';
+      }
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+            enforce: 'pre',
+            test: /\.(js|vue)$/,
+            loader: 'eslint-loader',
+            exclude: /(node_modules)/,
+        });
+      }
+      if (
+        config.optimization.splitChunks &&
+        typeof config.optimization.splitChunks === 'object'
+      ) {
+        config.optimization.splitChunks.maxSize = 200000;
       }
     },
     /*
