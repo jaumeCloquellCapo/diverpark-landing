@@ -2,9 +2,9 @@
   <section class="text-white">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center">
+        <p class="w-full my-2 text-5xl font-bold leading-tight text-center">
               {{$t('counter.title')}}
-        </h1>
+        </p>
         <div class="w-full mb-4">
           <div
             class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
