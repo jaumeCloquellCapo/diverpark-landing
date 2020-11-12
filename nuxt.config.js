@@ -45,7 +45,7 @@ export default {
     '@nuxtjs/firebase',
     'nuxt-svg-loader',
     'nuxt-i18n',
-    '@nuxtjs/sitemap',
+    '@nuxtjs/sitemap'
   ],
   i18n: {
     // Options
@@ -109,24 +109,24 @@ export default {
   build: {
     parallel: true,
     terser: true,
-      
+
     extend(config, ctx) {
       if (process.env.NODE_ENV !== 'production') {
-        config.devtool = '#source-map';
+        config.devtool = '#source-map'
       }
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
-            enforce: 'pre',
-            test: /\.(js|vue)$/,
-            loader: 'eslint-loader',
-            exclude: /(node_modules)/,
-        });
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/
+        })
       }
       if (
         config.optimization.splitChunks &&
         typeof config.optimization.splitChunks === 'object'
       ) {
-        config.optimization.splitChunks.maxSize = 200000;
+        config.optimization.splitChunks.maxSize = 200000
       }
     },
     /*
