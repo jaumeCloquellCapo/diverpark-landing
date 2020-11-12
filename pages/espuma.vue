@@ -8,11 +8,11 @@
             <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
               FIESTA ESPUMA MALLORCA
             </h2>
-            <a
+            <h3
               class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
             >
               Alquiler Cañón de Espuma
-            </a>
+            </h3>
           </div>
 
           <img

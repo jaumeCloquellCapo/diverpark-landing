@@ -2,18 +2,18 @@
   <section class="text-white">
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
-        <p class="w-full my-2 text-5xl font-bold leading-tight text-center">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center">
               {{$t('counter.title')}}
-        </p>
+        </h2>
         <div class="w-full mb-4">
           <div
             class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
           ></div>
         </div>
 
-        <p class="sm:text-2xl mx-auto leading-relaxed text-base">
+        <h3 class="sm:text-2xl mx-auto leading-relaxed text-base">
          {{$t('counter.subtitle')}}
-        </p>
+        </h3>
       </div>
       <div class="flex flex-wrap -m-4 text-center">
         <div class="p-4 md:w-1/3 sm:w-1/2 w-full">

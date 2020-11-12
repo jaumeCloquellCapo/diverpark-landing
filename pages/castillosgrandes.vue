@@ -8,11 +8,11 @@
             <h2 class="text-4xl font-semibold text-gray-800 leading-tight">
               Alquiler de Castillos Hinchables grandes en Mallorca
             </h2>
-            <a
+            <h3
               class="py-2 text-green-700 inline-flex items-center justify-center mb-2"
             >
               Alquiler castillos hinchables grandes
-            </a>
+            </h3>
           </div>
 
           <img
