@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import TheHeader from '@/components/TheHeader2.vue'
+import TheHeader from '@/components/TheHeader.vue'
 import TheFooter from '@/components/TheFooter.vue'
 
 export default {
@@ -34,8 +34,8 @@ html {
 
 .gradient {
   /*background: linear-gradient(180deg, #c8e3f7 0%, #ffffff 90%);  */
-background-color: #5dcefa;
-  /*background: linear-gradient(180deg, #83dcff 0%, #c8ebff 100%);*/
+/*background-color: #5dcefa;*/
+  background: linear-gradient(90deg, #e21a1a 0%, #d4b13e 100%);
 
 }
 </style>

@@ -18,17 +18,9 @@
             :key="locale.code"
             :to="switchLocalePath(locale.code)"
           >
-            {{ $t('common.' + locale.code) }}
+            {{ locale.code }}
           </NuxtLink>
-        </li>
-             <li class="hover:bg-blue-800 hover:text-white">
-          <NuxtLink
-            :to="localePath('gallery')"
-            class="relative block py-6 px-2 lg:p-6 text-sm lg:text-base font-bold"
-          >
-            {{ $t('common.searcher') }}
-          </NuxtLink>
-        </li>
+   
 
         <!--Toggleable Link-->
         <li class="toggleable hover:bg-blue-800 hover:text-white">
@@ -172,6 +164,8 @@
             {{ $t('common.booking') }}
           </NuxtLink>
         </li>
+
+
       </ul>
     </div>
   </nav>
