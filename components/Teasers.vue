@@ -74,7 +74,12 @@
               alt="diverpark alquiler castillos hinchables y fiesta espuma  para comuniones fiestas o bautizos" 
           slot="svg"
         />
-        <template v-slot:headline>{{ $t('teaser.espuma.title') }}</template>
+        <template v-slot:headline>
+                  <NuxtLink :to="localePath('espuma')">
+         {{ $t('teaser.espuma.title') }}
+          </NuxtLink>
+  </template>
+
         <template v-slot:content>{{
           $t('teaser.espuma.description')
         }}</template>
