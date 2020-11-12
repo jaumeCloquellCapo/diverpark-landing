@@ -45,7 +45,7 @@ export default {
     '@nuxtjs/firebase',
     'nuxt-svg-loader',
     'nuxt-i18n',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
   ],
   i18n: {
     // Options
