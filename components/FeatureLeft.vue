@@ -1,4 +1,6 @@
 <template>
+  <section class="bg-white py-8">
+    <div class="container max-w-7xl mx-auto m-8">
   <div class="flex flex-wrap flex-col-reverse sm:flex-row">
     <div class="w-full sm:w-1/2 p-6 mt-6">
       <slot name="svg" />
@@ -14,6 +16,8 @@
       </div>
     </div>
   </div>
+    </div>
+  </section>
 </template>
 
 <script>

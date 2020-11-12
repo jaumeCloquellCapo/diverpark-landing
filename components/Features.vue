@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-white border-b py-8">
-    <div class="container max-w-5xl mx-auto m-8">
+  <section class="bg-white py-8">
+    <div class="container max-w-7xl mx-auto m-8">
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800"
       >
@@ -15,8 +15,12 @@
         :headline="$t('features.left.title')"
         :content="$t('features.left.subtitle')"
       >
-        <img      async src="~/assets/background/toroBackground.jpg" class="w-auto" alt="diverpark alquiler toro mecánico mallorca palma baleares"  slot="svg" />
+        <img      async src="~/assets/background/nube.png" class="w-auto" alt="diverpark alquiler toro mecánico mallorca palma baleares"  slot="svg" />
       </feature-right>
+
+          <carrousel/>  
+
+
       <feature-left
         :headline="$t('features.right.title')"
         :content="$t('features.right.subtitle')"
@@ -34,6 +38,7 @@ import FeatureLeft from '@/components/FeatureLeft'
 export default {
   name: 'Features',
   components: {
+        features: () => import('@/components/Features'),
     'feature-right': FeatureRight,
     'feature-left': FeatureLeft
   }

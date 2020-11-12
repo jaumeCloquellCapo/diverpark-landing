@@ -17,7 +17,7 @@ export default () => {
       },
       common: {
         "title": "DIVERPARK",
-        "subtitle": "Empresa de castillos hinchables y animaciones infantiles líder en Palma de Mallorca",
+        "subtitle": "Felicidad en estado puro",
         "contact": "Contacta con nosotros",
         "gallery": "Atracciones",
         "home": "Home",
@@ -43,7 +43,7 @@ export default () => {
         "title": "Quienes somos",
         "left": {
           "title": "Líderes en diversión",
-          "subtitle": 'Somos una empresa dedicada principalmente al alquiler de Castillos Hinchables en Mallorca. Aunque esta no es nuestra única actividad. También disponemos a parte de los castillos hinchables un equipo especializado en espectáculos de entretenimiento para los mas pequeños. Desde animación con disfraces de sus personajes de dibujos animados favoritos, hasta sesión de pinta caras donde se lo pasarán en grande tanto los pequeños como los mayores. Procuramos seriedad y profesionalidad en nuestros servicios, para que la diversión siempre valla de la mano de la seguridad. Nuestro principal objetivo es ofrecer a nuestros clientes el mejor servicio, con precios muy competitivos. Nos desplazamos a toda la isla.'
+          "subtitle": 'Uep! Com anam… Si has llegado hasta aquí es porque quieres divertirte. ¿Nos presentamos? Somos la empresa líder dedicada a castillos hinchables y animaciones infantiles en Mallorca. Nuestro principal objetivo es hacerle sentir la esencia de la niñez.'
         },
         "right": {
           "title": "Seguridad garantizada",
