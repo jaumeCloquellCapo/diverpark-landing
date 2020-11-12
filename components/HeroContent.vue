@@ -8,9 +8,15 @@
         <h1 class="my-4 text-5xl font-bold leading-tight">
           {{ $t('common.title') }}
         </h1>
-        <p class="leading-normal text-2xl mb-8">
+        <!--p class="leading-normal text-2xl mb-8">
           {{ $t('common.subtitle') }}
-        </p>
+        </p-->
+
+            <vue-typed-js :strings="['Felicidad ', 'Diversión en estado puro']" :typeSpeed="100" :backSpeed="100">
+          <p class="leading-normal text-2xl mb-8">
+           <span class="typing"></span>
+          </p>
+        </vue-typed-js>
 
         <NuxtLink :to="localePath('contact')">
           <button
