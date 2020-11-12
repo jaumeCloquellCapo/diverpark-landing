@@ -13,15 +13,15 @@
       </div>
       <teaser-column :rows="3" action="Action">
         <img
-        async
+          async
           class="w-full"
           src="~/assets/background/castillo-agua.jpg"
-        alt="diverpark alquiler castillos hinchables de agua para el verano en mallorca" 
+          alt="diverpark alquiler castillos hinchables de agua para el verano en mallorca"
           slot="svg"
         />
         <template v-slot:headline>
-             <NuxtLink :to="localePath('castillosagua')">
-         {{ $t('teaser.castillosAgua.title') }}
+          <NuxtLink :to="localePath('castillosagua')">
+            {{ $t('teaser.castillosAgua.title') }}
           </NuxtLink>
         </template>
         <template v-slot:content>{{
@@ -43,18 +43,17 @@
         </template>
       </teaser-column>
       <teaser-column :rows="3" action="Action">
-          <img
-          async 
+        <img
+          async
           class="w-full"
           src="~/assets/background/avion.jpg"
-             alt="diverpark alquiler castillos hinchables con tobogan para comuniones fiestas o bautizos" 
+          alt="diverpark alquiler castillos hinchables con tobogan para comuniones fiestas o bautizos"
           slot="svg"
         />
-           
 
         <template v-slot:headline>
-           <NuxtLink :to="localePath('castillosgrandes')">
-         {{ $t('teaser.castillos.title') }}
+          <NuxtLink :to="localePath('castillosgrandes')">
+            {{ $t('teaser.castillos.title') }}
           </NuxtLink>
         </template>
         <template v-slot:content>{{
@@ -76,17 +75,18 @@
         </template>
       </teaser-column>
       <teaser-column :rows="3" action="Action">
-              <img async 
+        <img
+          async
           class="w-full"
           src="~/assets/background/espuma.jpg"
-              alt="diverpark alquiler castillos hinchables y fiesta espuma  para comuniones fiestas o bautizos" 
+          alt="diverpark alquiler castillos hinchables y fiesta espuma  para comuniones fiestas o bautizos"
           slot="svg"
         />
         <template v-slot:headline>
-                  <NuxtLink :to="localePath('espuma')">
-         {{ $t('teaser.espuma.title') }}
+          <NuxtLink :to="localePath('espuma')">
+            {{ $t('teaser.espuma.title') }}
           </NuxtLink>
-  </template>
+        </template>
 
         <template v-slot:content>{{
           $t('teaser.espuma.description')
@@ -116,7 +116,7 @@ import TeaserColumn from '@/components/TeaserColumn'
 export default {
   name: 'Teasers',
   components: {
-    'teaser-column': TeaserColumn
-  }
+    'teaser-column': TeaserColumn,
+  },
 }
 </script>
