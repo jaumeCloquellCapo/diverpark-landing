@@ -48,6 +48,10 @@ export default {
     '@nuxtjs/sitemap',
     "nuxt-purgecss"
   ],
+  purgeCSS: {
+    mode: 'postcss',
+    enabled: (process.env.NODE_ENV === 'production')
+  },
   i18n: {
     // Options
     //to make it seo friendly remove below line and add baseUrl option to production domain

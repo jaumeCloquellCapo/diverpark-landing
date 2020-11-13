@@ -21,12 +21,12 @@ export default {
   name: 'LandingPage',
   components: {
     LazyHydrate,
-    hero: () => import(/* webpackChunkName: "hero" */'@/components/Hero'),
-    counter: hydrateWhenVisible(() => import(/* webpackChunkName: "counter" */ '@/components/Counter')),
-    features: hydrateWhenVisible(() => import(/* webpackChunkName: "features" */ '@/components/Features_2')),
-    teasers: hydrateWhenVisible(() => import(/* webpackChunkName: "Teasers" */ '@/components/Teasers')),
+    hero: () => import('@/components/Hero'),
+    counter: hydrateWhenVisible(() => import('@/components/Counter')),
+    features: hydrateWhenVisible(() => import('@/components/Features_2')),
+    teasers: hydrateWhenVisible(() => import('@/components/Teasers')),
     'call-to-action': hydrateWhenVisible(() =>
-      import(/* webpackChunkName: "CallToAction" */'@/components/CallToAction')
+      import('@/components/CallToAction')
     ),
   },
   head() {
