@@ -13,10 +13,13 @@
           v-for="(post, $index) in posts"
           :key="$index"
         >
-          <div class="bg-white rounded-lg overflow-hidden shadow relative">
+          <postcard :post="post" />
+          <!--div class="bg-white rounded-lg overflow-hidden shadow relative">
             <div class="md:flex-shrink-0">
               <nuxt-link :to="localePath(post.path)">
                 <img
+                  width="300"
+                  height="200"
                   :src="post.img"
                   :alt="post.alt"
                   class="object-fill w-full rounded-lg rounded-b-none md:h-56"
@@ -36,7 +39,7 @@
                 {{ post.resumen }}
               </div>
             </div>
-          </div>
+          </div-->
         </div>
       </section>
     </div>
@@ -44,10 +47,12 @@
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'
+import PostCard from '@/components/PostCard'
 export default {
   name: 'Blog',
   components: {
     subHeader: SubHeader,
+    postcard: PostCard,
   },
   async asyncData(context) {
     const { $content, app } = context

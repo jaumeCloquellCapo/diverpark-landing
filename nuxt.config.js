@@ -43,6 +43,8 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: ['~/plugins/typed.js'],
+  // some nuxt config...
+  css: [],
   /*
    ** Nuxt.js dev-modules
    */

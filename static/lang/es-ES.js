@@ -52,7 +52,7 @@ export default () => {
         },
         "right": {
           "title": "Seguridad garantizada",
-          "subtitle": "Para Mallorca DiverPark no hay nada más importante que la seguridad, especialmente por trabajar con niños y menores, con lo que todos nuestros castillos cuentan con seguros de responsabilidad civil, normas para la seguridad y bienestar de los niños, y sometemos nuestros castillos a estrictas revisiones para garantizar la calidad y seguridad. Todos nuestras actividades cuentan con seguro de responsabilidad civil, además de estar homologados y con los certificados cumpliendo la normativa UNE14960, con las revisiones al día."
+          "subtitle": "Para DiverPark no hay nada más importante que la seguridad, especialmente trabajando con niños y menores. Por ello, sometemos nuestros castillos a estrictas revisiones para garantizar la calidad y seguridad. Además, contamos con seguros de responsabilidad civil, normas para la seguridad, homologación y con certificados cumpliendo con la normativa UNE14960"  
         }
       },
       callToAction: {

@@ -1,12 +1,11 @@
 <template>
   <NuxtLink
-   :class="classList"
-        :to="localePath('index')"
+    :class="classList"
+    :to="localePath('index')"
     class="no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-      >
-          &nbsp;DIVERPARK
-      </NuxtLink>
-
+  >
+    &nbsp;DIVERPARK
+  </NuxtLink>
 </template>
 
 <script>
@@ -15,12 +14,12 @@ export default {
   props: {
     isStickable: {
       type: Boolean,
-      default: false
+      default: false,
     },
     isSticky: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
   computed: {
     classList() {
@@ -31,7 +30,7 @@ export default {
         classList = 'text-orange-600'
       }
       return classList
-    }
-  }
+    },
+  },
 }
 </script>

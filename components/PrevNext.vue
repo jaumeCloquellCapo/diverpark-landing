@@ -2,7 +2,7 @@
   <div class="w-full flex pt-6">
     <NuxtLink
       v-if="prev"
-    :to="prev.path" 
+      :to="localePath(prev.path)"
       class="w-1/2 bg-white shadow hover:shadow-md text-right p-6"
     >
       <p class="text-lg text-blue-800 font-bold flex items-center">
@@ -13,7 +13,7 @@
     <span v-else>&nbsp;</span>
     <NuxtLink
       v-if="next"
-       :to="next.path" 
+      :to="localePath(next.path)"
       class="w-1/2 bg-white shadow hover:shadow-md text-right p-6"
     >
       <p class="text-lg text-blue-800 font-bold flex items-center justify-end">

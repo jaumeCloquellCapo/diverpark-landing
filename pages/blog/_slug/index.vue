@@ -41,7 +41,7 @@
                 --> {{ formatDate(article.updatedAt) }}
               </div>
 
-              <nav class="pb-6">
+              <!--nav class="pb-6">
                 <ul>
                   <li
                     v-for="link of article.toc"
@@ -61,7 +61,7 @@
                     >
                   </li>
                 </ul>
-              </nav>
+              </nav-->
               <nuxt-content :document="article" />
             </div>
           </article>
@@ -92,6 +92,7 @@
                 class="hover:opacity-75 imgCarrousel"
                 :src="image.url"
               />
+              
             </div>
 
             <NuxtLink
@@ -103,6 +104,8 @@
           </div>
         </aside>
       </div>
+
+
       <!--carrousel :images="images" /-->
     </div>
   </div>
@@ -191,6 +194,7 @@ export default {
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
+      
     return {
       article,
       prev,
