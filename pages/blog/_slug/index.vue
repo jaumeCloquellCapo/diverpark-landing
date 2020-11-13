@@ -73,13 +73,13 @@
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">About Us</p>
             <p class="pb-2">
-             {{article.resumen}}
+              {{ article.resumen }}
             </p>
-            <a
+            <button
               class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"
             >
               Get to know us
-            </a>
+            </button>
           </div>
 
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
@@ -92,11 +92,13 @@
                 :src="image.url"
               />
             </div>
-            <a
+
+            <NuxtLink
+              :to="localePath('contact')"
               class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6"
             >
-              <i class="fab fa-instagram mr-2"></i> Follow @dgrzyb
-            </a>
+              {{ $t('common.booking_now') }} !
+            </NuxtLink>
           </div>
         </aside>
       </div>
@@ -109,7 +111,7 @@ import SubHeader from '@/components/SubHeader'
 
 export default {
   components: {
-    subHeader: SubHeader
+    subHeader: SubHeader,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
@@ -195,8 +197,8 @@ export default {
       images: [],
     }
   },
-   async mounted() {
-   this.images = await this.load(this.article.gallery)
+  async mounted() {
+    this.images = await this.load(this.article.gallery)
   },
   methods: {
     async load(category) {
@@ -243,5 +245,4 @@ export default {
   height: 150px;
   object-fit: cover;
 }
-
 </style>

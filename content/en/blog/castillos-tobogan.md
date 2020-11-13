@@ -1,5 +1,5 @@
 ---
-title: Castillos extra grandes grandes
+title: Castillos grandes
 description: Castillos hinchables para fiestas de cumpleaños 
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-grandes%2Favion-1.jpg?alt=media&token=c683a312-d0e0-40fc-b870-fb5d14fa56f7
 alt: Alquiler castillos hinchables de agua DiverPark Mallorca

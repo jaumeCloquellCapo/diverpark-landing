@@ -3,49 +3,61 @@
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Links</p>
+          <p class="uppercase text-gray-500 md:mb-6">Castillos hinchables</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                 
+              <nuxt-link
+                :to="localePath('/blog/castillos-pequeños')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >FAQ</a
               >
+                Castillos pequeños
+              </nuxt-link>
+            </li>
+               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <nuxt-link
+                :to="localePath('/blog/castillos-tobogan')"
+                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+              >
+                Castillos con tobogan
+              </nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                 
+              <nuxt-link
+                :to="localePath('/blog/castillos-grandes')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Help</a
               >
+                Castillos grandes
+              </nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                 
+              <nuxt-link
+                :to="localePath('/blog/castillos-agua')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Support</a
               >
+                Castillos de agua
+              </nuxt-link>
             </li>
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+          <p class="uppercase text-gray-500 md:mb-6">Atracciones</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <NuxtLink
-                :to="localePath('terms')"
+              <nuxt-link
+                :to="localePath('/blog/toro-mecanico')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                {{ $t('common.terms') }}
-              </NuxtLink>
+                Toro mecánico
+              </nuxt-link>
             </li>
-            <!--li class="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                 
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <nuxt-link
+                :to="localePath('/blog/fiesta-espuma')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
-                >Privacy</a
               >
-            </li-->
+                Fiesta de espuma
+              </nuxt-link>
+            </li>
           </ul>
         </div>
         <div class="flex-1">
@@ -64,13 +76,12 @@
           <p class="uppercase text-gray-500 md:mb-6">Company</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-               <NuxtLink
+              <NuxtLink
                 :to="localePath('aboutus')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 {{ $t('common.aboutus') }}
               </NuxtLink>
-
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <NuxtLink
@@ -84,10 +95,6 @@
         </div>
       </div>
     </div>
-
-    <a href="https://www.freepik.com/free-photos-vectors/background"
-      >Background vector created by freepik - www.freepik.com</a
-    >
   </footer>
 </template>
 
@@ -97,7 +104,7 @@ import Logo from '@/components/Logo'
 export default {
   name: 'TheFooter',
   components: {
-    logo: Logo
-  }
+    logo: Logo,
+  },
 }
 </script>

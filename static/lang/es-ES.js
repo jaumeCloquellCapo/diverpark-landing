@@ -22,6 +22,7 @@ export default () => {
         "gallery": "Atracciones",
         "home": "Home",
         "booking": "Reservar",
+        "booking_now" :"Reserva ya",
         "en": "Ingles",
         "es": "Español",
         "name":"Nombre",

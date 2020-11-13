@@ -1,10 +1,10 @@
 ---
-title: Castillos extra grandes grandes
+title: Castillos con tobogan
 description: Castillos hinchables para fiestas de cumpleaños 
-img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-grandes%2Favion-1.jpg?alt=media&token=c683a312-d0e0-40fc-b870-fb5d14fa56f7
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-medianos%2Fformula.jpg?alt=media&token=bf1e760d-15fe-4716-a3f2-9c368e6b07d8
 alt: Alquiler castillos hinchables de agua DiverPark Mallorca
 resumen: En DiverPark tenemos una amplia variedad de castillos hichables para lo más pequeños
-gallery: 'castillos-grandes'
+gallery: 'castillos-medianos'
 tags: 
   - Castillos Pequeños
   - Fiesta de cumpleaños

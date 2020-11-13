@@ -37,23 +37,22 @@
           </li>
           <li class="mr-3">
             <NuxtLink
-              :to="localePath('gallery')"
+              :to="localePath('blog')"
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
             >
               {{ $t('common.gallery') }}
             </NuxtLink>
           </li>
-  
+
           <li class="mr-3">
             <NuxtLink
               v-for="locale in availableLocales"
-                            class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               :key="locale.code"
               :to="switchLocalePath(locale.code)"
-              >
-              {{ $t('common.' + locale.code) }}
-              </NuxtLink
             >
+              {{ $t('common.' + locale.code) }}
+            </NuxtLink>
           </li>
         </ul>
         <button
@@ -76,17 +75,17 @@ import Logo from '@/components/Logo'
 export default {
   name: 'TheHeader',
   components: {
-    logo: Logo
+    logo: Logo,
   },
   data() {
     return {
       scrollY: 0,
-      isOpen: false
+      isOpen: false,
     }
   },
   computed: {
     availableLocales() {
-      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+      return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
     },
     isSticky() {
       return this.scrollY > 15
@@ -103,7 +102,7 @@ export default {
         classList += ` hidden`
       }
       return classList
-    }
+    },
   },
   methods: {
     onClick() {
@@ -114,7 +113,7 @@ export default {
     },
     onToggleClick() {
       this.isOpen = !this.isOpen
-    }
+    },
   },
   mounted() {
     this.scrollY = window.scrollY
@@ -124,6 +123,6 @@ export default {
   beforeDestroy() {
     document.removeEventListener('click', this.onClick, true)
     document.removeEventListener('scroll', this.onScroll, true)
-  }
+  },
 }
 </script>
