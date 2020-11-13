@@ -4,8 +4,8 @@
     <subHeader />
     <div class="bg-white text-gray-800">
       <!-- Text Header -->
-      <header class="w-full container mx-auto">
-        <div class="flex flex-col items-center py-12">
+      <div class="w-full container mx-auto text-center py-12">
+        <div class="flex flex-col items-center">
           <h1
             class="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl"
           >
@@ -13,7 +13,7 @@
           </h1>
           <h2 class="text-lg text-gray-600">{{ article.description }}</h2>
         </div>
-      </header>
+      </div>
 
       <!-- Topic Nav -->
 
@@ -34,12 +34,12 @@
               <!--a   class="text-3xl font-bold hover:text-gray-700 pb-4">{{
                 article.title
               }}</a-->
-              <p class="text-sm pb-8">
-                <a class="font-semibold hover:text-gray-800">{{
+              <div class="text-sm pb-8">
+                <!--a class="font-semibold hover:text-gray-800">{{
                   article.author.name
                 }}</a
-                >, {{ formatDate(article.updatedAt) }}
-              </p>
+                -->, {{ formatDate(article.updatedAt) }}
+              </div>
 
               <nav class="pb-6">
                 <ul>
@@ -65,7 +65,7 @@
               <nuxt-content :document="article" />
             </div>
           </article>
-          <PrevNext :prev="prev" :next="next" class="mt-8" />
+          <!--PrevNext :prev="prev" :next="next" class="mt-8" /-->
         </section>
 
         <!-- Sidebar Section -->
@@ -73,9 +73,7 @@
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">About Us</p>
             <p class="pb-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              mattis est eu odio sagittis tristique. Vestibulum ut finibus leo.
-              In hac habitasse platea dictumst.
+             {{article.resumen}}
             </p>
             <a
               class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"
@@ -85,43 +83,13 @@
           </div>
 
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">Instagram</p>
+            <p class="text-xl font-semibold pb-5">Galería de imagenes</p>
             <div class="grid grid-cols-3 gap-3">
               <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=1"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=2"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=3"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=4"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=5"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=6"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=7"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=8"
-              />
-              <img
-                class="hover:opacity-75"
-                src="https://source.unsplash.com/collection/1346951/150x150?sig=9"
+                v-for="(image, i) in images"
+                :key="i"
+                class="hover:opacity-75 imgCarrousel"
+                :src="image.url"
               />
             </div>
             <a
@@ -132,14 +100,16 @@
           </div>
         </aside>
       </div>
+      <!--carrousel :images="images" /-->
     </div>
   </div>
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'
+
 export default {
   components: {
-    subHeader: SubHeader,
+    subHeader: SubHeader
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
@@ -222,9 +192,25 @@ export default {
       article,
       prev,
       next,
+      images: [],
     }
   },
+   async mounted() {
+   this.images = await this.load(this.article.gallery)
+  },
   methods: {
+    async load(category) {
+      var storageRef = this.$fire.storage.ref(category)
+      var list = await storageRef.listAll()
+      return await Promise.all(
+        list.items.map(async (imageRef) => {
+          return {
+            //data: imageRef,
+            url: await imageRef.getDownloadURL(),
+          }
+        })
+      )
+    },
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
@@ -252,4 +238,10 @@ export default {
   height: 20px;
   background-size: 20px 20px;
 }
+.imgCarrousel {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
 </style>

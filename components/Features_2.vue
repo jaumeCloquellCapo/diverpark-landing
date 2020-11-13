@@ -20,7 +20,7 @@
         <div class="w-full pl-12">
           <img
             async
-            src="~/assets/background/nube.png"
+            src="https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2Fnube.png?alt=media&token=6f463bf8-f83c-44ab-8f92-50e26a16a24c"
             class="w-full"
             alt="Somos una empresa dedicada principalmente al alquiler de Castillos Hinchables en Mallorca. Aunque esta no es nuestra única actividad. También disponemos a parte de los castillos hinchables un equipo especializado en espectáculos de entretenimiento para los mas pequeños. "
           />
@@ -45,7 +45,7 @@
         <div class="w-full pr-12">
           <img
             async
-            src="~/assets/background/niño.jpg"
+            src="https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2FdiverPark.jpg?alt=media&token=f77cf89f-37fe-49fd-8f1a-2a01db98d667"
             class="w-full"
             alt="diverpark alquiler fiesta espuma mallorca palma baleares"
           />

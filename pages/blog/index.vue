@@ -24,9 +24,9 @@
                 {{ post.title }}
               </h3>
               <p class="text-sm pb-3">
-                <a class="font-semibold text-gray-800">
+                <!--a class="font-semibold text-gray-800">
                   {{ post.author.name }}</a
-                >,
+                -->
                 {{ formatDate(post.updatedAt) }}
               </p>
               <a class="pb-6"> {{ post.resumen }}</a>
