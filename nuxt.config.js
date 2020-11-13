@@ -46,11 +46,38 @@ export default {
     'nuxt-svg-loader',
     'nuxt-i18n',
     '@nuxtjs/sitemap',
-    "nuxt-purgecss"
+    'nuxt-purgecss',
+    ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
   ],
   purgeCSS: {
     mode: 'postcss',
-    enabled: (process.env.NODE_ENV === 'production')
+    enabled: process.env.NODE_ENV === 'production',
+    whitelist: ['hidden'],
+    whitelistPatterns: [/md:w-[1-6]/]
+  },
+  pwa: {
+    manifest: {
+      name: 'DiverPark',
+      lang: 'fa',
+      useWebmanifestExtension: false
+    },
+    workbox: {
+      runtimeCaching: [
+        {
+          urlPattern: 'https://diverpark.net/.*',
+          strategyOptions: {
+            cacheName: 'dp-cache',
+          },
+          strategyPlugins: [{
+             use: 'Expiration',
+             config: {
+               maxEntries: 10,
+               maxAgeSeconds: 300
+             }
+           }]
+        }
+      ]
+   }
   },
   i18n: {
     // Options
@@ -104,36 +131,41 @@ export default {
       remoteConfig: false
     }
   },
-  purgeCSS: {
-    whitelist: ['hidden'],
-    whitelistPatterns: [/md:w-[1-6]/]
-  },
   /*
    ** Build configuration
    */
   build: {
     parallel: true,
-    terser: true,
-
-    extend(config, ctx) {
-      if (process.env.NODE_ENV !== 'production') {
-        config.devtool = '#source-map'
-      }
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-      if (
-        config.optimization.splitChunks &&
-        typeof config.optimization.splitChunks === 'object'
-      ) {
-        config.optimization.splitChunks.maxSize = 200000
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true
       }
     },
+    
+    optimization: {
+      minimize: true,
+      minimizer: [
+
+        // terser-webpack-plugin
+        // optimize-css-assets-webpack-plugin
+      ],
+      splitChunks: {
+        chunks: 'all',
+        automaticNameDelimiter: '.',
+        name: undefined,
+        cacheGroups: {},
+        maxSize: 200000
+      }
+    },
+
     /*
      ** You can extend webpack config here
      */
