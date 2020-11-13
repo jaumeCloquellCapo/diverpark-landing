@@ -48,10 +48,6 @@ export default {
     '@nuxtjs/sitemap',
     "nuxt-purgecss"
   ],
-  purgeCSS: {
-    mode: 'postcss',
-    enabled: (process.env.NODE_ENV === 'production')
-  },
   i18n: {
     // Options
     //to make it seo friendly remove below line and add baseUrl option to production domain
@@ -115,7 +111,25 @@ export default {
     parallel: true,
     terser: true,
 
- 
+    extend(config, ctx) {
+      if (process.env.NODE_ENV !== 'production') {
+        config.devtool = '#source-map'
+      }
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/
+        })
+      }
+      if (
+        config.optimization.splitChunks &&
+        typeof config.optimization.splitChunks === 'object'
+      ) {
+        config.optimization.splitChunks.maxSize = 200000
+      }
+    },
     /*
      ** You can extend webpack config here
      */
