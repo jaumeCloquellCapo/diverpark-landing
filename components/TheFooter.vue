@@ -3,22 +3,24 @@
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">Castillos hinchables</p>
+          <p class="uppercase text-gray-500 md:mb-6">
+            {{ $t('common.castillosHinchables') }}
+          </p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 :to="localePath('/blog/castillos-pequeños')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Castillos pequeños
+                {{ $t('common.castillosPequenos') }}
               </nuxt-link>
             </li>
-               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <nuxt-link
                 :to="localePath('/blog/castillos-tobogan')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Castillos con tobogan
+                {{ $t('common.castillosTobogan') }}
               </nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -26,7 +28,7 @@
                 :to="localePath('/blog/castillos-grandes')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Castillos grandes
+                {{ $t('common.castillosGrandes') }}
               </nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -34,7 +36,7 @@
                 :to="localePath('/blog/castillos-agua')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Castillos de agua
+                {{ $t('common.castillosAgua') }}
               </nuxt-link>
             </li>
           </ul>
@@ -47,7 +49,7 @@
                 :to="localePath('/blog/toro-mecanico')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Toro mecánico
+                {{ $t('common.toromecanico') }}
               </nuxt-link>
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -55,7 +57,7 @@
                 :to="localePath('/blog/fiesta-espuma')"
                 class="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Fiesta de espuma
+                {{ $t('common.espuma') }}
               </nuxt-link>
             </li>
           </ul>

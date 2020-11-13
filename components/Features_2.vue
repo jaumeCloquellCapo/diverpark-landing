@@ -20,7 +20,7 @@
         <div class="w-full pl-12">
           <img
             async
-            src="https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2Fnube.png?alt=media&token=6f463bf8-f83c-44ab-8f92-50e26a16a24c"
+            src="https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2Fni%C3%B1o.jpg?alt=media&token=fdf70d08-f5a3-4163-9711-5f3feaf0232f"
             class="w-full"
             alt="Somos una empresa dedicada principalmente al alquiler de Castillos Hinchables en Mallorca. Aunque esta no es nuestra única actividad. También disponemos a parte de los castillos hinchables un equipo especializado en espectáculos de entretenimiento para los mas pequeños. "
           />

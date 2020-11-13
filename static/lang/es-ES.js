@@ -32,13 +32,17 @@ export default () => {
         "terms": "Térmimos y condiciones",
         "animaciones": "Animaciones infantiles",
         "toromecanico": "Toro mecánico",
+        "castillosHinchables": "Castillos hinchables",
         "castillosAgua": "Castillos de agua",
         "castillosGrandes": "Castillos grandes",
         "castillosMedianos": "Castillos medianos",
         "castillosPequenos": "Castillos pequeños",
+        "castillosTobogan": "Castillos con tobogan",
+        "espuma": "Fiesta de Espuma",
         "call": "Llámanos",
         "searcher": "Galeria",
-        "aboutus": "Sobre nosotros"
+        "aboutus": "Sobre nosotros",
+        "show_more": "Ver mas"
       },
       features: {
         "title": "Quienes somos",
