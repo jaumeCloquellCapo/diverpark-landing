@@ -7,14 +7,15 @@
         <!-- Posts Section -->
         <section class="w-full md:w-2/3 flex flex-col items-center px-3">
           <article
-            class="flex flex-col shadow my-4"
+            class="flex flex-col shadow my-4 rounded overflow-hidden shadow-lg max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl"
             v-for="(post, $index) in posts"
             :key="$index"
           >
             <!-- Article Image -->
-            <a class="hover:opacity-75">
-              <img :src="post.img" :alt="post.title" class="w-full" />
-            </a>
+            <div class="w-full h-64">
+              <img :src="post.img" :alt="post.title" />
+            </div>
+
             <div class="bg-white flex flex-col justify-start p-6">
               <a class="text-blue-700 text-sm font-bold uppercase pb-4">
                 <template v-for="tag in post.tags || []">#{{ tag }} </template>
@@ -41,17 +42,14 @@
           <!-- Pagination -->
           <div class="flex items-center py-8">
             <a
-              href="#"
               class="h-10 w-10 bg-blue-800 hover:bg-blue-600 font-semibold text-white text-sm flex items-center justify-center"
               >1</a
             >
             <a
-              href="#"
               class="h-10 w-10 font-semibold text-gray-800 hover:bg-blue-600 hover:text-white text-sm flex items-center justify-center"
               >2</a
             >
             <a
-              href="#"
               class="h-10 w-10 font-semibold text-gray-800 hover:text-gray-900 text-sm flex items-center justify-center ml-3"
               >Next <i class="fas fa-arrow-right ml-2"></i
             ></a>
@@ -116,7 +114,6 @@
               />
             </div>
             <a
-              href="#"
               class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6"
             >
               <i class="fab fa-instagram mr-2"></i> Follow @dgrzyb
@@ -126,30 +123,6 @@
       </div>
     </div>
   </div>
-  <!--div class="blog container mx-auto">
-    <section class="grid grid-cols-3 gap-4 pt-12">
-      <article
-        class="post max-w-sm rounded overflow-hidden shadow-lg flex flex-col"
-        v-for="(post, $index) in posts"
-        :key="`post-${$index}`"
-      >
-        <img class="w-full" :src="post.media" :alt="post.title" />
-        <div class="px-6 py-4 flex-2">
-          <h3>{{ post.title }}</h3>
-          <p class="text-gray-700 text-base">
-            {{ post.description }}
-          </p>
-        </div>
-        <footer class="p-4">
-          <nuxt-link :to="post.path" class="font-bold text-xl mb-2">
-            <button :to="post.path" class="btn btn-teal">
-              {{ $t('read-more') }}
-            </button>
-          </nuxt-link>
-        </footer>
-      </article>
-    </section>
-  </div-->
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'

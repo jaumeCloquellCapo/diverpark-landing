@@ -62,7 +62,9 @@ export default {
     '@nuxt/content',
     ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
   ],
-
+  content: {
+    liveEdit: false
+  },
   generate: {
     routes: []
     .concat(getPaths('es', 'blog'))

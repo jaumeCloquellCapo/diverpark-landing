@@ -1,20 +1,50 @@
 ---
-title: Castillos agua potable pequeños
-description: Castillos de cumpleaoñs pata niós pequeños en Mallorca
-img: https://images.unsplash.com/photo-1588336271629-1704e27ef8be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2158&q=80
-alt: Castillos agua potable pequeños
-resumen: The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+title: Nuevos Castillos de agua
+description: Nuevos Castillos de agua disponibles en Palma de Mallorca
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-agua%2Fcastillo-agua1.jpg?alt=media&token=c9edc18f-3577-441e-8f41-927305e1d377
+alt: Alquiler castillos hinchables de agua DiverPark Mallorca
+resumen: En DiverPark tenemos una amplia variedad de castillos con de agua
+      para responder a las exigencias de todos nuestros clientes de
+      Palma de Mallorca. 
 author: 
   name: Catalina Capo Alzamora
-  bio: All about Choi and where he works and what he does
-  img: https://images.unsplash.com/photo-1534471770828-9bde524ee634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
 tags: 
   - Castillos Pequeños
   - Fiesta de cumpleaños
+  - Castillos de agua
 ---
 
 ## Castillos hinchable pequeños
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+En DiverPark tenemos una amplia variedad de castillos con de agua
+para responder a las exigencias de todos nuestros clientes de
+Palma de Mallorca. Nos hemos comprometido con cumplir tus
+necesidades en materia de entretenimiento, por ello, somos una
+opción segura y eficiente en el área. Nuestros castillos tienen
+diferentes tamaños y los hay en distintos modelos, por ello se
+pueden adaptar de manera integral a las medidas de la superficie
+donde se colocarán, garantizando la diversión de todos sus
+invitados. El precio de nuestros castillos incluye el servicio de
+entrega, montaje y recogida, así como de un seguro de
+responsabilidad civil que es necesario para el uso de este tipo de
+montajes para el entretenimiento. Para cualquier consulta, ponte
+en contacto con nosotros, te daremos información detallada sobre
+nuestros castillos hinchables con toboganes.
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+## Castillos hinchable pequeños 3
+
+En DiverPark tenemos una amplia variedad de castillos con de agua
+para responder a las exigencias de todos nuestros clientes de
+Palma de Mallorca. Nos hemos comprometido con cumplir tus
+necesidades en materia de entretenimiento, por ello, somos una
+opción segura y eficiente en el área. Nuestros castillos tienen
+diferentes tamaños y los hay en distintos modelos, por ello se
+pueden adaptar de manera integral a las medidas de la superficie
+donde se colocarán, garantizando la diversión de todos sus
+invitados. El precio de nuestros castillos incluye el servicio de
+entrega, montaje y recogida, así como de un seguro de
+responsabilidad civil que es necesario para el uso de este tipo de
+montajes para el entretenimiento. Para cualquier consulta, ponte
+en contacto con nosotros, te daremos información detallada sobre
+nuestros castillos hinchables con toboganes.
