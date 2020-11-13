@@ -1,4 +1,15 @@
 import languages from './static/lang/languages'
+import fs from 'fs'
+const path = require('path')
+
+function getPaths (lang, type) {
+  let initial = lang
+  if (lang === 'es') { initial = '' }
+  return fs.readdirSync(path.resolve(__dirname, 'content', `${lang}/${type}`))
+    .filter(filename => path.extname(filename) === '.md')
+    .map(filename => `${initial}/${type}/${path.parse(filename).name}`)
+}
+
 
 export default {
   components: true,
@@ -14,11 +25,12 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'Alquiler de castillos hinchables en Mallorca'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  components: true,
   /*
    ** Customize the progress-bar color
    */
@@ -31,6 +43,8 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: ['~/plugins/typed.js'],
+  // some nuxt config...
+  css: [],
   /*
    ** Nuxt.js dev-modules
    */
@@ -47,8 +61,19 @@ export default {
     'nuxt-i18n',
     '@nuxtjs/sitemap',
     'nuxt-purgecss',
+    '@nuxt/content',
     ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
   ],
+  content: {
+    liveEdit: false
+  },
+  generate: {
+    routes: []
+    .concat(getPaths('es', 'blog'))
+    .concat(getPaths('en', 'blog'))
+  },
+
+  
   purgeCSS: {
     mode: 'postcss',
     enabled: process.env.NODE_ENV === 'production',
