@@ -56,6 +56,9 @@ export default {
     whitelistPatterns: [/md:w-[1-6]/]
   },
   pwa: {
+    icon: {
+      fileName: 'favicon.ico',
+    },
     manifest: {
       name: 'DiverPark',
       lang: 'fa',
