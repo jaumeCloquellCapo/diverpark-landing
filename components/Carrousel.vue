@@ -1,12 +1,7 @@
 <template>
   <div class="w-full border-t bg-white pb-12">
     <div class="relative w-full flex items-center md:pb-12">
-      <!--button
-        class="absolute bg-blue-800 hover:bg-blue-700 text-white text-2xl font-bold hover:shadow rounded-full w-16 h-16 ml-12"
-        v-on:click="decrement()"
-      >
-        &#8592;
-      </button-->
+
       
       <div class="absolute inset-0 flex">
         <div class="flex items-center justify-start w-1/2">

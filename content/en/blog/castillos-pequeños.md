@@ -1,20 +1,14 @@
 ---
-title: Castillos de agua  pequeños
-description: Castillos de cumpleaoñs pata niós pequeños en Mallorca
-img: https://images.unsplash.com/photo-1588336271629-1704e27ef8be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2158&q=80
-alt: Castillos de agua  pequeños
-resumen: The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-author: 
-  name: Catalina Capo Alzamora
-  bio: All about Choi and where he works and what he does
-  img: https://images.unsplash.com/photo-1534471770828-9bde524ee634?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60
+title: Small bouncy castles
+description: Bouncy castles for the little ones
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-peque%C3%B1os%2Fspider-2.jpg?alt=media&token=57c68490-c334-422d-8f2c-c73d44d92ee4
+alt: Alquiler castillos hinchables de agua DiverPark Mallorca
+resumen: Los más pequeños de la casa disfrutarán a sus anchas en nuestros castillos pensados especialmente para ellos. Cada castillo cuenta una historia diferente, ¿quiere descubrirlas? Estas son algunas de ellas…
+gallery: 'castillos-pequeños'
 tags: 
   - Castillos Pequeños
   - Fiesta de cumpleaños
+  - Castillos de agua
 ---
 
-## Castillos hinchable pequeños
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+The small inflatable castles are a perfect resource for celebrations with children where there is not much space available. Thanks to these attractions any birthday party can have a bouncy castle so that all children can have fun in it regardless of whether it is held outdoors or indoors. For a very affordable rental price for all pockets, the small bouncy castles can be installed almost anywhere, there are even models for individual use. The small inflatable castles also serve as a complement to the larger attractions, in case you need an extra inflatable if there are many children invited or if you want to have a dedicated attraction for the little ones to play in peace. In any case, all the inflatables offer the same guarantee of safety, no matter what size they are, because they are all manufactured with top quality materials that are approved by the European Union and comply with the relevant Community regulations.  The small inflatable castles do not diminish the fun they offer to children either, because they are designed with the objective of making them as entertaining as the large ones, but suitable for a smaller space. They offer hours and hours of very healthy fun in all the models of the wide catalog in which you can choose an inflatable castle for water, sports, Disney films or a more classic medieval style. Whichever one you choose is always right, because inflatable castles are the favourite attractions for children everywhere, and now with the smaller models you can also take advantage of them to brighten up the parties in reduced spaces, with all the safety guarantees and at the best price on the market. 

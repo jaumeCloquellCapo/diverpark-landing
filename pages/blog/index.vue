@@ -14,32 +14,6 @@
           :key="$index"
         >
           <postcard :post="post" />
-          <!--div class="bg-white rounded-lg overflow-hidden shadow relative">
-            <div class="md:flex-shrink-0">
-              <nuxt-link :to="localePath(post.path)">
-                <img
-                  width="300"
-                  height="200"
-                  :src="post.img"
-                  :alt="post.alt"
-                  class="object-fill w-full rounded-lg rounded-b-none md:h-56"
-                />
-              </nuxt-link>
-            </div>
-            <div class="p-4 h-auto md:h-40 lg:h-48">
-              <nuxt-link
-                :to="localePath(post.path)"
-                class="block text-blue-500 hover:text-blue-600 font-semibold mb-2 text-lg md:text-base lg:text-lg"
-              >
-                {{ post.title }}
-              </nuxt-link>
-              <div
-                class="text-gray-600 text-sm leading-relaxed block md:text-xs lg:text-sm"
-              >
-                {{ post.resumen }}
-              </div>
-            </div>
-          </div-->
         </div>
       </section>
     </div>

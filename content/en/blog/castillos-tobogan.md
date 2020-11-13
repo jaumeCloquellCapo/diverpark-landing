@@ -1,30 +1,14 @@
 ---
-title: Castillos grandes
-description: Castillos hinchables para fiestas de cumpleaños 
-img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-grandes%2Favion-1.jpg?alt=media&token=c683a312-d0e0-40fc-b870-fb5d14fa56f7
-alt: Alquiler castillos hinchables de agua DiverPark Mallorca
-resumen: En DiverPark tenemos una amplia variedad de castillos hichables para lo más pequeños
-gallery: 'castillos-grandes'
+title: Bouncy castles with a slide 
+description: Bouncy castles with a slide for birthday parties 
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-medianos%2Fformula.jpg?alt=media&token=bf1e760d-15fe-4716-a3f2-9c368e6b07d8
+alt: Alquiler castillos hinchables con tobogan en mallorca
+resumen: In the middle is virtue. Medium sized castles, the perfect size of fun. 
+gallery: 'castillos-medianos'
 tags: 
-  - Castillos Pequeños
+  - Castillos con tobogan
   - Fiesta de cumpleaños
-  - Castillos de agua
+  - Castillos hinchables
 ---
 
-## Castillos hinchable pequeños
-
-  En DiverPark tenemos una amplia variedad de castillos con de agua
-  para responder a las exigencias de todos nuestros clientes de
-  Palma de Mallorca. Nos hemos comprometido con cumplir tus
-  necesidades en materia de entretenimiento, por ello, somos una
-  opción segura y eficiente en el área. Nuestros castillos tienen
-  diferentes tamaños y los hay en distintos modelos, por ello se
-  pueden adaptar de manera integral a las medidas de la superficie
-  donde se colocarán, garantizando la diversión de todos sus
-  invitados. El precio de nuestros castillos incluye el servicio de
-  entrega, montaje y recogida, así como de un seguro de
-  responsabilidad civil que es necesario para el uso de este tipo de
-  montajes para el entretenimiento. Para cualquier consulta, ponte
-  en contacto con nosotros, te daremos información detallada sobre
-  nuestros castillos hinchables con toboganes
-  
+In DiverPark we have a great variety of castles of different themes, sizes and shapes. In addition almost all our castles have a slide that will raise the fun to 200%. The price of our castles includes the delivery, assembly and collection service as well as a civil responsibility insurance that is necessary for the use of this type of assembly for entertainment. If you have any questions, please contact us. In addition, we will give you detailed information about our inflatable lofts with slides.

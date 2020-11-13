@@ -1,20 +1,16 @@
 ---
 title: Fiesta espuma
 description: Fiesta espuma para fiestas de cumpleaños 
-img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-peque%C3%B1os%2Fspider-2.jpg?alt=media&token=57c68490-c334-422d-8f2c-c73d44d92ee4
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/espuma%2Fespuma.jpg?alt=media&token=db0980f6-d687-4003-8855-3cc90ae7a8bd
 alt: Alquiler castillos hinchables de agua DiverPark Mallorca
-resumen: En DiverPark tenemos una amplia variedad de castillos con de agua
-  para responder a las exigencias de todos nuestros clientes de
-  Palma de Mallorca. Nos hemos comprometido con cumplir tus
-  necesidades en materia de entretenimiento
-gallery: 'castillos-pequeños'
+resumen: El agua forma un 80% de nuestro cuerpo… será por eso que a la hora de divertirnos en una atracción siempre preferimos las de agua. ¿Será que también es un 80% más divertida? Os presentamos nuestros castillos de agua donde la diversión estará asegurada. 
+gallery: 'espuma'
 tags: 
-  - Castillos Pequeños
-  - Fiesta de cumpleaños
-  - Castillos de agua
+  - Castillos hinchables de agua
+  - Fiesta de agua
+  - cañon de espuma
+  - Verano
 ---
-
-## Castillos hinchable pequeños
 
   En DiverPark tenemos una amplia variedad de castillos con de agua
   para responder a las exigencias de todos nuestros clientes de

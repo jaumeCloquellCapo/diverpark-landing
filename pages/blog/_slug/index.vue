@@ -11,7 +11,7 @@
           >
             {{ article.title }}
           </h1>
-          <h2 class="text-lg text-gray-600">{{ article.description }}</h2>
+          <h2 class="text-lg text-gray-600">{{ article.resumen }}</h2>
         </div>
       </div>
 
@@ -31,37 +31,10 @@
                   >#{{ tag }}
                 </template></a
               >
-              <!--a   class="text-3xl font-bold hover:text-gray-700 pb-4">{{
-                article.title
-              }}</a-->
-              <div class="text-sm pb-8">
-                <!--a class="font-semibold hover:text-gray-800">{{
-                  article.author.name
-                }}</a
-                --> {{ formatDate(article.updatedAt) }}
-              </div>
 
-              <!--nav class="pb-6">
-                <ul>
-                  <li
-                    v-for="link of article.toc"
-                    :key="link.id"
-                    :class="{
-                      'font-semibold': link.depth === 2,
-                    }"
-                  >
-                    <nuxtLink
-                      :to="`#${link.id}`"
-                      class="hover:underline"
-                      :class="{
-                        'py-2': link.depth === 2,
-                        'ml-2 pb-2': link.depth === 3,
-                      }"
-                      >{{ link.text }}</nuxtLink
-                    >
-                  </li>
-                </ul>
-              </nav-->
+              <div class="text-sm pb-8">
+                {{ formatDate(article.updatedAt) }}
+              </div>
               <nuxt-content :document="article" />
             </div>
           </article>
@@ -71,16 +44,18 @@
         <!-- Sidebar Section -->
         <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">    {{$t('common.about_us')}}</p>
+            <!--p class="text-xl font-semibold pb-5">    
+              {{$t('common.about_us')}}
+            </p-->
             <p class="pb-2">
               {{ article.resumen }}
             </p>
-            <button
+            <!--button
               class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"
             >
                 {{$t('common.get_to_know_us')}}
           
-            </button>
+            </button-->
           </div>
 
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
@@ -89,10 +64,10 @@
               <img
                 v-for="(image, i) in images"
                 :key="i"
+                 :alt="article.title"
                 class="hover:opacity-75 imgCarrousel"
                 :src="image.url"
               />
-              
             </div>
 
             <NuxtLink
@@ -104,7 +79,6 @@
           </div>
         </aside>
       </div>
-
 
       <!--carrousel :images="images" /-->
     </div>
@@ -194,7 +168,7 @@ export default {
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
-      
+
     return {
       article,
       prev,

@@ -1,6 +1,6 @@
 ---
-title: Toro mecánico
-description: Fiesta espuma para fiestas de cumpleaños 
+title: Mechanical bull 
+description: Mechanical bull for all types of events
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/toro-mecanico%2Ftoro-mecanico5.jpg?alt=media&token=c469bfb4-ed1b-47f3-83b0-a087baf3aa42
 alt: Alquiler castillos hinchables de agua DiverPark Mallorca
 resumen: En DiverPark tenemos una amplia variedad de castillos con de agua
@@ -9,24 +9,9 @@ resumen: En DiverPark tenemos una amplia variedad de castillos con de agua
   necesidades en materia de entretenimiento
 gallery: 'toro-mecanico'
 tags: 
-  - Castillos Pequeños
+  - Mechanical bull 
   - Fiesta de cumpleaños
-  - Castillos de agua
+  - Mallorca
 ---
 
-## Castillos hinchable pequeños
-
-  En DiverPark tenemos una amplia variedad de castillos con de agua
-  para responder a las exigencias de todos nuestros clientes de
-  Palma de Mallorca. Nos hemos comprometido con cumplir tus
-  necesidades en materia de entretenimiento, por ello, somos una
-  opción segura y eficiente en el área. Nuestros castillos tienen
-  diferentes tamaños y los hay en distintos modelos, por ello se
-  pueden adaptar de manera integral a las medidas de la superficie
-  donde se colocarán, garantizando la diversión de todos sus
-  invitados. El precio de nuestros castillos incluye el servicio de
-  entrega, montaje y recogida, así como de un seguro de
-  responsabilidad civil que es necesario para el uso de este tipo de
-  montajes para el entretenimiento. Para cualquier consulta, ponte
-  en contacto con nosotros, te daremos información detallada sobre
-  nuestros castillos hinchables con toboganes.
+The mechanical bull rental is the best option if you are thinking of organizing a fun and surprising family party or for any celebration with friends where you want to surprise your guests. So that you can enjoy this magnificent attraction at a lower cost, in the mechanical bull rental price we include free delivery, installation and collection of the material; we also provide you with the monitor without any additional cost during all the hours you hire the attraction. And if you want it during the week, from Monday to Thursday, you will have a very important discount in the rent of the mechanical bull and unbeatable conditions. Riders who do not hesitate to get back on the bull again and again challenging the machine.

@@ -20,6 +20,7 @@ export default {
   name: 'LandingPage',
   components: {
     LazyHydrate,
+     carrousel: () => import('@/components/Carrousel'),
     hero: () => import('@/components/Hero'),
     counter: hydrateWhenVisible(() => import('@/components/Counter')),
     features: hydrateWhenVisible(() => import('@/components/Features')),

@@ -1,30 +1,18 @@
 ---
-title: Castillos hinchables extra grandes con tobogan
-description: Castillos hinchables grandes con tobogan  
-img: https://images.unsplash.com/photo-1588336271629-1704e27ef8be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2158&q=80
-alt: Alquiler castillos hinchables de agua DiverPark Mallorca
-resumen: En DiverPark tenemos una amplia variedad de castillos hichables para todo tipo de eventos
-author: 
-  name: Catalina Capo Alzamora
+title: Bouncy castles with extra large slide
+description: Bouncy castles with extra large slide in Palma de Mallorca
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-grandes%2Favion-1.jpg?alt=media&token=c683a312-d0e0-40fc-b870-fb5d14fa56f7
+alt: Alquiler castillos hinchables con tobogan
+resumen: Más siempre es más cuando se trata de disfrutar. Con estos castillos te podrás adentrar en nuestro universo de risas, emoción y adrenalina. 
+gallery: 'castillos-grandes'
 tags: 
-  - Castillos hinchables 
+  - Castillos Pequeños
   - Fiesta de cumpleaños
-  - Comuniones
+  - Castillos de agua
 ---
 
-## Castillos hinchable extra grandes
+Our inflatable castles with a slide are part of all our playgrounds as they are one of the most attractive inflatable attractions for children of all ages.
 
-  En DiverPark tenemos una amplia variedad de castillos con tobogán
-  para responder a las exigencias de todos nuestros clientes de
-  Palma de Mallorca. Nos hemos comprometido con cumplir tus
-  necesidades en materia de entretenimiento, por ello, somos una
-  opción segura y eficiente en el área. Nuestros castillos tienen
-  diferentes tamaños y los hay en distintos modelos, por ello se
-  pueden adaptar de manera integral a las medidas de la superficie
-  donde se colocarán, garantizando la diversión de todos sus
-  invitados. El precio de nuestros castillos incluye el servicio de
-  entrega, montaje y recogida, así como de un seguro de
-  responsabilidad civil que es necesario para el uso de este tipo de
-  montajes para el entretenimiento. Para cualquier consulta, ponte
-  en contacto con nosotros, te daremos información detallada sobre
-  nuestros castillos hinchables con toboganes.
+The rental of inflatable slides is one of our star products as a play activity for birthdays and communions whether or not it is accompanied by monitors or children's entertainers.
+
+You can also rent inflatables for private parties or make them part of a project of children's activities such as open days, end of year parties, popular fiestas. In addition some of our larger inflatable slide models can be used by adults.
