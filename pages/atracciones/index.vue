@@ -2,36 +2,22 @@
 <template>
   <div>
     <subHeader />
-    <div class="bg-white">
-      <!-- component -->
-      <!-- This is an example component -->
-      <section class="flex flex-row flex-wrap mx-auto container">
-        <!-- Card Component -->
-
-        <div
-          class="transition-all duration-150 flex w-full px-4 py-6 md:w-1/2 lg:w-1/3"
-          v-for="(post, $index) in posts"
-          :key="$index"
-        >
-          <postcard :post="post" />
-        </div>
-      </section>
-    </div>
+    <atracciones :posts="posts" />
   </div>
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'
-import PostCard from '@/components/PostCard'
+import Atracciones from '@/components/Atracciones'
 export default {
-  name: 'Blog',
+  name: 'Atracciones',
   components: {
     subHeader: SubHeader,
-    postcard: PostCard,
+    atracciones: Atracciones,
   },
   async asyncData(context) {
     const { $content, app } = context
     const defaultLocale = app.i18n.locale
-    const posts = await $content(`${defaultLocale}/blog`).fetch()
+    const posts = await $content(`${defaultLocale}/atracciones`).fetch()
 
     return {
       posts: posts.map((post) => ({

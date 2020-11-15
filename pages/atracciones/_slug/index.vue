@@ -43,20 +43,11 @@
 
         <!-- Sidebar Section -->
         <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
-          <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <!--p class="text-xl font-semibold pb-5">    
-              {{$t('common.about_us')}}
-            </p-->
+          <!--div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="pb-2">
               {{ article.resumen }}
             </p>
-            <!--button
-              class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4"
-            >
-                {{$t('common.get_to_know_us')}}
-          
-            </button-->
-          </div>
+          </div-->
 
           <div class="w-full bg-white shadow flex flex-col my-4 p-6">
             <p class="text-xl font-semibold pb-5">Galería de imagenes</p>
@@ -160,10 +151,10 @@ export default {
   async asyncData(context) {
     const { $content, params, app, route, redirect } = context
     const article = await $content(
-      `${app.i18n.locale}/blog`,
+      `${app.i18n.locale}/atracciones`,
       params.slug
     ).fetch()
-    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
+    const [prev, next] = await $content(`${app.i18n.locale}/atracciones`)
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
