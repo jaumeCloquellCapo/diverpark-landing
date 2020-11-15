@@ -20,7 +20,6 @@ export default {
   name: 'LandingPage',
   components: {
     LazyHydrate,
-     carrousel: () => import('@/components/Carrousel'),
     hero: () => import('@/components/Hero'),
     counter: hydrateWhenVisible(() => import('@/components/Counter')),
     features: hydrateWhenVisible(() => import('@/components/Features')),
@@ -37,14 +36,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content:
-            'DIVERPARK es una empresa especializada en el alquiler de Castillos hinchables en Mallorca y fiestas de espuma en Mallorca',
+          content: this.$t('seo.index.title'),
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content:
-            'DIVERPARK es una empresa especializada en el alquiler de Castillos hinchables en Mallorca y fiestas de espuma en Mallorca',
+          content: this.$t('seo.index.description'),
         },
         ...i18nSeo.meta,
       ],

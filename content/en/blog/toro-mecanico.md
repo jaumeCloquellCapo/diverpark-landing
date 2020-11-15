@@ -12,6 +12,7 @@ tags:
   - Mechanical bull 
   - Fiesta de cumpleaños
   - Mallorca
+  - Alquiler
 ---
 
 The mechanical bull rental is the best option if you are thinking of organizing a fun and surprising family party or for any celebration with friends where you want to surprise your guests. So that you can enjoy this magnificent attraction at a lower cost, in the mechanical bull rental price we include free delivery, installation and collection of the material; we also provide you with the monitor without any additional cost during all the hours you hire the attraction. And if you want it during the week, from Monday to Thursday, you will have a very important discount in the rent of the mechanical bull and unbeatable conditions. Riders who do not hesitate to get back on the bull again and again challenging the machine.

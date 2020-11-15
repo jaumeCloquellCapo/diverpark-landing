@@ -96,15 +96,15 @@ export default {
     return {
       title: 'Diverpark MAllorca | Castillos hinchables | Contacto',
       meta: [
-        {
+      {
           hid: 'description',
           name: 'description',
-          content: 'Mallorca DIVERPARK es una empresa dedicada al alquiler de castillos hinchables en Mallorca y a la animación infantil en Mallorca entre otros servicios, ofreciendo calidad, compromiso y los mejores servicios para entretener a los niños y que estos se diviertan de forma saludable.'
+          content: this.$t('seo.contact.title'),
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: 'Mallorca DIVERPARK es una empresa dedicada al alquiler de castillos hinchables en Mallorca y a la animación infantil en Mallorca entre otros servicios, ofreciendo calidad, compromiso y los mejores servicios para entretener a los niños y que estos se diviertan de forma saludable.'
+          content:this.$t('seo.contact.description'),
         },
         ...i18nSeo.meta
       ],
