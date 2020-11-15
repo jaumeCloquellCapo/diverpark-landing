@@ -37,7 +37,7 @@
           </li>
           <li class="mr-3">
             <NuxtLink
-              :to="localePath('blog')"
+              :to="localePath('atracciones')"
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
             >
               {{ $t('common.gallery') }}

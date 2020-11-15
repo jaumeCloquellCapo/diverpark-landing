@@ -69,8 +69,8 @@ export default {
   },
   generate: {
     routes: []
-    .concat(getPaths('es', 'blog'))
-    .concat(getPaths('en', 'blog'))
+    .concat(getPaths('es', 'atracciones'))
+    .concat(getPaths('en', 'atracciones'))
   },
 
   

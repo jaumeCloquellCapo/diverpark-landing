@@ -23,7 +23,7 @@
 import SubHeader from '@/components/SubHeader'
 import PostCard from '@/components/PostCard'
 export default {
-  name: 'Blog',
+  name: 'Atracciones',
   components: {
     subHeader: SubHeader,
     postcard: PostCard,
@@ -31,7 +31,7 @@ export default {
   async asyncData(context) {
     const { $content, app } = context
     const defaultLocale = app.i18n.locale
-    const posts = await $content(`${defaultLocale}/blog`).fetch()
+    const posts = await $content(`${defaultLocale}/atracciones`).fetch()
 
     return {
       posts: posts.map((post) => ({

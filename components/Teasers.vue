@@ -20,7 +20,7 @@
           slot="svg"
         />
         <template v-slot:headline>
-          <nuxt-link :to="localePath('/blog/castillos-agua')">
+          <nuxt-link :to="localePath('/atracciones/castillos-agua')">
             {{ $t('teaser.castillosAgua.title') }}
           </nuxt-link>
         </template>
@@ -52,7 +52,7 @@
         />
 
         <template v-slot:headline>
-          <nuxt-link :to="localePath('/blog/castillos-pequeños')">
+          <nuxt-link :to="localePath('/atracciones/castillos-pequeños')">
             {{ $t('teaser.castillospequeños.title') }}
           </nuxt-link>
         </template>
@@ -84,7 +84,7 @@
         />
 
         <template v-slot:headline>
-          <nuxt-link :to="localePath('/blog/castillos-grandes')">
+          <nuxt-link :to="localePath('/atracciones/castillos-grandes')">
             {{ $t('teaser.castillosgrandes.title') }}
           </nuxt-link>
         </template>
@@ -115,7 +115,7 @@
           slot="svg"
         />
         <template v-slot:headline>
-          <nuxt-link :to="localePath('/blog/fiesta-espuma')">
+          <nuxt-link :to="localePath('/atracciones/fiesta-espuma')">
             {{ $t('teaser.espuma.title') }}
           </nuxt-link>
         </template>

@@ -1,6 +1,20 @@
 export default () => {
   return new Promise(function(resolve) {
     resolve({
+      seo: {
+        index:{
+          title:  "Diverpark | Alquiler de castillos hinchables en Palma de Mallorca",
+          description: "Empresa especializada en el alquiler de Castillos hinchables, animaciones y fiesta de espuma en Mallorca"
+        },
+        contact:{
+          title:  "Diverpark | Contacta en Palma de Mallorca con diverpark",
+          description: "Contacta con nuestra empresa Diverpark en Palma de Mallorca y disfrutarás de una fiesta inolvidable con los más pequeños. Llámanos y cuéntanos tus deseos."
+        },
+        aboutus:{
+          title:  "Alquiler de castillos hinchables en Palma de Mallorca con DiverPark",
+          description: "Bienvenidos y bienvenidas a Diverpark, una empresa de Palma de Mallorca dedicada al ocio infantil y al alquiler de castillos hinchables. Llámanos."
+        }
+      },
       teaser: {
         castillosAgua: {
           title: "Castillos hinchables acuáticos en Mallorca",

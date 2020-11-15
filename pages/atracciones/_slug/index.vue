@@ -160,10 +160,10 @@ export default {
   async asyncData(context) {
     const { $content, params, app, route, redirect } = context
     const article = await $content(
-      `${app.i18n.locale}/blog`,
+      `${app.i18n.locale}/atracciones`,
       params.slug
     ).fetch()
-    const [prev, next] = await $content(`${app.i18n.locale}/blog`)
+    const [prev, next] = await $content(`${app.i18n.locale}/atracciones`)
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
