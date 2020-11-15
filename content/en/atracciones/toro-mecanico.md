@@ -3,10 +3,10 @@ title: Mechanical bull
 description: Mechanical bull for all types of events
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/toro-mecanico%2Ftoro-mecanico5.jpg?alt=media&token=c469bfb4-ed1b-47f3-83b0-a087baf3aa42
 alt: Alquiler castillos hinchables de agua DiverPark Mallorca
-resumen: En DiverPark tenemos una amplia variedad de castillos con de agua
-  para responder a las exigencias de todos nuestros clientes de
-  Palma de Mallorca. Nos hemos comprometido con cumplir tus
-  necesidades en materia de entretenimiento
+resumen: At DiverPark we have a wide variety of water castles
+  to meet the requirements of all our customers for
+  Palma de Mallorca. We are committed to fulfilling your
+  entertainment needs
 gallery: 'toro-mecanico'
 tags: 
   - Mechanical bull 
