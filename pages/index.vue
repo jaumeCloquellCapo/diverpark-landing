@@ -3,13 +3,15 @@
     <hero />
     <features />
     <counter />
-    <teasers />
+    <!--teasers /-->
+    <atracciones :posts="posts" />
     <call-to-action />
   </div>
 </template>
 
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
+
 import {
   hydrateOnInteraction,
   hydrateNever,
@@ -22,8 +24,8 @@ export default {
     LazyHydrate,
     hero: () => import('@/components/Hero'),
     counter: hydrateWhenVisible(() => import('@/components/Counter')),
+    atracciones: hydrateWhenVisible(() => import('@/components/Atracciones')),
     features: hydrateWhenVisible(() => import('@/components/Features')),
-    teasers: hydrateWhenVisible(() => import('@/components/Teasers')),
     'call-to-action': hydrateWhenVisible(() =>
       import('@/components/CallToAction')
     ),
@@ -46,6 +48,18 @@ export default {
         ...i18nSeo.meta,
       ],
       link: [...i18nSeo.link],
+    }
+  },
+    async asyncData(context) {
+    const { $content, app } = context
+    const defaultLocale = app.i18n.locale
+    const posts = await $content(`${defaultLocale}/atracciones`).fetch()
+
+    return {
+      posts: posts.map((post) => ({
+        ...post,
+        path: post.path.replace(`/${defaultLocale}`, ''),
+      })),
     }
   },
 }
