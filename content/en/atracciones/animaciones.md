@@ -1,7 +1,7 @@
 ---
 title: Animation for parties or communions in Palma de Mallorca
 description: In Diverpark we offer an exclusive service of animation for communions and birthdays in Palma de Mallorca.
-img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/toro-mecanico%2Ftoro-mecanico5.jpg?alt=media&token=c469bfb4-ed1b-47f3-83b0-a087baf3aa42
+img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2Fanmadoras.jpg?alt=media&token=8982f75c-bae2-47bb-b4dc-3fff235b4126
 alt: Animaciones DiverPark Mallorca
 resumen: In Diverpark we offer an exclusive service of animation for communions and birthdays in Palma de Mallorca. We offer you a complete service to make your party unforgettable. At Diverpark we strive to make our clients enjoy our children's entertainment services and our bouncy castles to the fullest. Call us or visit us and we will offer you a detailed budget without obligation. We are at your complete disposal.
 
