@@ -1,6 +1,6 @@
 ---
-title: Fiesta espuma
-description: Fiesta espuma para fiestas de cumpleaños 
+title: Fiesta de espuma en Palma de Mallorca
+description: Fiesta espuma para fiestas de cumpleaños, comuniones y bautizos en Palam de mallorca
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/espuma%2Fespuma.jpg?alt=media&token=db0980f6-d687-4003-8855-3cc90ae7a8bd
 alt: Alquiler castillos hinchables de agua DiverPark Mallorca
 resumen: El agua forma un 80% de nuestro cuerpo… será por eso que a la hora de divertirnos en una atracción siempre preferimos las de agua. ¿Será que también es un 80% más divertida? Os presentamos nuestros castillos de agua donde la diversión estará asegurada. 
