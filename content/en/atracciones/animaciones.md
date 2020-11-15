@@ -1,21 +1,27 @@
 ---
-title: Animación para fiestas o comuniones en Palma de Mallorca 
-description: En diverpark ofrecemos un servicio exclusivo de animación para comuniones y cumpleaños en Palma de Mallorca.
+title: Animation for parties or communions in Palma de Mallorca
+description: In Diverpark we offer an exclusive service of animation for communions and birthdays in Palma de Mallorca.
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/toro-mecanico%2Ftoro-mecanico5.jpg?alt=media&token=c469bfb4-ed1b-47f3-83b0-a087baf3aa42
 alt: Animaciones DiverPark Mallorca
-resumen: En Diverpark ofrecemos un servicio exclusivo de animación para comuniones y cumpleaños en Palma de Mallorca. Te ofrecemos un servicio completo para que tu fiesta sea inolvidable. En Diverpark nos esforzamos por que nuestros clientes disfruten al máximo de nuestros servicios de animación infantil ​y nuestros castillos hinchables. Llámanos o visítanos y te ofreceremos un presupuesto detallado sin compromiso. Estamos a tu completa disposición.
+resumen: In Diverpark we offer an exclusive service of animation for communions and birthdays in Palma de Mallorca. We offer you a complete service to make your party unforgettable. At Diverpark we strive to make our clients enjoy our children's entertainment services and our bouncy castles to the fullest. Call us or visit us and we will offer you a detailed budget without obligation. We are at your complete disposal.
+
 gallery: 'animaciones'
 tags: 
   - Animaciones infantiles
   - Fiesta de cumpleaños
   - Comuniones
 ---
-## Animaciones Diverpark
+In DiverPark you will find everything you need so that your event does not lack the children's party entertainers at affordable prices that you are looking for. We know that looking for children's party entertainers is very difficult when you are so busy to organize everything to have the best party for the protagonist of the event and his friends.
 
-En Diverpark ofrecemos un servicio exclusivo de animación para comuniones y cumpleaños en Palma de Mallorca. Te ofrecemos un servicio completo para que tu fiesta sea inolvidable. En Diverpark nos esforzamos por que nuestros clientes disfruten al máximo de nuestros servicios de animación infantil ​y nuestros castillos hinchables. Llámanos o visítanos y te ofreceremos un presupuesto detallado sin compromiso. Estamos a tu completa disposición.
- 
-### La animación infantil consta de dos partes:
-* La primera parte tiene una duración de una hora aproximadamente donde los niños participan de nuestra dinámica con juegos, canciones y danzas adaptándonos a las diferentes edades para cumpleaños, bautizos comuniones, etc.
+You only have to call our advisors and tell them that you need entertainers for a children's party and you'll have it as quickly as possible. Thanks to the list of professionals available on this website, you will have a wide range to hire entertainers for children's parties with cheap prices you need. 
 
-* La segunda parte realizamos el fin de fiesta con una mini disco y una serie de coreografías de música actual en la que animamos tanto a niños como adultos a participar de ellas completando así un total de dos horas haciendo que su fiesta sea irrepetible e inolvidable.
-Servicio de comedor gratuito: estamos pendientes de los niños durante el tiempo que dure la comida y al acabar empiezan las dos horas de espectáculo.
+We offer a complete service to make your party unforgettable. In Diverpark we strive to make our clients enjoy our children's entertainment services and our bouncy castles to the fullest. Call us or visit us and we will offer you a detailed budget without obligation. We are at your complete disposal.
+
+### Children's animation consists of two parts:
+
+* The first part has a duration of approximately one hour where the children participate of our dynamics with games, songs and dances adapting us to the different ages for birthdays, baptisms, communions, etc.
+
+* The second part we realize the end of party with a mini disc and a series of choreographies of current music in which we encourage so much children as adults to take part of them completing this way a whole of two hours doing that his party is unrepeatable and unforgettable.
+Free dining service: we look after the children during the time the meal lasts and at the end the two-hour show begins.
+
+Translated with www.DeepL.com/Translator (free version)
