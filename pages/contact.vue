@@ -83,6 +83,7 @@
 </template>
 
 <script>
+import getSiteMeta from '~/utils/getSiteMeta.js'
 import VueRecaptcha from 'vue-recaptcha'
 import SubHeader from '@/components/SubHeader'
 export default {
@@ -93,19 +94,15 @@ export default {
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
+      const metaData = {
+      title: this.$t('seo.contact.title'),
+      description: this.$t('seo.contact.description'),
+            url: 'https://diverpark.net' + this.$route.fullPath
+    }
     return {
-      title: 'Diverpark MAllorca | Castillos hinchables | Contacto',
+      title: this.$t('seo.contact.title'),
       meta: [
-      {
-          hid: 'description',
-          name: 'description',
-          content: this.$t('seo.contact.title'),
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content:this.$t('seo.contact.description'),
-        },
+        ...getSiteMeta(metaData),
         ...i18nSeo.meta
       ],
       link: [...i18nSeo.link]

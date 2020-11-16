@@ -77,72 +77,23 @@
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'
-
+import getSiteMeta from '~/utils/getSiteMeta.js'
 export default {
   components: {
     subHeader: SubHeader,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
+    const metaData = {
+      title: this.article.title,
+      description: this.article.description,
+      keywords: this.article.tags.toString(),
+            url: 'https://diverpark.net' + this.$route.fullPath
+    }
     return {
       title: this.article.title,
       meta: [
-        {
-          hid: `keywords`,
-          name: 'keywords',
-          keywords: this.article.tags,
-        },
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.article.description,
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.article.description,
-        },
-
-        {
-          property: 'article:tag',
-          content: this.article.tags ? this.article.tags.toString() : '',
-        },
-        {
-          name: 'twitter:data2',
-          content: this.article.tags ? this.article.tags.toString() : '',
-        },
-        // facebook
-        {
-          hid: 'og:url',
-          property: 'og:url',
-          content: 'https://bobross.com',
-        },
-        {
-          hid: 'og:title',
-          property: 'og:title',
-          content: this.article.title,
-        },
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: this.article.description,
-        },
-        // twitter
-        {
-          hid: 'twitter:url',
-          name: 'twitter:url',
-          content: 'https://bobross.com',
-        },
-        {
-          hid: 'twitter:title',
-          name: 'twitter:title',
-          content: this.article.title,
-        },
-        {
-          hid: 'twitter:description',
-          name: 'twitter:description',
-          content: this.article.description,
-        },
+        ...getSiteMeta(metaData),
         ...i18nSeo.meta,
       ],
       link: [...i18nSeo.link],

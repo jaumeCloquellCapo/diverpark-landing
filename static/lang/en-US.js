@@ -13,6 +13,10 @@ export default () => {
         aboutus:{
           title:  "Rental of bouncy castles in Palma de Mallorca with DiverPark",
           description: "Welcome to Diverpark, a company in Palma de Mallorca dedicated to children's leisure and bouncy castle rental. Call us."
+        },
+        atracciones:{
+          title:  "Rental of attractions and bouncy castles in Palma de Mallorca",
+          description: "Enjoy our services of inflatable castles and children's animations for any type of event"
         }
       },
       atracciones: {

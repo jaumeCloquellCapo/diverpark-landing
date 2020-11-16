@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import getSiteMeta from '~/utils/getSiteMeta.js'
 import SubHeader from '@/components/SubHeader'
 import Aboutus from '@/components/Aboutus'
 export default {
@@ -16,21 +17,15 @@ export default {
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
+    const metaData = {
+      title: this.$t('seo.aboutus.title'),
+      description: this.$t('seo.aboutus.description'),
+            url: 'https://diverpark.net' + this.$route.fullPath
+    }
+
     return {
-      title: 'Diverpark Mallorca | Castillos hinchables | Sobre Nosotros',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$t('seo.aboutus.title'),
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$t('seo.aboutus.description'),
-        },
-        ...i18nSeo.meta,
-      ],
+      title: this.$t('seo.aboutus.title'),
+      meta: [...getSiteMeta(metaData), ...i18nSeo.meta],
       link: [...i18nSeo.link],
     }
   },

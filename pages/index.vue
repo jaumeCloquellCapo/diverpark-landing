@@ -11,7 +11,7 @@
 
 <script>
 import LazyHydrate from 'vue-lazy-hydration'
-
+import getSiteMeta from '~/utils/getSiteMeta.js'
 import {
   hydrateOnInteraction,
   hydrateNever,
@@ -32,21 +32,14 @@ export default {
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
+    const metaData = {
+      title: this.$t('seo.index.title'),
+      description: this.$t('seo.index.description')
+    }
+
     return {
-      title: 'Diverpark | Castillos hinchables | Mallorca',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.$t('seo.index.title'),
-        },
-        {
-          hid: 'og:description',
-          name: 'og:description',
-          content: this.$t('seo.index.description'),
-        },
-        ...i18nSeo.meta,
-      ],
+      title: this.$t('seo.index.title'),
+      meta: [...getSiteMeta(metaData), ...i18nSeo.meta],
       link: [...i18nSeo.link],
     }
   },
@@ -71,7 +64,7 @@ export default {
         name: post.title,
         image: post.img,
         description: post.resumen,
-        url: tis.localePath(post.path),
+        url: this.localePath(post.path),
       })),
     }
 
