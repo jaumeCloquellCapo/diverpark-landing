@@ -99,6 +99,9 @@ export default {
       description: this.$t('seo.contact.description'),
     }
     return {
+      htmlAttrs:{
+          ...i18nSeo.htmlAttrs
+      },
       title: this.$t('seo.contact.title'),
       meta: [
         ...getSiteMeta(metaData),

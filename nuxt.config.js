@@ -62,7 +62,7 @@ export default {
     '@nuxtjs/sitemap',
     'nuxt-purgecss',
     '@nuxt/content',
-    ['@nuxtjs/pwa', { meta: false, icon: false, manifest: false }]
+    '@nuxtjs/pwa'
   ],
   content: {
     liveEdit: false
@@ -110,7 +110,7 @@ export default {
   i18n: {
     // Options
     //to make it seo friendly remove below line and add baseUrl option to production domain
-    seo: true,
+    seo: false,
     baseUrl: 'https://diverpark.net',
     lazy: true,
     locales: languages,

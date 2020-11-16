@@ -55,7 +55,7 @@
               <img
                 v-for="(image, i) in images"
                 :key="i"
-                 :alt="article.title"
+                :alt="article.title"
                 class="hover:opacity-75 imgCarrousel"
                 :src="image.url"
               />
@@ -88,14 +88,14 @@ export default {
       title: this.article.title,
       description: this.article.description,
       keywords: this.article.tags.toString(),
-            url: 'https://diverpark.net' + this.$route.fullPath
+      url: 'https://diverpark.net' + this.$route.fullPath,
     }
     return {
       title: this.article.title,
-      meta: [
-        ...getSiteMeta(metaData),
-        ...i18nSeo.meta,
-      ],
+      htmlAttrs: {
+        ...i18nSeo.htmlAttrs,
+      },
+      meta: [...getSiteMeta(metaData), ...i18nSeo.meta],
       link: [...i18nSeo.link],
     }
   },
@@ -166,6 +166,4 @@ export default {
   height: 150px;
   object-fit: cover;
 }
-
-
 </style>

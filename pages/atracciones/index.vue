@@ -24,6 +24,9 @@ export default {
     }
     return {
       title: this.$t('seo.atracciones.title'),
+          htmlAttrs: {
+        ...i18nSeo.htmlAttrs,
+      },
       meta: [...getSiteMeta(metaData), ...i18nSeo.meta],
       link: [...i18nSeo.link],
     }
