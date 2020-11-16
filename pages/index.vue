@@ -50,7 +50,7 @@ export default {
       link: [...i18nSeo.link],
     }
   },
-    async asyncData(context) {
+  async asyncData(context) {
     const { $content, app } = context
     const defaultLocale = app.i18n.locale
     const posts = await $content(`${defaultLocale}/atracciones`).fetch()
@@ -60,6 +60,33 @@ export default {
         ...post,
         path: post.path.replace(`/${defaultLocale}`, ''),
       })),
+    }
+  },
+  jsonld() {
+    const productSchema = {
+      '@context': 'http://schema.org',
+      '@type': 'ItemList',
+      itemListElement: this.posts.map((post, index) => ({
+        '@type': 'SiteNavigationElement',
+        name: post.title,
+        image: post.img,
+        description: post.resumen,
+        url: tis.localePath(post.path),
+      })),
+    }
+
+    const bussinesSchema = {
+      '@context': 'http://schema.org',
+      '@type': 'LocalBusiness',
+      name: 'DIVERPARK',
+      description: 'Alquiler de castillos hinchables en Mallorca',
+      telephone: '625458704',
+      email: 'catidiver@gmail.cpom',
+    }
+
+    return {
+      '@context': 'http://schema.org',
+      '@graph': [bussinesSchema, productSchema],
     }
   },
 }
