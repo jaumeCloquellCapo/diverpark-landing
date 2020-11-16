@@ -13,7 +13,7 @@ function getPaths (lang, type) {
 
 export default {
   components: true,
-  mode: 'universal',
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -86,7 +86,7 @@ export default {
     },
     manifest: {
       name: 'DiverPark',
-      lang: 'fa',
+      lang: 'es',
       useWebmanifestExtension: false
     },
     workbox: {
