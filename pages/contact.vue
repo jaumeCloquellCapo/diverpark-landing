@@ -1,9 +1,9 @@
 <template>
   <div>
     <subHeader />
-    <div class="bg-gray-100 text-gray-100 px-8 pb-12 pt-1">
+    <div class="bg-gray-100 text-gray-100 px-8 pb-12 pt-1 text-center">
       <div
-        class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg"
+        class="max-w-screen-xl mt-24 px-8 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg"
       >
         <div class="flex flex-col justify-between">
           <div>
@@ -19,14 +19,14 @@
                   class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-2 px-4 shadow-lg"
                 >
                   <a href="mailto:catidiver@gmail.com">
-                    {{ $t('common.send_email') }}
+                    {{ $t('common.send_email') + ' : catidiver@gmail.com'  }}
                   </a>
                 </button>
                 <button
                   class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-2 px-4 shadow-lg"
                 >
                   <a href="tel:625458704">
-                    {{ $t('common.call') }}
+                    {{ $t('common.call') + ' : 625458704' }}
                   </a>
                 </button>
               </div>
@@ -36,7 +36,7 @@
             <img async src="~assets/img/contact.svg?inline"   alt="diverpark baleaares alquiler animaciones infantiles, castillos hinchables toro mecánico fiesta espuma  para comuniones fiestas o bautizos en palma de mallorca"  class="w-auto" slot="svg" />
           </div>
         </div>
-        <div class="">
+        <!--div class="">
           <div>
             <span class="uppercase text-sm text-gray-600 font-bold">
               {{ $t('common.name') }}
@@ -76,7 +76,7 @@
               </button>
             </vue-recaptcha>
           </div>
-        </div>
+        </div-->
       </div>
     </div>
   </div>
@@ -97,7 +97,6 @@ export default {
       const metaData = {
       title: this.$t('seo.contact.title'),
       description: this.$t('seo.contact.description'),
-            url: 'https://diverpark.net' + this.$route.fullPath
     }
     return {
       title: this.$t('seo.contact.title'),

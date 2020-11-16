@@ -34,7 +34,7 @@ export default {
     const i18nSeo = this.$nuxtI18nSeo()
     const metaData = {
       title: this.$t('seo.index.title'),
-      description: this.$t('seo.index.description')
+      description: this.$t('seo.index.description'),
     }
 
     return {
@@ -63,7 +63,7 @@ export default {
         '@type': 'SiteNavigationElement',
         name: post.title,
         image: post.img,
-        'position': index,
+        position: index,
         description: post.resumen,
         url: this.localePath(post.path),
       })),
@@ -76,8 +76,10 @@ export default {
       description: 'Alquiler de castillos hinchables en Mallorca',
       telephone: '625458704',
       email: 'catidiver@gmail.cpom',
-      'priceRange' : "€70 - €900",
-      image: ['https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2FdiverPark.jpg?alt=media&token=f77cf89f-37fe-49fd-8f1a-2a01db98d667']
+      priceRange: '€70 - €900',
+      image: [
+        'https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2FdiverPark.jpg?alt=media&token=f77cf89f-37fe-49fd-8f1a-2a01db98d667',
+      ],
     }
 
     return {
