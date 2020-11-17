@@ -19,7 +19,7 @@
 
       <div class="container mx-auto flex flex-wrap py-6">
         <!-- Post Section -->
-        <section class="w-full md:w-2/3 flex flex-col items-center px-3">
+        <section class="w-full md:w-3/3 flex flex-col items-center px-3">
           <article class="flex flex-col shadow my-4">
             <!-- Article Image -->
             <a class="hover:opacity-75">
@@ -38,40 +38,76 @@
               <nuxt-content :document="article" />
             </div>
           </article>
-          <!--PrevNext :prev="prev" :next="next" class="mt-8" /-->
-        </section>
-
-        <!-- Sidebar Section -->
-        <aside class="w-full md:w-1/3 flex flex-col items-center px-3">
-          <!--div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="pb-2">
-              {{ article.resumen }}
-            </p>
-          </div-->
-
-          <div class="w-full bg-white shadow flex flex-col my-4 p-6">
-            <p class="text-xl font-semibold pb-5">Galería de imagenes</p>
-            <div class="grid grid-cols-3 gap-3">
-              <img
-                v-for="(image, i) in images"
-                :key="i"
-                :alt="article.title"
-                class="hover:opacity-75 imgCarrousel"
-                :src="image.url"
-              />
-            </div>
-
-            <NuxtLink
+           
+         <NuxtLink
               :to="localePath('contact')"
               class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6"
             >
               {{ $t('common.booking_now') }} !
             </NuxtLink>
-          </div>
-        </aside>
+        </section>
       </div>
 
-      <!--carrousel :images="images" /-->
+      <section class="bg-white py-8">
+        <div class="container mx-auto flex items-center flex-wrap pt-4 pb-12">
+          <nav id="store" class="w-full z-30 top-0 px-6 py-1">
+            <div
+              class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3"
+            >
+              <a
+                class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl"
+              >
+                Store
+              </a>
+
+              <div class="flex items-center" id="store-nav-content">
+                <a class="pl-3 inline-block no-underline hover:text-black">
+                  <svg
+                    class="fill-current hover:text-black"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M7 11H17V13H7zM4 7H20V9H4zM10 15H14V17H10z" />
+                  </svg>
+                </a>
+
+                <a class="pl-3 inline-block no-underline hover:text-black">
+                  <svg
+                    class="fill-current hover:text-black"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </nav>
+
+          <div
+            class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col"
+            v-for="(image, i) in images"
+            :key="i"
+          >
+            <div>
+              <img
+                :alt="article.title"
+                class="hover:grow hover:shadow-lg imgCarrousel"
+                :src="image.url"
+              />
+              <div class="pt-3 flex items-center justify-between">
+              </div>
+              <!--p class="pt-1 text-gray-900">£9.99</p-->
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -162,8 +198,8 @@ export default {
   background-size: 20px 20px;
 }
 .imgCarrousel {
-  width: 200px;
-  height: 150px;
+  width: 400px;
+  height: 350px;
   object-fit: cover;
 }
 </style>
