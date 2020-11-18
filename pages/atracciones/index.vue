@@ -1,19 +1,19 @@
 
 <template>
   <div>
-    <subHeader />
-    <atracciones :posts="posts" />
+    <sub-header />
+    <attractions :posts="posts" />
   </div>
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'
-import Atracciones from '@/components/Atracciones'
+import Attractions from '@/components/ListAttractions'
 import getSiteMeta from '~/utils/getSiteMeta.js'
 export default {
   name: 'Atracciones',
   components: {
-    subHeader: SubHeader,
-    atracciones: Atracciones,
+    'sub-header': SubHeader,
+    attractions: Attractions,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
@@ -24,7 +24,7 @@ export default {
     }
     return {
       title: this.$t('seo.atracciones.title'),
-          htmlAttrs: {
+      htmlAttrs: {
         ...i18nSeo.htmlAttrs,
       },
       meta: [...getSiteMeta(metaData), ...i18nSeo.meta],

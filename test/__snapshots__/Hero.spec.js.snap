@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero renders properly 1`] = `
+"<div>
+  <hero-content-stub></hero-content-stub>
+  <sub-header-stub></sub-header-stub>
+</div>"
+`;

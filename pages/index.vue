@@ -24,7 +24,7 @@ export default {
     LazyHydrate,
     hero: () => import('@/components/Hero'),
     counter: hydrateWhenVisible(() => import('@/components/Counter')),
-    atracciones: hydrateWhenVisible(() => import('@/components/Atracciones')),
+    atracciones: hydrateWhenVisible(() => import('@/components/ListAttractions')),
     features: hydrateWhenVisible(() => import('@/components/Features')),
     'call-to-action': hydrateWhenVisible(() =>
       import('@/components/CallToAction')

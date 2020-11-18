@@ -20,17 +20,17 @@
         v-for="(post, $index) in posts"
         :key="$index"
       >
-        <postcard :post="post" />
+        <attractionCard :atraction="post" />
       </div>
     </section>
   </div>
 </template>
 <script>
-import PostCard from '@/components/PostCard'
+import AttractionCard from '@/components/CardAttraction'
 export default {
   name: 'Atracciones',
   components: {
-    postcard: PostCard,
+    attractionCard: AttractionCard,
   },
   props: {
     posts: {

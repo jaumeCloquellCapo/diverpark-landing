@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index renders properly 1`] = `
+"<div>
+  <div>
+    <hero-content-stub></hero-content-stub>
+    <sub-header-stub></sub-header-stub>
+  </div>
+  <features-stub></features-stub>
+  <counter-stub></counter-stub>
+  <atracciones-stub></atracciones-stub>
+  <call-to-action-stub></call-to-action-stub>
+</div>"
+`;

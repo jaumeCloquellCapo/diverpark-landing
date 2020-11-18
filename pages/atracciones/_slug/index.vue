@@ -1,7 +1,7 @@
 <template>
   <!-- Top Bar Nav -->
   <div>
-    <subHeader />
+    <sub-header />
     <div class="bg-white text-gray-800">
       <!-- Text Header -->
       <div class="w-full container mx-auto text-center py-12">
@@ -115,7 +115,7 @@ import SubHeader from '@/components/SubHeader'
 import getSiteMeta from '~/utils/getSiteMeta.js'
 export default {
   components: {
-    subHeader: SubHeader,
+   'sub-header': SubHeader,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()

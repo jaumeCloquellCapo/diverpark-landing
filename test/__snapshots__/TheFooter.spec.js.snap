@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TheFooter renders properly 1`] = `
+"<footer class=\\"bg-white\\">
+  <div class=\\"container mx-auto px-8\\">
+    <div class=\\"w-full flex flex-col md:flex-row py-6\\">
+      <div class=\\"flex-1\\">
+        <p class=\\"uppercase text-gray-500 md:mb-6\\">
+          common.castillosHinchables
+        </p>
+        <ul class=\\"list-reset mb-6\\">
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxt-link-stub to=\\"/atracciones/castillos-pequeños\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.castillosPequenos
+            </nuxt-link-stub>
+          </li>
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxt-link-stub to=\\"/atracciones/castillos-tobogan\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.castillosTobogan
+            </nuxt-link-stub>
+          </li>
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxt-link-stub to=\\"/atracciones/castillos-grandes\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.castillosGrandes
+            </nuxt-link-stub>
+          </li>
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxt-link-stub to=\\"/atracciones/castillos-agua\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.castillosAgua
+            </nuxt-link-stub>
+          </li>
+        </ul>
+      </div>
+      <div class=\\"flex-1\\">
+        <p class=\\"uppercase text-gray-500 md:mb-6\\">Atracciones</p>
+        <ul class=\\"list-reset mb-6\\">
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxt-link-stub to=\\"/atracciones/toro-mecanico\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.toromecanico
+            </nuxt-link-stub>
+          </li>
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxt-link-stub to=\\"/atracciones/fiesta-espuma\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.espuma
+            </nuxt-link-stub>
+          </li>
+        </ul>
+      </div>
+      <div class=\\"flex-1\\">
+        <p class=\\"uppercase text-gray-500 md:mb-6\\">Social</p>
+        <ul class=\\"list-reset mb-6\\">
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\"><a href=\\"https://www.facebook.com/people/Diverpark-Diverpark/100007428406595\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">Facebook</a></li>
+        </ul>
+      </div>
+      <div class=\\"flex-1\\">
+        <p class=\\"uppercase text-gray-500 md:mb-6\\">Company</p>
+        <ul class=\\"list-reset mb-6\\">
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxtlink to=\\"aboutus\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.aboutus
+            </nuxtlink>
+          </li>
+          <li class=\\"mt-2 inline-block mr-2 md:block md:mr-0\\">
+            <nuxtlink to=\\"contact\\" class=\\"no-underline hover:underline text-gray-800 hover:text-orange-500\\">
+              common.contact
+            </nuxtlink>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>"
+`;

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <subHeader />
+    <sub-header />
     <div class="bg-gray-100 text-gray-100 px-8 pb-12 pt-1 text-center">
       <div
         class="max-w-screen-xl mt-24 px-8 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg"
@@ -90,7 +90,7 @@ export default {
   name: 'SearchPage',
   components: {
     VueRecaptcha,
-    subHeader: SubHeader
+     'sub-header': SubHeader,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()

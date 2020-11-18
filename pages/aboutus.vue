@@ -1,7 +1,7 @@
 <template>
   <div>
-    <subHeader />
-    <aboutus />
+    <sub-header />
+    <about-us />
   </div>
 </template>
 
@@ -12,8 +12,8 @@ import Aboutus from '@/components/Aboutus'
 export default {
   name: 'SearchPage',
   components: {
-    subHeader: SubHeader,
-    aboutus: Aboutus,
+    'sub-header': SubHeader,
+    'about-us': Aboutus,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
