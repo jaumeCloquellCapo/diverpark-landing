@@ -1,11 +1,9 @@
 {
-  "name": "tailwind_landing_nuxt",
+  "name": "DIVERPARK",
   "version": "1.0.0",
-  "description": "Tailwind Landing Page (Nuxt.js Version)",
+  "description": "DIVERPARK Landing Page (Nuxt.js Version)",
   "author": {
-    "name": "Vanessa Böhner",
-    "email": "boehner.vanessa@gmail.com",
-    "url": "https://vannsl.io/"
+    "name": "jaume cloquell capo",
   },
   "private": true,
   "scripts": {
