@@ -23,7 +23,7 @@
           <article class="flex flex-col shadow my-4">
             <!-- Article Image -->
             <a class="hover:opacity-75">
-              <img :src="article.img" :alt="article.title" class="w-full" />
+              <img v-lazy="article.img" :alt="article.title" class="w-full" />
             </a>
             <div class="bg-white flex flex-col justify-start p-6">
               <a class="text-blue-700 text-sm font-bold uppercase pb-4">
@@ -38,13 +38,13 @@
               <nuxt-content :document="article" />
             </div>
           </article>
-           
-         <NuxtLink
-              :to="localePath('contact')"
-              class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6"
-            >
-              {{ $t('common.booking_now') }} !
-            </NuxtLink>
+
+          <NuxtLink
+            :to="localePath('contact')"
+            class="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-6"
+          >
+            {{ $t('common.booking_now') }} !
+          </NuxtLink>
         </section>
       </div>
 
@@ -101,8 +101,7 @@
                 class="hover:grow hover:shadow-lg imgCarrousel"
                 :src="image.url"
               />
-              <div class="pt-3 flex items-center justify-between">
-              </div>
+              <div class="pt-3 flex items-center justify-between"></div>
               <!--p class="pt-1 text-gray-900">£9.99</p-->
             </div>
           </div>

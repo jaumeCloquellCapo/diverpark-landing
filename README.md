@@ -1,9 +1,8 @@
 # [Vue.js + Nuxt + Firebase - DIVERPARK ](https://diverpark.net/)
 
-This year, 2020 I was very focused on refactor the landing page of my parent's company. 
+This year, 2020 I was very focused on refactor the landing page of my parent's company.
 
 The previous website was made with Angularjs a static pages generator based on Laravel, so I took the opportunity to redo my website with Nuxt and Vue, in order to:
-
 
 * Improve performance and SEO
 * Add functionality as a blog and portfolio system

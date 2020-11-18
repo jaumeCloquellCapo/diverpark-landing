@@ -5,7 +5,7 @@
         <img
           width="300"
           height="200"
-          :src="post.img"
+          v-lazy="post.img"
           :alt="post.alt"
           class="object-fill w-full rounded-lg rounded-b-none md:h-56"
         />
