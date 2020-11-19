@@ -99,7 +99,7 @@
               <img
                 :alt="article.title"
                 class="hover:grow hover:shadow-lg imgCarrousel"
-                :src="image.url"
+                 v-lazy="image.url"
               />
               <div class="pt-3 flex items-center justify-between"></div>
               <!--p class="pt-1 text-gray-900">£9.99</p-->
