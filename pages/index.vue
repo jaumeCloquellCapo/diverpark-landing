@@ -4,27 +4,22 @@
     <features />
     <counter />
     <!--teasers /-->
-    <atracciones :posts="posts" />
+    <attractions :posts="posts" />
     <call-to-action />
   </div>
 </template>
 
 <script>
-import LazyHydrate from 'vue-lazy-hydration'
 import getSiteMeta from '~/utils/getSiteMeta.js'
-import {
-  hydrateOnInteraction,
-  hydrateNever,
-  hydrateWhenIdle,
-  hydrateWhenVisible,
-} from 'vue-lazy-hydration'
+import { hydrateWhenVisible } from 'vue-lazy-hydration'
 export default {
   name: 'LandingPage',
   components: {
-    LazyHydrate,
     hero: () => import('@/components/Hero'),
     counter: hydrateWhenVisible(() => import('@/components/Counter')),
-    atracciones: hydrateWhenVisible(() => import('@/components/ListAttractions')),
+    attractions: hydrateWhenVisible(() =>
+      import('@/components/ListAttractions')
+    ),
     features: hydrateWhenVisible(() => import('@/components/Features')),
     'call-to-action': hydrateWhenVisible(() =>
       import('@/components/CallToAction')

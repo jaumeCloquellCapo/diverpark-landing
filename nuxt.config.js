@@ -25,7 +25,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Alquiler de castillos hinchables en Mallorca'
+        content: 'Alquiler de castillos hinchables en Palma Mallorca'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -164,6 +164,7 @@ export default {
    */
   build: {
     parallel: true,
+    terser: true,
     html: {
       minify: {
         collapseBooleanAttributes: true,

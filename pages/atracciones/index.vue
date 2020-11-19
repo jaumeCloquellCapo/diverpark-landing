@@ -7,13 +7,15 @@
 </template>
 <script>
 import SubHeader from '@/components/SubHeader'
-import Attractions from '@/components/ListAttractions'
 import getSiteMeta from '~/utils/getSiteMeta.js'
+import {
+  hydrateWhenVisible,
+} from 'vue-lazy-hydration'
 export default {
   name: 'Atracciones',
   components: {
     'sub-header': SubHeader,
-    attractions: Attractions,
+  attractions: hydrateWhenVisible(() => import('@/components/ListAttractions')),
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()

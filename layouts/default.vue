@@ -1,7 +1,7 @@
 <template>
   <div class="leading-normal tracking-normal text-white gradient">
     <the-header />
-    <nuxt />
+    <nuxt  keep-alive/>
     <the-footer />
   </div>
 </template>
