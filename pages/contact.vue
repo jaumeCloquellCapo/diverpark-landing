@@ -36,47 +36,6 @@
             <img async src="~assets/img/contact.svg?inline"   alt="diverpark baleaares alquiler animaciones infantiles, castillos hinchables toro mecánico fiesta espuma  para comuniones fiestas o bautizos en palma de mallorca"  class="w-auto" slot="svg" />
           </div>
         </div>
-        <!--div class="">
-          <div>
-            <span class="uppercase text-sm text-gray-600 font-bold">
-              {{ $t('common.name') }}
-            </span>
-            <input
-              class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              type="text"
-              placeholder=""
-            />
-          </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">
-              {{ $t('common.email') }}
-            </span>
-            <input
-              class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              type="text"
-            />
-          </div>
-          <div class="mt-8">
-            <span class="uppercase text-sm text-gray-600 font-bold">{{
-              $t('common.message')
-            }}</span>
-            <textarea
-              class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-            ></textarea>
-          </div>
-          <div class="mt-8">
-            <vue-recaptcha
-              sitekey="6LfTEgkUAAAAABWd3RBJdha8aEC58-vnvZuFeqtB"
-              :loadRecaptchaScript="true"
-            >
-              <button
-                class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
-              >
-                {{ $t('common.send_email') }}
-              </button>
-            </vue-recaptcha>
-          </div>
-        </div-->
       </div>
     </div>
   </div>
@@ -84,12 +43,10 @@
 
 <script>
 import getSiteMeta from '~/utils/getSiteMeta.js'
-import VueRecaptcha from 'vue-recaptcha'
 import SubHeader from '@/components/SubHeader'
 export default {
   name: 'SearchPage',
   components: {
-    VueRecaptcha,
      'sub-header': SubHeader,
   },
   head() {

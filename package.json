@@ -28,7 +28,6 @@
     "nuxt-svg-loader": "^1.2.0",
     "vue-lazy-hydration": "^2.0.0-alpha.0",
     "vue-lazyload": "^1.3.3",
-    "vue-recaptcha": "^1.3.0",
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {

@@ -8,12 +8,12 @@
 <script>
 import getSiteMeta from '~/utils/getSiteMeta.js'
 import SubHeader from '@/components/SubHeader'
-import Aboutus from '@/components/Aboutus'
+//import Aboutus from '@/components/Aboutus'
 export default {
   name: 'SearchPage',
   components: {
     'sub-header': SubHeader,
-    'about-us': Aboutus,
+    'about-us': () => import('@/components/Aboutus'),
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
