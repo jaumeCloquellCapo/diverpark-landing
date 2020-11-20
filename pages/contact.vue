@@ -18,8 +18,8 @@
                 <button
                   class="button mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-2 px-4 shadow-lg"
                 >
-                  <a href="mailto:catidiver@gmail.com">
-                    {{ $t('common.send_email') + ' : catidiver@gmail.com'  }}
+                  <a href="mailto:catidiver@hotmail.com">
+                    {{ $t('common.send_email') + ' : catidiver@hotmail.com'  }}
                   </a>
                 </button>
                 <button
