@@ -2,14 +2,16 @@ import languages from './static/lang/languages'
 import fs from 'fs'
 const path = require('path')
 
-function getPaths (lang, type) {
+function getPaths(lang, type) {
   let initial = lang
-  if (lang === 'es') { initial = '' }
-  return fs.readdirSync(path.resolve(__dirname, 'content', `${lang}/${type}`))
+  if (lang === 'es') {
+    initial = ''
+  }
+  return fs
+    .readdirSync(path.resolve(__dirname, 'content', `${lang}/${type}`))
     .filter(filename => path.extname(filename) === '.md')
     .map(filename => `${initial}/${type}/${path.parse(filename).name}`)
 }
-
 
 export default {
   components: true,
@@ -69,43 +71,62 @@ export default {
   },
   generate: {
     routes: []
-    .concat(getPaths('es', 'atracciones'))
-    .concat(getPaths('en', 'atracciones'))
+      .concat(getPaths('es', 'atracciones'))
+      .concat(getPaths('en', 'atracciones'))
   },
 
-  
   purgeCSS: {
     mode: 'postcss',
     enabled: process.env.NODE_ENV === 'production',
     whitelist: ['hidden'],
     whitelistPatterns: [/md:w-[1-6]/]
   },
+
   pwa: {
     icon: {
-      fileName: 'favicon.ico',
+      fileName: 'favicon.ico'
     },
-    manifest: {
-      name: 'DiverPark',
+    // https://pwa.nuxtjs.org/modules/meta.html
+    meta: {
+      name: 'Diverpark Mallorca',
+      description: 'Alquiler de castillos hinchables',
       lang: 'es',
-      useWebmanifestExtension: false
+      ogHost: 'https://diverpark.net'
     },
-    workbox: {
-      runtimeCaching: [
-        {
-          urlPattern: 'https://diverpark.net/.*',
-          strategyOptions: {
-            cacheName: 'dp-cache',
-          },
-          strategyPlugins: [{
-             use: 'Expiration',
-             config: {
-               maxEntries: 10,
-               maxAgeSeconds: 300
-             }
-           }]
-        }
-      ]
-   }
+
+    // https://pwa.nuxtjs.org/modules/manifest.html
+    manifest: {
+      name: 'Diverpark Mallorca',
+      short_name: 'Alquiler de castillos hinchables',
+      start_url: '/',
+      description: 'Alquiler de castillos hinchables',
+      lang: 'es',
+      background_color: '#d4b13e',
+      theme_color: '#d4b13e '
+    }
+  },
+
+  // https://pwa.nuxtjs.org/modules/workbox.html
+  workbox: {
+    runtimeCaching: [
+      {
+        urlPattern:
+          'https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/.*',
+        handler: 'staleWhileRevalidate',
+        strategyOptions: {
+          cacheName: 'img-cache'
+        },
+        strategyPlugins: [
+          {
+            use: 'Expiration',
+            config: {
+              maxEntries: 10,
+              maxAgeSeconds: 300
+            }
+          }
+        ]
+      }
+    ]
   },
   i18n: {
     // Options
@@ -178,11 +199,10 @@ export default {
         useShortDoctype: true
       }
     },
-    
+
     optimization: {
       minimize: true,
       minimizer: [
-
         // terser-webpack-plugin
         // optimize-css-assets-webpack-plugin
       ],
