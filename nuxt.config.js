@@ -98,11 +98,10 @@ export default {
     manifest: {
       name: 'Diverpark Mallorca',
       short_name: 'Alquiler de castillos hinchables',
-      start_url: '/',
+      start_url: 'https://diverpark.net',
       description: 'Alquiler de castillos hinchables',
       lang: 'es',
-      background_color: '#d4b13e',
-      theme_color: '#d4b13e '
+      background_color: '#e21a1a'
     }
   },
 
