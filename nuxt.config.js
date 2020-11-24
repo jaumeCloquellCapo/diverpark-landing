@@ -83,9 +83,7 @@ export default {
   },
 
   pwa: {
-    icon: {
-      fileName: '/favicon.png'
-    },
+ 
     // https://pwa.nuxtjs.org/modules/meta.html
     meta: {
       name: 'Diverpark Mallorca',
