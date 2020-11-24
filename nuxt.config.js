@@ -84,7 +84,7 @@ export default {
 
   pwa: {
     icon: {
-      fileName: 'favicon.ico'
+      fileName: '/favicon.png'
     },
     // https://pwa.nuxtjs.org/modules/meta.html
     meta: {
