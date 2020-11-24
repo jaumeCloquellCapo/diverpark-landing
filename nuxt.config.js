@@ -92,7 +92,7 @@ export default {
       start_url: '/',
       description: 'Alquiler de castillos hinchables',
       lang: 'es',
-      background_color: '#e21a1a'
+      background_color: '#fedc40'
     }
   },
 
