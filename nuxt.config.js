@@ -52,7 +52,8 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    'nuxt-purgecss',
   ],
   /*
    ** Nuxt.js modules
@@ -62,7 +63,6 @@ export default {
     'nuxt-svg-loader',
     'nuxt-i18n',
     '@nuxtjs/sitemap',
-    'nuxt-purgecss',
     '@nuxt/content',
     '@nuxtjs/pwa'
   ],
@@ -73,13 +73,6 @@ export default {
     routes: []
       .concat(getPaths('es', 'atracciones'))
       .concat(getPaths('en', 'atracciones'))
-  },
-
-  purgeCSS: {
-    mode: 'postcss',
-    enabled: process.env.NODE_ENV === 'production',
-    whitelist: ['hidden'],
-    whitelistPatterns: [/md:w-[1-6]/]
   },
 
   pwa: {
@@ -181,36 +174,7 @@ export default {
    ** Build configuration
    */
   build: {
-    parallel: true,
-    terser: true,
-    html: {
-      minify: {
-        collapseBooleanAttributes: true,
-        decodeEntities: true,
-        minifyCSS: true,
-        minifyJS: true,
-        processConditionalComments: true,
-        removeEmptyAttributes: true,
-        removeRedundantAttributes: true,
-        trimCustomFragments: true,
-        useShortDoctype: true
-      }
-    },
 
-    optimization: {
-      minimize: true,
-      minimizer: [
-        // terser-webpack-plugin
-        // optimize-css-assets-webpack-plugin
-      ],
-      splitChunks: {
-        chunks: 'all',
-        automaticNameDelimiter: '.',
-        name: undefined,
-        cacheGroups: {},
-        maxSize: 200000
-      }
-    },
 
     /*
      ** You can extend webpack config here
