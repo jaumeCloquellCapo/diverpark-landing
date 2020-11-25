@@ -44,7 +44,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/typed.js', '~/plugins/jsonld', '~/plugins/lazyLoad'],
+  plugins: ['~/plugins/typed.js', '~/plugins/jsonld', '~/plugins/lazyLoad', { src: '~plugins/ga.js', mode: 'client' }],
   // some nuxt config...
   css: [],
   /*
