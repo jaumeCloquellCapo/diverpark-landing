@@ -69,6 +69,12 @@ export default {
 
     const bussinesSchema = {
       '@context': 'http://www.schema.org',
+      '@type': 'Service',
+      serviceType: 'Alquiler de castillos hinchables',
+      provider: {
+        '@type': 'LocalBusiness',
+        name: 'Alquiler de castillos hinchables',
+      },
       '@type': 'EntertainmentBusiness',
       telephone: '625458704',
       name: 'Diverpark',
