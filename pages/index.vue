@@ -66,11 +66,7 @@ export default {
         url: this.localePath(post.path),
       })),
     }
-    const webPageSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'WebPage',
-      name: 'Alquiler de castillos hinchables',
-    }
+
     const bussinesSchema = {
       '@context': 'http://www.schema.org',
       '@type': 'EntertainmentBusiness',
@@ -83,7 +79,6 @@ export default {
         addressCountry: 'España',
       },
       publicAccess: true,
-      availableLanguage: ['English', 'Spanish'],
       hasMap: 'https://goo.gl/maps/B9TAqk7AknGDfosj8',
       openingHours: 'Mo, Tu, We, Th, Fr, Sa, Su 01:00-23:59',
       contactPoint: {
