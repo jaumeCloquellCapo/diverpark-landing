@@ -68,12 +68,25 @@ export default {
     }
 
     const bussinesSchema = {
-      '@context': 'http://schema.org',
-      '@type': 'LocalBusiness',
-      name: 'DIVERPARK',
+      '@context': 'http://www.schema.org',
+      '@type': 'EntertainmentBusiness',
+      name: 'Diverpark',
+      url: 'https://diverpark.net/',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Palma',
+        addressRegion: 'Islas Baleares',
+        addressCountry: 'España',
+      },
+      hasMap: 'https://goo.gl/maps/B9TAqk7AknGDfosj8',
+      openingHours: 'Mo, Tu, We, Th, Fr, Sa, Su 01:00-23:59',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'Telf',
+        telephone: '670205469',
+      },
       description: 'Alquiler de castillos hinchables en Mallorca',
-      telephone: '625458704',
-      email: 'catidiver@gmail.cpom',
+      email: 'catidiver@gmail.com',
       priceRange: '€70 - €900',
       image: [
         'https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2FdiverPark.jpg?alt=media&token=f77cf89f-37fe-49fd-8f1a-2a01db98d667',
