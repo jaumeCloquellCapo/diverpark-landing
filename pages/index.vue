@@ -66,17 +66,14 @@ export default {
         url: this.localePath(post.path),
       })),
     }
-
+    const webPageSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: 'Alquiler de castillos hinchables',
+    }
     const bussinesSchema = {
       '@context': 'http://www.schema.org',
-      '@type': 'Service',
-      serviceType: 'Alquiler de castillos hinchables',
-      provider: {
-        '@type': 'LocalBusiness',
-        name: 'Alquiler de castillos hinchables',
-      },
-      '@type': 'LocalBusiness',
-      telephone: '625458704',
+      '@type': 'EntertainmentBusiness',
       name: 'Diverpark',
       url: 'https://diverpark.net/',
       address: {
@@ -85,6 +82,8 @@ export default {
         addressRegion: 'Islas Baleares',
         addressCountry: 'España',
       },
+      publicAccess: true,
+      availableLanguage: ['English', 'Spanish'],
       hasMap: 'https://goo.gl/maps/B9TAqk7AknGDfosj8',
       openingHours: 'Mo, Tu, We, Th, Fr, Sa, Su 01:00-23:59',
       contactPoint: {
@@ -93,6 +92,7 @@ export default {
         telephone: '670205469',
       },
       description: 'Alquiler de castillos hinchables en Mallorca',
+      telephone: '625458704',
       email: 'catidiver@gmail.com',
       priceRange: '€70 - €900',
       image: [
