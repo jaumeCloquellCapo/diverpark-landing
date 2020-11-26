@@ -75,7 +75,7 @@ export default {
         '@type': 'LocalBusiness',
         name: 'Alquiler de castillos hinchables',
       },
-      '@type': 'EntertainmentBusiness',
+      '@type': 'LocalBusiness',
       telephone: '625458704',
       name: 'Diverpark',
       url: 'https://diverpark.net/',
