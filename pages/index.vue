@@ -70,6 +70,7 @@ export default {
     const bussinesSchema = {
       '@context': 'http://www.schema.org',
       '@type': 'EntertainmentBusiness',
+      telephone: '625458704',
       name: 'Diverpark',
       url: 'https://diverpark.net/',
       address: {
