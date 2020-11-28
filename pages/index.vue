@@ -64,12 +64,6 @@ export default {
         position: index,
         description: post.resumen,
         url: this.localePath(post.path),
-                '@type': 'Product',
-        name: post.title,
-        image: post.img,
-        position: index,
-        description: post.resumen,
-        url: this.localePath(post.path),
       })),
     }
 
