@@ -2,7 +2,7 @@
 title:  Party Foam 
 description: Birthday Party Foam 
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/espuma%2Fespuma.jpg?alt=media&token=db0980f6-d687-4003-8855-3cc90ae7a8bd
-alt: Alquiler castillos hinchables de agua DiverPark Mallorca
+alt:  Castillos hinchables de agua DiverPark Mallorca
 resumen: Water makes up 80% of our body... that's why when it comes to having fun in an attraction we always prefer water ones. Could it be that it's also 80% more fun? We present you our water castles where the fun will be assured. 
 gallery: 'espuma'
 tags: 

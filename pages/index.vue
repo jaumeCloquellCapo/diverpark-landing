@@ -86,7 +86,7 @@ export default {
         contactType: 'Telf',
         telephone: '670205469',
       },
-      description: 'Alquiler de castillos hinchables en Mallorca',
+      description: 'Castillos hinchables y animacines infantiles en Mallorca',
       telephone: '625458704',
       email: 'catidiver@gmail.com',
       priceRange: '€70 - €900',

@@ -47,7 +47,7 @@
             async
             src="https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/background%2FdiverPark.jpg?alt=media&token=f77cf89f-37fe-49fd-8f1a-2a01db98d667"
             class="w-full"
-            alt="diverpark alquiler fiesta espuma mallorca palma baleares"
+            alt="diverpark fiesta espuma mallorca palma baleares"
           />
         </div>
       </div>

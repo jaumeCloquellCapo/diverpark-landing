@@ -37,7 +37,7 @@
               async
               src="~/assets/img/castle-svgrepo-com.svg?inline"
               class="text-blue-500 w-12 h-12 mb-3 inline-block"
-              alt="diverpark castillos hinchables alquiler baleares"
+              alt="diverpark castillos hinchables baleares"
             />
             <p class="title-font font-medium text-3xl text-gray-800">+40</p>
             <p class="leading-relaxed text-gray-600">

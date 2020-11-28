@@ -27,7 +27,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Alquiler de castillos hinchables en Palma Mallorca'
+        content: 'Castillos hinchables y atracciones infantiles en Palma Mallorca'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
