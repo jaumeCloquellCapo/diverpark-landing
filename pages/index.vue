@@ -78,6 +78,9 @@ export default {
         addressRegion: 'Islas Baleares',
         addressCountry: 'España',
       },
+      sameAs: [
+        'https://www.facebook.com/people/Diverpark-Diverpark/100007428406595',
+      ],
       publicAccess: true,
       hasMap: 'https://goo.gl/maps/B9TAqk7AknGDfosj8',
       openingHours: 'Mo, Tu, We, Th, Fr, Sa, Su 01:00-23:59',
@@ -86,7 +89,8 @@ export default {
         contactType: 'Telf',
         telephone: '670205469',
       },
-      description: 'Castillos hinchables y animacines infantiles en Mallorca',
+      description:
+        'Castillos Hinchables y Colchonetas en MAllorca. Reserva de nuestro amplio Catálogo el Hinchables ideal en tus Fiestas Infantiles y Eventos. ¿Quiéres un evento inolvidable? Cumpleaños, Bautizos, Bodas, Fiestas Rosa, entonces somos tu mejor opción. Contáctanos.',
       telephone: '625458704',
       email: 'catidiver@gmail.com',
       priceRange: '€70 - €900',
