@@ -55,7 +55,6 @@ export default {
   },
   jsonld() {
     const productSchema = {
-      '@context': 'http://schema.org',
       '@type': 'ItemList',
       itemListElement: this.posts.map((post, index) => ({
         '@type': 'SiteNavigationElement',
@@ -68,7 +67,6 @@ export default {
     }
 
     const bussinesSchema = {
-      '@context': 'http://www.schema.org',
       '@type': 'LocalBusiness',
       name: 'Diverpark',
       url: 'https://diverpark.net/',
