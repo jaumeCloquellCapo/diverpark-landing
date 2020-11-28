@@ -8,14 +8,14 @@
 <script>
 import SubHeader from '@/components/SubHeader'
 import getSiteMeta from '~/utils/getSiteMeta.js'
-import { hydrateWhenVisible } from 'vue-lazy-hydration'
+import {
+  hydrateWhenVisible,
+} from 'vue-lazy-hydration'
 export default {
   name: 'Atracciones',
   components: {
     'sub-header': SubHeader,
-    attractions: hydrateWhenVisible(() =>
-      import('@/components/ListAttractions')
-    ),
+  attractions: hydrateWhenVisible(() => import('@/components/ListAttractions')),
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
@@ -31,26 +31,6 @@ export default {
       },
       meta: [...getSiteMeta(metaData), ...i18nSeo.meta],
       link: [...i18nSeo.link],
-    }
-  },
-
-  jsonld() {
-    const products = {
-      '@type': 'ItemList',
-      url: 'http://multivarki.ru?filters%5Bprice%5D%5BLTE%5D=39600',
-      numberOfItems: '315',
-      itemListElement: this.posts.map((post, index) => ({
-        '@type': 'Product',
-        name: post.title,
-        image: post.img,
-        position: index,
-        description: post.resumen,
-        url: this.localePath(post.path),
-      })),
-    }
-    return {
-      '@context': 'http://schema.org',
-      products,
     }
   },
 

@@ -54,6 +54,19 @@ export default {
     }
   },
   jsonld() {
+    const products = {
+      '@type': 'ItemList',
+      numberOfItems: this.posts.length || 0,
+      itemListElement: this.posts.map((post, index) => ({
+        '@type': 'Product',
+        name: post.title,
+        image: post.img,
+        position: index,
+        description: post.resumen,
+        url: this.localePath(post.path),
+      })),
+    }
+
     const productSchema = {
       '@type': 'ItemList',
       itemListElement: this.posts.map((post, index) => ({
@@ -99,7 +112,7 @@ export default {
 
     return {
       '@context': 'http://schema.org',
-      '@graph': [bussinesSchema, productSchema],
+      '@graph': [bussinesSchema, productSchema, products],
     }
   },
 }
