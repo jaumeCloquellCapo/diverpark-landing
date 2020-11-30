@@ -21,6 +21,7 @@ export default {
       title: this.$t('seo.aboutus.title'),
       description: this.$t('seo.aboutus.description'),
       url: 'https://diverpark.net' + this.$route.fullPath,
+      keywords: this.$t('seo.aboutus.keywords'),
     }
 
     return {

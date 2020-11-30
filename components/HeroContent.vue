@@ -8,6 +8,7 @@
           {{ $t('common.title') }}
         </h1>
 
+
         <vue-typed-js
           :strings="['Felicidad ', 'Diversión en estado puro']"
           :typeSpeed="100"
@@ -17,6 +18,7 @@
             <span class="typing"></span>
           </p>
         </vue-typed-js>
+        
 
         <NuxtLink :to="localePath('contact')">
           <button

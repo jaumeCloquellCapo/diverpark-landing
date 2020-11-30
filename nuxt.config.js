@@ -79,8 +79,8 @@ export default {
  
     // https://pwa.nuxtjs.org/modules/meta.html
     meta: {
-      name: 'Diverpark Mallorca',
-      description: 'Alquiler de castillos hinchables',
+      name: 'Castillos hinchables Diverpark',
+      description: 'Alquiler de castillos hinchables, toro mecánico, castillos cuáticos en Mallorca',
       lang: 'es',
       ogHost: 'https://diverpark.net'
     },

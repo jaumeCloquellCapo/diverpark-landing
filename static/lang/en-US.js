@@ -4,19 +4,23 @@ export default () => {
       seo: {
         index:{
           title:  "Diverpark : Rental of bouncy castles in Palma de Mallorca",
-          description: "Company specialized in the rental of inflatable castles, animations and foam parties in Mallorca"
+          description: "Company specialized in the rental of inflatable castles, animations and foam parties in Mallorca",
+          keywords: 'castilos hinchables, alquiler  castilos hinchables, castilos hinchables acuáticos, alquiler toro mecánico, castillos hinchables niños'
         },
         contact:{
           title:  "Diverpark | Contact in Palma de Mallorca with diverpark",
-          description: "Contact our company Diverpark in Palma de Mallorca and you will enjoy an unforgettable party with the children. Call us and tell us your wishes."
+          description: "Contact our company Diverpark in Palma de Mallorca and you will enjoy an unforgettable party with the children. Call us and tell us your wishes.",
+          keywords: 'castillos hinchables para alquilar, atracciones infantiles, castillos hinchables mallorca'
         },
         aboutus:{
           title:  "Rental of bouncy castles in Palma de Mallorca with DiverPark",
-          description: "Welcome to Diverpark, a company in Palma de Mallorca dedicated to children's leisure and bouncy castle rental. Call us."
+          description: "Welcome to Diverpark, a company in Palma de Mallorca dedicated to children's leisure and bouncy castle rental. Call us.",
+          keywords: 'castillos hinchables en Mallorca, atracciones infantiles, castillos hinchables palma'
         },
         atracciones:{
           title:  "Rental of attractions and bouncy castles in Palma de Mallorca",
-          description: "Enjoy our services of inflatable castles and children's animations for any type of event"
+          description: "Enjoy our services of inflatable castles and children's animations for any type of event",
+          keywords: 'castillos hinchables niños, atracciones infantiles, castillos hinchables mallorca'
         }
       },
       atracciones: {

@@ -30,6 +30,7 @@ export default {
     const metaData = {
       title: this.$t('seo.index.title'),
       description: this.$t('seo.index.description'),
+      keywords: this.$t('seo.index.keywords'),
     }
 
     return {

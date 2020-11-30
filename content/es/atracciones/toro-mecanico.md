@@ -2,7 +2,7 @@
 title: Toro mecánico
 description: Toro mecánico para todo tipo de eventos
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/toro-mecanico%2Ftoro-mecanico5.jpg?alt=media&token=c469bfb4-ed1b-47f3-83b0-a087baf3aa42
-alt:  Castillos hinchables de agua DiverPark Mallorca
+alt:  Toro mecánico de agua DiverPark Mallorca
 resumen: En DiverPark tenemos una amplia variedad de castillos con de agua
   para responder a las exigencias de todos nuestros clientes de
   Palma de Mallorca. Nos hemos comprometido con cumplir tus

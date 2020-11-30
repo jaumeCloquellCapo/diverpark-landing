@@ -54,6 +54,7 @@ export default {
       const metaData = {
       title: this.$t('seo.contact.title'),
       description: this.$t('seo.contact.description'),
+      keywords: this.$t('seo.contact.keywords'),
     }
     return {
       htmlAttrs:{

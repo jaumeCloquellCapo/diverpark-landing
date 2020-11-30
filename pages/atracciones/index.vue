@@ -21,7 +21,7 @@ export default {
     const i18nSeo = this.$nuxtI18nSeo()
     const metaData = {
       title: this.$t('seo.atracciones.title'),
-      description: this.$t('seo.atracciones.title'),
+      description: this.$t('seo.atracciones.description'),
       url: 'https://diverpark.net' + this.$route.fullPath,
     }
     return {

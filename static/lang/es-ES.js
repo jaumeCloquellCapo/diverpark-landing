@@ -3,28 +3,32 @@ export default () => {
     resolve({
       seo: {
         index:{
-          title:  "Diverpark Castillos hinchables en Mallorca",
-          description: "Empresa especializada en el alquiler de Castillos hinchables, animaciones y fiesta de espuma en Mallorca"
+          title:  "Diverpark Castillos hinchables Mallorca",
+          description: "Empresa especializada en el alquiler de Castillos hinchables, animaciones y fiesta de espuma en Mallorca",
+          keywords: 'castilos hinchables, alquiler  castilos hinchables, castilos hinchables acuáticos, alquiler toro mecánico, castillos hinchables niños'
         },
         contact:{
-          title:  "Diverpark | Contacta con diverpark en Palma de Mallorca ",
-          description: "Contacta con nuestra empresa Diverpark en Palma de Mallorca y disfrutarás de una fiesta inolvidable con los más pequeños. Llámanos y cuéntanos tus deseos."
+          title:  "Alquiler castillos hinchables",
+          description: "Contacta con nuestra empresa Diverpark en Palma de Mallorca y disfrutarás de una fiesta inolvidable con los más pequeños. Llámanos y cuéntanos tus deseos.",
+          keywords: 'castillos hinchables para alquilar, atracciones infantiles, castillos hinchables mallorca'
         },
         aboutus:{
-          title:  "Castillos hinchables en Palma de Mallorca con DiverPark",
-          description: "Bienvenidos y bienvenidas a Diverpark, una empresa de Mallorca dedicada al ocio infantil y al alquiler de castillos hinchables. Llámanos."
+          title:  "colchonetas hinchables diverpark",
+          description: "Bienvenidos y bienvenidas a Diverpark, una empresa de Mallorca dedicada al ocio infantil y al alquiler de castillos hinchables. Llámanos.",
+          keywords: 'castillos hinchables en Mallorca, atracciones infantiles, castillos hinchables palma'
         },
         atracciones:{
-          title:  "Atracciones y castillos hinchables en Mallorca",
-          description: "Disfruta de nuestros servicios de castillos hinchables y animaciones infantiles para cualquier tipo de evento"
+          title:  "Nuevos castillos hinchables para niños",
+          description: "Disfruta de nuestros servicios de castillos hinchables y animaciones infantiles para cualquier tipo de evento",
+          keywords: 'castillos hinchables niños, atracciones infantiles, castillos hinchables mallorca'
         }
       },
       atracciones: {
         title: '¿ Que ofrecemos ?',
-        subtitle: 'Ofrecemos todo tipo de servicios, desde castillos hinchales hasta animadoras para todo tipos de eventos.'
+        subtitle: 'Ofrecemos todo tipo de castillos hinchales, cañones de espuma y hasta animadoras para todo tipos de fiestas y eventos.'
       },
       common: {
-        title: 'DIVERPARK',
+        title: 'Castillos hinchables Diverpark',
         subtitle:'Empresa de castillos hinchables y animaciones infantiles líder en Palma de Mallorca',
         contact: 'Contacta con nosotros',
         gallery: 'Atracciones',

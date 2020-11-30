@@ -2,12 +2,13 @@
 title: Castillos hinchables acuáticos en Palma de Mallorca
 description: Nuevos Castillos de agua disponibles en Palma de Mallorca
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-agua%2Fcastillo-agua1.jpg?alt=media&token=c9edc18f-3577-441e-8f41-927305e1d377
-alt: Alquiler castillos hinchables de agua DiverPark Mallorca
+alt: Alquiler castillos hinchables acuáticos DiverPark Mallorca
 resumen: '¡Al agua pato! Castillos donde el agua es la protagonista. Tus aliados perfectos para una celebración veraniega.'
 gallery: 'castillos-agua'
 tags: 
-  - Castillos Pequeños
+  - Castillos acuáticos
   - Fiesta de cumpleaños
+  - colchonetas de agua
   - Castillos de agua
   - Alquiler Castillos hinchables
 ---
