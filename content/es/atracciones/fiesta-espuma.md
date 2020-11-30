@@ -10,6 +10,16 @@ tags:
   - Fiesta de agua
   - cañon de espuma
   - Verano
+  - cañones de espuma
+  - maquina de la espuma
+  - maquinas de espuma
+  - maquina de espuma
+  - fiestas de la espuma mallorca
+  - fiesta de la espuma mallorca
+  - alquiler maquina de espuma
+  - maquina de espuma alquiler
+  - maquinas de espuma alquiler
+
 ---
 
   En DiverPark tenemos una amplia variedad de castillos con de agua
