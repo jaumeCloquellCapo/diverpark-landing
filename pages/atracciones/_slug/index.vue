@@ -97,7 +97,7 @@
           >
             <div>
               <img
-                :alt="getRandom(article.tags, 5)"
+                :alt="getRandom(article.tags)"
                 class="hover:grow hover:shadow-lg imgCarrousel"
                 v-lazy="image.url"
               />
@@ -140,6 +140,7 @@ export default {
       `${app.i18n.locale}/atracciones`,
       params.slug
     ).fetch()
+    
     const [prev, next] = await $content(`${app.i18n.locale}/atracciones`)
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
@@ -157,7 +158,8 @@ export default {
     this.images = await this.load(this.article.gallery)
   },
   methods: {
-    getRandom(arr, n) {
+    getRandom(arr) {
+      let n = Math.round(arr.length * 0.7);
       var result = new Array(n),
         len = arr.length,
         taken = new Array(len)
