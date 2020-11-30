@@ -26,11 +26,11 @@
               <img v-lazy="article.img" :alt="article.title" class="w-full" />
             </a>
             <div class="bg-white flex flex-col justify-start p-6">
-              <a class="text-blue-700 text-sm font-bold uppercase pb-4">
+              <!--a class="text-blue-700 text-sm font-bold uppercase pb-4">
                 <template v-for="tag in article.tags || []"
                   >#{{ tag }}
                 </template></a
-              >
+              -->
 
               <div class="text-sm pb-8">
                 {{ formatDate(article.updatedAt) }}
@@ -97,9 +97,9 @@
           >
             <div>
               <img
-                :alt="article.title"
+                :alt="getRandom(article.tags, 5)"
                 class="hover:grow hover:shadow-lg imgCarrousel"
-                 v-lazy="image.url"
+                v-lazy="image.url"
               />
               <div class="pt-3 flex items-center justify-between"></div>
               <!--p class="pt-1 text-gray-900">£9.99</p-->
@@ -115,7 +115,7 @@ import SubHeader from '@/components/SubHeader'
 import getSiteMeta from '~/utils/getSiteMeta.js'
 export default {
   components: {
-   'sub-header': SubHeader,
+    'sub-header': SubHeader,
   },
   head() {
     const i18nSeo = this.$nuxtI18nSeo()
@@ -157,6 +157,19 @@ export default {
     this.images = await this.load(this.article.gallery)
   },
   methods: {
+    getRandom(arr, n) {
+      var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len)
+      if (n > len)
+        throw new RangeError('getRandom: more elements taken than available')
+      while (n--) {
+        var x = Math.floor(Math.random() * len)
+        result[n] = arr[x in taken ? taken[x] : x]
+        taken[x] = --len in taken ? taken[len] : len
+      }
+      return result
+    },
     async load(category) {
       var storageRef = this.$fire.storage.ref(category)
       var list = await storageRef.listAll()
