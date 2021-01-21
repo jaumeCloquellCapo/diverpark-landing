@@ -87,7 +87,7 @@ export default {
 
     // https://pwa.nuxtjs.org/modules/manifest.html
     manifest: {
-      name: 'Diverpark Mallorca',
+      name: 'Diverpark',
       short_name: 'Diverpark',
       start_url: '/',
       description: 'Alquiler de castillos hinchables',

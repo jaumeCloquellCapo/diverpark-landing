@@ -154,7 +154,7 @@ export default {
       images: [],
     }
   },
-  async mounted() {
+  async beforeMount() {
     this.images = await this.load(this.article.gallery)
   },
   methods: {
