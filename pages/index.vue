@@ -90,7 +90,7 @@ export default {
         telephone: '670205469',
       },
       description:
-        'Castillos Hinchables y Colchonetas en MAllorca. Reserva de nuestro amplio Catálogo el Hinchables ideal en tus Fiestas Infantiles y Eventos. ¿Quiéres un evento inolvidable? Cumpleaños, Bautizos, Bodas, Fiestas Rosa, entonces somos tu mejor opción. Contáctanos.',
+        'Alquiler Castillos Hinchables y Colchonetas en Mallorca. Reserva de nuestro amplio Catálogo el Hinchables ideal en tus Fiestas Infantiles y Eventos. ¿Quiéres un evento inolvidable? Cumpleaños, Bautizos, Bodas, Fiestas Rosa, entonces somos tu mejor opción. Contáctanos.',
       telephone: '625458704',
       email: 'catidiver@gmail.com',
       priceRange: '€70 - €900',
