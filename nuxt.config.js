@@ -76,7 +76,7 @@ export default {
   },
 
   pwa: {
- 
+
     // https://pwa.nuxtjs.org/modules/meta.html
     meta: {
       name: 'Castillos hinchables Diverpark',
@@ -145,7 +145,10 @@ export default {
     i18n: {
       locales: ['en', 'es'],
       routesNameSeparator: '___'
-    }
+    },
+    routes: []
+      .concat(getPaths('es', 'atracciones'))
+      .concat(getPaths('en', 'atracciones'))
   },
   firebase: {
     config: {
