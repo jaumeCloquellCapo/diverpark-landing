@@ -3,7 +3,7 @@ export default () => {
     resolve({
       seo: {
         index:{
-          title:  "Diverpark Castillos hinchables Mallorca",
+          title:  "Alquiler castillos hinchables Mallorca | Diverpark",
           description: "Empresa especializada en el alquiler de Castillos hinchables, animaciones y fiesta de espuma en Mallorca",
           keywords: 'castilos hinchables, alquiler  castilos hinchables, castilos hinchables acuáticos, alquiler toro mecánico, castillos hinchables niños'
         },
@@ -13,12 +13,12 @@ export default () => {
           keywords: 'castillos hinchables para alquilar, atracciones infantiles, castillos hinchables mallorca'
         },
         aboutus:{
-          title:  "colchonetas hinchables diverpark",
+          title:  "colchonetas hinchables | Diverpark",
           description: "Bienvenidos y bienvenidas a Diverpark, una empresa de Mallorca dedicada al ocio infantil y al alquiler de castillos hinchables. Llámanos.",
           keywords: 'castillos hinchables en Mallorca, atracciones infantiles, castillos hinchables palma'
         },
         atracciones:{
-          title:  "Nuevos castillos hinchables para niños",
+          title:  "Nuevos castillos hinchables para niños | Diverpark",
           description: "Disfruta de nuestros servicios de castillos hinchables y animaciones infantiles para cualquier tipo de evento",
           keywords: 'castillos hinchables niños, atracciones infantiles, castillos hinchables mallorca'
         }

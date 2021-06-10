@@ -1,5 +1,5 @@
 ---
-title: Castillos hinchables gigantes
+title: Alquiler Castillos hinchables gigantes
 description: Castillos con tobogan extra grandes en palma de mallorca
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-grandes%2Favion-1.jpg?alt=media&token=c683a312-d0e0-40fc-b870-fb5d14fa56f7
 alt: Alquiler castillos hinchables con tobogan

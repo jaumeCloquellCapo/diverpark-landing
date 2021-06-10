@@ -1,5 +1,5 @@
 ---
-title: Castillos hinchable con tobogan
+title: Alquiler Castillos hinchable con tobogan
 description: Castillos hinchables con tobogan para fiestas de cumpleaños 
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-medianos%2Fformula.jpg?alt=media&token=bf1e760d-15fe-4716-a3f2-9c368e6b07d8
 alt:  Castillos hinchables con tobogan en mallorca

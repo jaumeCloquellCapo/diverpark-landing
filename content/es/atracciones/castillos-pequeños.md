@@ -1,5 +1,5 @@
 ---
-title: Castillos hinchables pequeños en Palma de Mallorca
+title: Alquiler Castillos hinchables pequeños en Palma de Mallorca
 description: En Diverpark disponemos de una gama de castillos hinchables de alquiler de diferentes tamaños y modelos. Estamos en Palma de Mallorca a tu disposición.
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/castillos-peque%C3%B1os%2Fspider-2.jpg?alt=media&token=57c68490-c334-422d-8f2c-c73d44d92ee4
 alt: Alquiler castillos hinchables pequeños DiverPark Mallorca

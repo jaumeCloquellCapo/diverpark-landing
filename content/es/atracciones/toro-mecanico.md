@@ -1,5 +1,5 @@
 ---
-title: Toro mecánico
+title: Alquiler Toro mecánico
 description: Toro mecánico para todo tipo de eventos
 img: https://firebasestorage.googleapis.com/v0/b/diverpark-836bc.appspot.com/o/toro-mecanico%2Ftoro-mecanico5.jpg?alt=media&token=c469bfb4-ed1b-47f3-83b0-a087baf3aa42
 alt:  Toro mecánico de agua DiverPark Mallorca
