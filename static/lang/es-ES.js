@@ -28,7 +28,7 @@ export default () => {
         subtitle: 'Ofrecemos todo tipo de castillos hinchales, cañones de espuma y hasta animadoras para todo tipos de fiestas y eventos.'
       },
       common: {
-        title: 'Castillos hinchables Diverpark',
+        title: 'Diverpark',
         subtitle:'Empresa de castillos hinchables y animaciones infantiles líder en Palma de Mallorca',
         contact: 'Contacta con nosotros',
         gallery: 'Atracciones',
